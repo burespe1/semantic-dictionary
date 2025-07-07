@@ -9,13 +9,31 @@ ROOT_DIR = SCRIPT_DIR.parent
 DRAFT_ROOT = ROOT_DIR / "drafts"
 PREVIEW_ROOT = ROOT_DIR / "preview"
 
+def escape_colons_in_yaml(yaml_text):
+    lines = yaml_text.splitlines()
+    fixed_lines = []
+    for line in lines:
+        if ':' in line and not line.strip().startswith('#') and not line.strip().startswith('"'):
+            parts = line.split(":", 1)
+            key = parts[0].strip()
+            value = parts[1].strip()
+            # Avoid quoting numeric or boolean values
+            if value and not (value.startswith('"') or value.startswith("'") or value.lower() in ['true', 'false']) and not value.replace('.', '', 1).isdigit():
+                value = f'"{value}"'
+            fixed_lines.append(f"{key}: {value}")
+        else:
+            fixed_lines.append(line)
+    return '\n'.join(fixed_lines)
+    
 def extract_content(md_text):
     parts = md_text.split('---')
     if len(parts) < 3:
         return None, md_text
-    meta = yaml.safe_load(parts[1])
+    raw_yaml = escape_colons_in_yaml(parts[1])
+    meta = yaml.safe_load(raw_yaml)
     content = '---'.join(parts[2:]).strip()
     return meta, content
+
 
 def format_preview(meta, content):
     header = f"# {meta.get('label', 'Untitled')}\n\n"
