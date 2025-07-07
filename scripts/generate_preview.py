@@ -1,6 +1,7 @@
 import os
 import yaml
 from pathlib import Path
+import re
 
 # Make paths relative to the script location
 SCRIPT_DIR = Path(__file__).resolve().parent
@@ -9,17 +10,23 @@ ROOT_DIR = SCRIPT_DIR.parent
 DRAFT_ROOT = ROOT_DIR / "drafts"
 PREVIEW_ROOT = ROOT_DIR / "preview"
 
+def escape_yaml_value(value):
+    # If value contains risky characters, wrap it in double quotes
+    if any(c in value for c in ['<', '>', '[', ']', '(', ')', ':']) and not value.startswith('"'):
+        value = value.replace('"', '\\"')  # escape internal quotes
+        return f'"{value}"'
+    return value
+
 def escape_colons_in_yaml(yaml_text):
     lines = yaml_text.splitlines()
     fixed_lines = []
     for line in lines:
-        if ':' in line and not line.strip().startswith('#') and not line.strip().startswith('"'):
+        if ':' in line and not line.strip().startswith('#'):
             parts = line.split(":", 1)
             key = parts[0].strip()
             value = parts[1].strip()
-            # Avoid quoting numeric or boolean values
-            if value and not (value.startswith('"') or value.startswith("'") or value.lower() in ['true', 'false']) and not value.replace('.', '', 1).isdigit():
-                value = f'"{value}"'
+            if value and not value.lower() in ['true', 'false'] and not value.replace('.', '', 1).isdigit():
+                value = escape_yaml_value(value)
             fixed_lines.append(f"{key}: {value}")
         else:
             fixed_lines.append(line)
