@@ -29,7 +29,7 @@ jobs:
         run: python scripts/generate_preview.py
 
       - name: Upload Preview
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: preview
           path: preview/
@@ -54,7 +54,7 @@ jobs:
         run: python scripts/generate_release.py
 
       - name: Upload Release
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: release-files
           path: |
