@@ -1,10 +1,9 @@
-# scripts/generate_preview.py
-
 import os
 import yaml
+from pathlib import Path
 
-DRAFT_DIR = "../drafts"
-PREVIEW_DIR = "../preview"
+DRAFT_ROOT = Path("../drafts")
+PREVIEW_ROOT = Path("../preview")
 
 def extract_content(md_text):
     parts = md_text.split('---')
@@ -20,26 +19,28 @@ def format_preview(meta, content):
     return header + definition + content
 
 def main():
-    os.makedirs(PREVIEW_DIR, exist_ok=True)
+    for draft_folder in DRAFT_ROOT.iterdir():
+        if not draft_folder.is_dir():
+            continue
 
-    for fname in os.listdir(DRAFT_DIR):
-        if fname.endswith(".md"):
-            path = os.path.join(DRAFT_DIR, fname)
-            with open(path, "r", encoding="utf-8") as f:
+        preview_folder = PREVIEW_ROOT / draft_folder.name
+        os.makedirs(preview_folder, exist_ok=True)
+
+        for md_file in draft_folder.glob("*.md"):
+            with open(md_file, "r", encoding="utf-8") as f:
                 raw = f.read()
 
             meta, body = extract_content(raw)
             if not meta:
-                print(f"Skipping {fname}: Missing frontmatter")
+                print(f"⚠️ Skipping {md_file.name}: Missing frontmatter")
                 continue
 
             preview_content = format_preview(meta, body)
-
-            out_path = os.path.join(PREVIEW_DIR, fname)
+            out_path = preview_folder / md_file.name
             with open(out_path, "w", encoding="utf-8") as out:
                 out.write(preview_content)
 
-            print(f"✅ Preview generated for: {fname}")
+            print(f"✅ Preview generated: {draft_folder.name}/{md_file.name}")
 
 if __name__ == "__main__":
     main()
