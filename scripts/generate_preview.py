@@ -2,8 +2,12 @@ import os
 import yaml
 from pathlib import Path
 
-DRAFT_ROOT = Path("../drafts")
-PREVIEW_ROOT = Path("../preview")
+# Make paths relative to the script location
+SCRIPT_DIR = Path(__file__).resolve().parent
+ROOT_DIR = SCRIPT_DIR.parent
+
+DRAFT_ROOT = ROOT_DIR / "drafts"
+PREVIEW_ROOT = ROOT_DIR / "preview"
 
 def extract_content(md_text):
     parts = md_text.split('---')
