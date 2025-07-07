@@ -1,0 +1,16 @@
+---
+id: primary-road-identifier_directionsup1_sup-primary-road-identifier_directionsup2_sup-related-to-truck-parking
+label: Primary Road identifier_direction<sup>1<_sup> & Primary Road identifier_direction<sup>2<_sup> (related to truck parking)
+definition: the minimum information required for indicating the road(s) (one or more – as applies) through which a truck parking area is accessible.
+category: Static data
+language: en
+status: approved
+source: DR_EU_885-2013
+---
+
+**Primary Road identifier/direction<sup>1</sup> & Primary Road identifier/direction<sup>2</sup> (related to truck parking):**
+the minimum information required for indicating the road(s) (one or more – as applies) through which a truck parking area is accessible.
+>This information may include alphanumerical values indicating: a) the name of the road, b) its national identifier (if available), and c) the destination of the applicable direction (e.g., destination city).
+
+> Depending on the case, it may also extend to road number, chainage, carriageway number, and lane number.
+

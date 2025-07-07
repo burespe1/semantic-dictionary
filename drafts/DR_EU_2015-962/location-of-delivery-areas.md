@@ -1,0 +1,15 @@
+---
+id: location-of-delivery-areas
+label: Location of delivery areas
+definition: the minimum information required for identifying the physical location of designated points along a road network or on specific road links reserved for loading/unloading operations.
+category: Static data
+language: en
+status: approved
+source: DR_EU_2015-962
+---
+
+**Location of delivery areas:**
+the minimum information required for identifying the physical location of designated points along a road network or on specific road links reserved for loading/unloading operations.
+
+>Delivery areas can be of multiple types (e.g., instaboxes, warehouse storage, loading zone, etc.). Moreover, their accessibility may be public or restricted.
+

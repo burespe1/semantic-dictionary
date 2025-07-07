@@ -1,0 +1,62 @@
+name: Build Dictionary
+
+on:
+  push:
+    paths:
+      - 'drafts/**'
+      - 'scripts/**'
+  workflow_dispatch:  # allow manual trigger
+  release:
+    types: [published]
+
+jobs:
+  preview:
+    name: Generate Previews
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install pyyaml rdflib
+
+      - name: Run Preview Script
+        run: python scripts/generate_preview.py
+
+      - name: Upload Preview
+        uses: actions/upload-artifact@v3
+        with:
+          name: preview
+          path: preview/
+
+  release:
+    name: Generate Release (on tag)
+    if: github.event_name == 'release'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install pyyaml rdflib
+
+      - name: Run Release Script
+        run: python scripts/generate_release.py
+
+      - name: Upload Release
+        uses: actions/upload-artifact@v3
+        with:
+          name: release-files
+          path: |
+            release/dictionary.md
+            vocab/

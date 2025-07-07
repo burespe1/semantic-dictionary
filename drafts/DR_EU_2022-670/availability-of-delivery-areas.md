@@ -1,0 +1,13 @@
+---
+id: availability-of-delivery-areas
+label: Availability of delivery areas
+definition: dynamic information reflecting the availability of designated places along a road network reserved for loading/unloading operations.
+category: Types of data on the real-time use of the network
+language: en
+status: approved
+source: DR_EU_2022-670
+---
+
+**Availability of delivery areas:**
+dynamic information reflecting the availability of designated places along a road network reserved for loading/unloading operations.
+
