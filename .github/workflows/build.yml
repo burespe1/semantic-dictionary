@@ -4,7 +4,8 @@ on:
   push:
     paths:
       - 'drafts/**'
-      - 'scripts/**'
+      - 'code/**'                      # ✅ Added
+      - 'scripts/generate_preview.py'
   workflow_dispatch:  # allow manual trigger
   release:
     types: [published]
@@ -13,22 +14,31 @@ jobs:
   preview:
     name: Generate Previews
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
       - name: Install dependencies
-        run: pip install pyyaml rdflib
+        run: pip install pyyaml rdflib || true
 
       - name: Run Preview Script
         run: python scripts/generate_preview.py
 
-      - name: Upload Preview
+      - name: Commit Updated Previews
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add preview/
+          git diff --cached --quiet || git commit -m "🔄 Update preview files"
+          git push
+
+      - name: Upload Preview Artifact
         uses: actions/upload-artifact@v4
         with:
           name: preview
@@ -38,22 +48,23 @@ jobs:
     name: Generate Release (on tag)
     if: github.event_name == 'release'
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
       - name: Install dependencies
-        run: pip install pyyaml rdflib
+        run: pip install pyyaml rdflib || true
 
       - name: Run Release Script
         run: python scripts/generate_release.py
 
-      - name: Upload Release
+      - name: Upload Release Artifact
         uses: actions/upload-artifact@v4
         with:
           name: release-files
