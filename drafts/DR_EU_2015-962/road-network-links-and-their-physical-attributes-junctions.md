@@ -15,6 +15,6 @@ the minimum information required for identifying the location of a junction and 
 
 >The relationship of a given junction with the remaining network can be expressed via the indication of the whether it is a start/end junction of a given link.
 
-![Figure 1](/Figures/RTTI_fig_1.png)
+![Figure 1](/images/road-network-links-and-their-physical-attributes-junctions.png)
 > Reference/additional info: https://inspire.ec.europa.eu/id/document/tg/tn
 
