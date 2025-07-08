@@ -6,17 +6,15 @@ permissions:
 on:
   push:
     branches:
-      - '**'     # Only triggers on branch pushes
+      - '**'  # ✅ Triggers preview job only on branch pushes
     paths:
       - 'drafts/**'
       - 'code/**'
       - 'scripts/generate_preview.py'
 
-  tags:
-    - 'v*'       # 👈 optional, for future workflows if needed
-
   release:
     types: [published]
+
   workflow_dispatch:
 
 
