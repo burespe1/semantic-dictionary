@@ -1,6 +1,7 @@
 import os
 import yaml
 from pathlib import Path
+from collections import defaultdict
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 ROOT_DIR = SCRIPT_DIR.parent
@@ -46,8 +47,8 @@ def extract_content(md_text):
     content = '---'.join(parts[2:]).strip()
     return meta, content
 
-def format_entry(meta, content):
-    header = f"## {meta.get('label', 'Untitled')}\n\n"
+def format_entry(meta, content, heading_level=3):
+    header = f"{'#' * heading_level} {meta.get('label', 'Untitled')}\n\n"
     definition = f"**Definition**: {meta.get('definition', '')}\n\n"
     return header + definition + content + "\n\n---\n"
 
@@ -56,7 +57,8 @@ def main():
         if not dr_folder.is_dir():
             continue
 
-        entries = []
+        grouped_entries = defaultdict(list)  # {combined_heading: [(label, meta, content)]}
+
         for md_file in dr_folder.glob("*.md"):
             with open(md_file, "r", encoding="utf-8") as f:
                 raw = f.read()
@@ -66,13 +68,23 @@ def main():
                 print(f"⏩ Skipping {md_file.name} in {dr_folder.name}")
                 continue
 
-            entry = format_entry(meta, body)
-            entries.append((meta.get("label", ""), entry))
+            category = meta.get("category", "Uncategorized").strip()
+            subcategory = meta.get("subcategory", "").strip()
+            label = meta.get("label", "").strip()
 
-        if entries:
-            entries.sort(key=lambda x: x[0].lower())
+            heading = category
+            if subcategory:
+                heading += f" – {subcategory}"
+
+            grouped_entries[heading].append((label.lower(), meta, body))
+
+        if grouped_entries:
             combined = f"# Preview: {dr_folder.name}\n\n"
-            combined += "\n".join(entry for _, entry in entries)
+
+            for heading in sorted(grouped_entries.keys(), key=str.lower):
+                combined += f"## {heading}\n\n"
+                for _, meta, body in sorted(grouped_entries[heading], key=lambda x: x[0]):
+                    combined += format_entry(meta, body, heading_level=3)
 
             out_path = PREVIEW_DIR / f"{dr_folder.name}.md"
             with open(out_path, "w", encoding="utf-8") as out:
