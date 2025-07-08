@@ -6,18 +6,19 @@ permissions:
 on:
   push:
     branches:
-      - '**'                    # ✅ Only runs preview job on branch pushes
+      - '**'     # Only triggers on branch pushes
     paths:
       - 'drafts/**'
       - 'code/**'
       - 'scripts/generate_preview.py'
-  workflow_dispatch:           # allow manual trigger
+
+  tags:
+    - 'v*'       # 👈 optional, for future workflows if needed
+
   release:
-    types: [published]         # triggers release job on GitHub Release
-  # Optional: run release job also on tag pushes
-  # push:
-  #   tags:
-  #     - 'v*'
+    types: [published]
+  workflow_dispatch:
+
 
 jobs:
   preview:
@@ -55,8 +56,8 @@ jobs:
           path: preview/
 
   release:
-    name: Generate Release (on tag or release)
-    if: github.event_name == 'release'
+    name: Generate Release
+    if: startsWith(github.ref, 'refs/tags/')
     runs-on: ubuntu-latest
 
     steps:
