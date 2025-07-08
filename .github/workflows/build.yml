@@ -47,30 +47,39 @@ jobs:
           name: preview
           path: preview/
 
-  release:
-    name: Generate Release (on tag)
-    if: github.event_name == 'release'
-    runs-on: ubuntu-latest
+    release:
+      name: Generate Release (on tag)
+      if: github.event_name == 'release'
+      runs-on: ubuntu-latest
 
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      steps:
+        - name: Checkout repository
+          uses: actions/checkout@v4
+          with:
+            fetch-depth: 0  # Required to access full tag info
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.10'
+        - name: Set up Python
+          uses: actions/setup-python@v5
+          with:
+            python-version: '3.10'
 
-      - name: Install dependencies
-        run: pip install pyyaml rdflib || true
+        - name: Install dependencies
+          run: pip install pyyaml rdflib || true
 
-      - name: Run Release Script
-        run: python scripts/generate_release.py
+        - name: Run Release Script
+          run: python scripts/generate_release.py
 
-      - name: Upload Release Artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: release-files
-          path: |
-            release/dictionary.md
-            vocab/
+        - name: Prepare release package
+          run: |
+            mkdir dist
+            cp -r release/* dist/
+            cp -r vocab dist/
+
+        - name: Upload to GitHub Release
+          uses: softprops/action-gh-release@v1
+          with:
+            name: "📦 Release ${{ github.ref_name }}"
+            tag_name: ${{ github.ref_name }}
+            files: dist/**/*
+          env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
