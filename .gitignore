@@ -1,0 +1,28 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+.uv/
+
+# PDM artifacts
+pdm.lock
+
+# Mac/Linux metadata
+.DS_Store
+
+# Windows metadata
+Thumbs.db
+
+# Python cache and logs
+*.log
+*.coverage
+
+# VS Code settings (optional)
+.vscode/
+
+# Pytest and coverage
+.cache/
+htmlcov/
