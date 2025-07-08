@@ -9,5 +9,7 @@ This is the final public version used in:
 - Archival tagging (e.g. v1.0, v2.1)
 
 To update, run:  
+
 ```bash
 python scripts/generate_release.py
+```

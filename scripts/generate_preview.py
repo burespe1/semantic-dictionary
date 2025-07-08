@@ -1,75 +1,62 @@
 import os
 import yaml
 from pathlib import Path
-import re
 
-# Make paths relative to the script location
 SCRIPT_DIR = Path(__file__).resolve().parent
 ROOT_DIR = SCRIPT_DIR.parent
 
 DRAFT_ROOT = ROOT_DIR / "drafts"
-PREVIEW_ROOT = ROOT_DIR / "preview"
+PREVIEW_DIR = ROOT_DIR / "preview"
+os.makedirs(PREVIEW_DIR, exist_ok=True)
 
-def escape_yaml_value(value):
-    # If value contains risky characters, wrap it in double quotes
-    if any(c in value for c in ['<', '>', '[', ']', '(', ')', ':']) and not value.startswith('"'):
-        value = value.replace('"', '\\"')  # escape internal quotes
-        return f'"{value}"'
-    return value
-
-def escape_colons_in_yaml(yaml_text):
-    lines = yaml_text.splitlines()
-    fixed_lines = []
-    for line in lines:
-        if ':' in line and not line.strip().startswith('#'):
-            parts = line.split(":", 1)
-            key = parts[0].strip()
-            value = parts[1].strip()
-            if value and not value.lower() in ['true', 'false'] and not value.replace('.', '', 1).isdigit():
-                value = escape_yaml_value(value)
-            fixed_lines.append(f"{key}: {value}")
-        else:
-            fixed_lines.append(line)
-    return '\n'.join(fixed_lines)
-    
 def extract_content(md_text):
     parts = md_text.split('---')
     if len(parts) < 3:
         return None, md_text
-    raw_yaml = escape_colons_in_yaml(parts[1])
-    meta = yaml.safe_load(raw_yaml)
+    raw_yaml = parts[1]
+    try:
+        meta = yaml.safe_load(raw_yaml)
+    except yaml.YAMLError as e:
+        print(f"⚠️ YAML error: {e}")
+        return None, md_text
     content = '---'.join(parts[2:]).strip()
     return meta, content
 
-
-def format_preview(meta, content):
-    header = f"# {meta.get('label', 'Untitled')}\n\n"
+def format_entry(meta, content):
+    header = f"## {meta.get('label', 'Untitled')}\n\n"
     definition = f"**Definition**: {meta.get('definition', '')}\n\n"
-    return header + definition + content
+    return header + definition + content + "\n\n---\n"
 
 def main():
-    for draft_folder in DRAFT_ROOT.iterdir():
-        if not draft_folder.is_dir():
+    for dr_folder in DRAFT_ROOT.iterdir():
+        if not dr_folder.is_dir():
             continue
 
-        preview_folder = PREVIEW_ROOT / draft_folder.name
-        os.makedirs(preview_folder, exist_ok=True)
-
-        for md_file in draft_folder.glob("*.md"):
+        entries = []
+        for md_file in dr_folder.glob("*.md"):
             with open(md_file, "r", encoding="utf-8") as f:
                 raw = f.read()
 
             meta, body = extract_content(raw)
-            if not meta:
-                print(f"⚠️ Skipping {md_file.name}: Missing frontmatter")
+            if not meta or meta.get("status") != "approved":
+                print(f"⏩ Skipping {md_file.name} in {dr_folder.name}")
                 continue
 
-            preview_content = format_preview(meta, body)
-            out_path = preview_folder / md_file.name
-            with open(out_path, "w", encoding="utf-8") as out:
-                out.write(preview_content)
+            entry = format_entry(meta, body)
+            entries.append((meta.get("label", ""), entry))
 
-            print(f"✅ Preview generated: {draft_folder.name}/{md_file.name}")
+        if entries:
+            entries.sort(key=lambda x: x[0].lower())
+            combined = f"# Preview: {dr_folder.name}\n\n"
+            combined += "\n".join(entry for _, entry in entries)
+
+            out_path = PREVIEW_DIR / f"{dr_folder.name}.md"
+            with open(out_path, "w", encoding="utf-8") as out:
+                out.write(combined)
+
+            print(f"✅ Preview generated: {out_path.name}")
+        else:
+            print(f"⚠️ No approved items found in {dr_folder.name}")
 
 if __name__ == "__main__":
     main()

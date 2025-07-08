@@ -1,9 +1,3 @@
-
----
-
-## 🔍 `preview/README.md`
-
-```markdown
 # Preview Folder 🔍
 
 Contains automatically generated versions of `drafts/*.md` for review before publishing.
