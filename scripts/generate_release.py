@@ -17,14 +17,44 @@ RELEASE_DIR = Path("../release")
 VOCAB_DIR = Path("../vocab")
 EX = Namespace("http://example.org/dictionary#")
 
+def escape_yaml_value(value):
+    if not isinstance(value, str):
+        return value
+    risky_chars = [":", "<", ">", "[", "]", "(", ")", "#"]
+    if any(c in value for c in risky_chars) and not value.startswith('"'):
+        value = value.replace('"', '\\"')
+        return f'"{value}"'
+    return value
+
+def escape_yaml_block(raw_yaml):
+    lines = raw_yaml.strip().splitlines()
+    fixed_lines = []
+    for line in lines:
+        if ":" in line and not line.strip().startswith("#"):
+            key, val = line.split(":", 1)
+            key = key.strip()
+            val = val.strip()
+            if val and not val.lower() in ["true", "false"] and not val.replace(".", "", 1).isdigit():
+                val = escape_yaml_value(val)
+            fixed_lines.append(f"{key}: {val}")
+        else:
+            fixed_lines.append(line)
+    return "\n".join(fixed_lines)
+
 def extract_md_parts(md_text):
     parts = md_text.split('---')
     if len(parts) < 3:
         return None, ''
-    meta = yaml.safe_load(parts[1])
+    raw_yaml = parts[1]
+    fixed_yaml = escape_yaml_block(raw_yaml)
+    try:
+        meta = yaml.safe_load(fixed_yaml)
+    except yaml.YAMLError as e:
+        print(f"⚠️ YAML error: {e}")
+        return None, ''
     content = '---'.join(parts[2:]).strip()
     return meta, content
-
+    
 def generate_rdf(meta):
     g = Graph()
     term = EX[meta['id']]

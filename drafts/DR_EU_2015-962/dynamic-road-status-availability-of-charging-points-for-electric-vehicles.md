@@ -8,5 +8,3 @@ status: approved
 source: DR_EU_2015-962
 subcategory: Dynamic road status
 ---
-
-
