@@ -13,7 +13,7 @@ A structured dictionary of transport-related concepts managed in Markdown, expor
 
 ## 🚀 Workflows
 
-### 🔄 Content Creation
+### Content Creation
 
 The work on data types is done in the `drafts/` folder in the subfolder per delegated regulation. Each data type is a separate markdown document, with predefined attributes and "free" content. 
 
@@ -41,18 +41,21 @@ git push origin v1.0.0
 ```
 
 This executes:
+
 - scripts/generate_release.py to compile approved entries and RDF vocabularies
 - Generates release/dictionary.md – consolidated Markdown export
 - Creates vocab/<DR>/<item>.ttl – SKOS-formatted RDF files
 - Uploads files as a downloadable GitHub Actions artifact
 
 ## 🌍 Published Outputs
-- 📦 Preview Dictionaries:  [`drafts/readme.md`](drafts/readme.md)
-- 📦 Release Dictionaries:  [`release/index.md`](release/index.md)
+
+- 📦 Preview Dictionaries:  [`drafts/README.md`](drafts/README.md)
+- 📦 Release Dictionaries:  [`release/INDEX.md`](release/INDEX.md)
 - 🐢 RDF Vocabularies: [`vocab/`](vocab/)
 - 🌐 Live Site via GitHub Pages: https://yourusername.github.io/semantic-dictionary
 
 ## 🛠 Technologies
+
 - Python 3.10+ with pyyaml, rdflib
 - SKOS (RDF vocabulary)
 - GitHub Actions automation
