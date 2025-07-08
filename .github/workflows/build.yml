@@ -5,17 +5,24 @@ permissions:
 
 on:
   push:
+    branches:
+      - '**'                    # ✅ Only runs preview job on branch pushes
     paths:
       - 'drafts/**'
-      - 'code/**'                      # ✅ Added
+      - 'code/**'
       - 'scripts/generate_preview.py'
-  workflow_dispatch:  # allow manual trigger
+  workflow_dispatch:           # allow manual trigger
   release:
-    types: [published]
+    types: [published]         # triggers release job on GitHub Release
+  # Optional: run release job also on tag pushes
+  # push:
+  #   tags:
+  #     - 'v*'
 
 jobs:
   preview:
     name: Generate Previews
+    if: github.event_name == 'push'  # ✅ Prevents running on release/tags
     runs-on: ubuntu-latest
 
     steps:
@@ -48,7 +55,7 @@ jobs:
           path: preview/
 
   release:
-    name: Generate Release (on tag)
+    name: Generate Release (on tag or release)
     if: github.event_name == 'release'
     runs-on: ubuntu-latest
 
@@ -56,7 +63,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # Required to access full tag info
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
