@@ -50,16 +50,14 @@ def extract_content(md_text):
 def format_entry(meta, content, heading_level=3):
     header = f"{'#' * heading_level} {meta.get('label', 'Untitled')}\n\n"
     definition_text = meta.get("definition") or ""
-    definition = f"**Definition**: {definition_text.strip()}\n"
+    definition = f"**Definition**: {definition_text.strip()}"
 
-    # Only clean body if it’s not None and not empty
-    body = ""
-    if content and content.strip():
-        lines = content.strip().splitlines()
-        body_lines = [line.rstrip() for line in lines if line.strip()]
-        body = "\n" + "\n".join(body_lines)
+    body = content.strip() if content and content.strip() else None
 
-    return f"{header}{definition}{body}\n\n---\n"
+    if body:
+        return f"{header}{definition}\n\n{body}\n\n---\n"
+    else:
+        return f"{header}{definition}\n\n---\n"
 
 def main():
     for dr_folder in DRAFT_ROOT.iterdir():
