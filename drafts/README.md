@@ -13,8 +13,10 @@ Each file must:
 - Start with a YAML metadata block (between --- lines)
 - Include a human-readable definition and optionally commentary, diagrams, or citations
 
-###🧾 Metadata Fields
+### 🧾 Metadata Fields
+
 | Field | Description | 
+| - | - | 
 | id | Unique lowercase identifier for the concept (also used as filename) | 
 | label | Human-friendly title | 
 | definition | Concise explanation of the concept's meaning | 
