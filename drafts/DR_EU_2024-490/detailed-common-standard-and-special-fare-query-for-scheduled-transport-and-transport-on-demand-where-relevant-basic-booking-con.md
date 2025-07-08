@@ -9,8 +9,6 @@ source: DR_EU_2024-490
 subcategory: Detailed common standard and special fare query
 ---
 
-**Detailed common standard and special fare query – _for scheduled transport and transport on demand where relevant - basic booking conditions, such as purchase windows, validity periods, routing restrictions zonal sequence fares, minimum stay_**
-the minimum set of information required for describing basic booking conditions.
 
 <table style="font-size: smaller; width: 100%;">
     <tr>

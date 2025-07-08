@@ -9,8 +9,6 @@ source: DR_EU_2024-490
 subcategory: Location search (origin_destination)
 ---
 
-**Location search (origin/destination) – _addresses (building number, street name, postcode)_:**
-the minimum information required for matching specific locations (mainly properties) as trip origins and destinations based on their address.
 
 >The following data needs to be provided for an address:\
 • Identifier (must be globally unique)\

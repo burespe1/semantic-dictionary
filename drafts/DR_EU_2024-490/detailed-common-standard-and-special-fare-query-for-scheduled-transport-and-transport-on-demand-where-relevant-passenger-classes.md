@@ -9,8 +9,6 @@ source: DR_EU_2024-490
 subcategory: Detailed common standard and special fare query
 ---
 
-**Detailed common standard and special fare query – _for scheduled transport and transport on demand where relevant - passenger classes (classes of passenger such as adult, child, senior, student, military/veteran, passenger with disability and passenger with reduced mobility, and qualifying conditions, and classes of travel)_**
-the minimum information about passenger classes required for supporting fare queries.
 
 >Provided information may be classified based on fare classes (e.g., first class, second class, business class, etc.) and/or based on user profiles (e.g., adults, children, students, veterans, impaired people).\
 The information provided may also encompass the qualification conditions applying in each user class.

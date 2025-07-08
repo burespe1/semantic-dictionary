@@ -8,8 +8,6 @@ status: approved
 source: DR_EU_2022-670
 ---
 
-**Weather conditions affecting road surface and visibility:**
-dynamic information disseminating the prevalence of (adverse) weather conditions affecting road surface and visibility and, thus, implying accident hazards for road users.
 >The unambiguous description of weather conditions affecting road surface and visibility requires the provision of information about the time of their occurrence, type (optionally), and affected parts of the road network.
 
 > Note: ETSI TS 102 894-2 (DE=AdverseWeatherCondition-ExtremeWeatherConditionSubCauseCode) distinguishes the following types (subcauses) of adverse **extreme weather conditions**.

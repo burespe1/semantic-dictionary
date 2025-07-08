@@ -8,8 +8,6 @@ status: approved
 source: DR_EU_2022-670
 ---
 
-**Availability of refuelling points and stations for alternative fuel types:**
-dynamic information reflecting the state and status of refuelling points and stations corresponding to alternative fuels.
 >According to Alternative Fuels Infrastructure Directive (2014/94/EU), alternative fuels include (excluding electricity):\
 •	Hydrogen\
 •	Biofuels\

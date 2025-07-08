@@ -9,7 +9,4 @@ source: DR_EU_2024-490
 subcategory: Observed data on cancellations
 ---
 
-**Observed data on cancellations – _for scheduled transport: cancellations, and when possible the reason, of flights_**
-
 >See Correspondence Transmodel/SIRI in “Observed data on cancellations – for scheduled transport: cancellations, and when possible the reason, of rail passenger services”.
-

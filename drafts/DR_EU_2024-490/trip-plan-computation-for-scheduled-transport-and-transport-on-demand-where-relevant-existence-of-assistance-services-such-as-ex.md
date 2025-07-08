@@ -9,8 +9,6 @@ source: DR_EU_2024-490
 subcategory: Trip plan computation
 ---
 
-**Trip plan computation – _for scheduled transport and transport on demand where relevant - existence of assistance services (such as existence of on-site assistance)_**
-the minimum information required for describing assistance services, essential for trip plan computation purposes.
 
 >Assistance services can be proposed prior to the travel (in case of normal conditions of operation), during the travel (in case of an incident), and/or after the travel. Some services - e.g. those for a customer travelling with physical or digital impairment, or compensations in case of delay - are made mandatory by several modal - and even multimodal - European legislation.
 

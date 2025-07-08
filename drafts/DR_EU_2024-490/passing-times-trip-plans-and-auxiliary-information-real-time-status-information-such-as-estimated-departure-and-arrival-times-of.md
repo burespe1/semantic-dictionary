@@ -9,8 +9,6 @@ source: DR_EU_2024-490
 subcategory: Passing times, trip plans and auxiliary information
 ---
 
-**Passing times, trip plans and auxiliary information – _real-time status information, such as estimated departure and arrival times of services, delays, cancellations, guaranteed connections monitoring_**
-the minimum dynamic information required for providing further details about the operational status of transport services.
 
 >This information may provide further details about delays, cancellations, and guaranteed connections among different modes (e.g., foreseen delay duration, cancellation timeframe). It shall be dynamically updated as soon as it becomes available to reflect the latest operational status of transport services.
 

@@ -9,8 +9,6 @@ source: DR_EU_2024-490
 subcategory: Trip plan computation
 ---
 
-**Trip plan computation – _for scheduled transport and transport on demand where relevant - timetables_**
-(_scheduled transport modes_) the minimum information required for indicating the planned passing times of scheduled transport services’ vehicles, essential for trip plan computation purposes; (_on-demand transport_)<sup id="fn4">[4](#ref4)</sup> the minimum information required for indicating the operation times, hours of operation, geographical extend (zones, flexible stops), and further limitations of “dial-a-ride services”; (_vehicle pooling_) the minimum information required for indicating the scheduled transportation times, routes/lines (topology), and further limitations of vehicle-pooling.
 
 ><u>For scheduled transport modes</u>: It is an aggregation of vehicle journeys (defined for specific day types) and passing times at stops for the concerned vehicle journeys.
 

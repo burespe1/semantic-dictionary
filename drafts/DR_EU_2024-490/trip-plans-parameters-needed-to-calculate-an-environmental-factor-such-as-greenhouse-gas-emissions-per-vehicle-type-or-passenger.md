@@ -9,8 +9,6 @@ source: DR_EU_2024-490
 subcategory: Trip plans
 ---
 
-**Trip plans – _parameters needed to calculate an environmental factor such as greenhouse gas emissions per vehicle type or passenger mile or per distance walked_**
-the minimum set of information required for enabling the estimation of the environmental footprint of a trip.
 
 >As mentioned within the Delegated Regulations (EU) 2017/1926 and (EU) 2024/490, this information encompasses parameters, such as carbon dioxide emissions per vehicle type (i.e., average rate per vehicle type per mile travelled), passenger mile (i.e., average rate per vehicle type per mile travelled per passenger), and distance walked (i.e., average rate per mile of walking).
 

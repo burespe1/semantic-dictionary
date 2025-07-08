@@ -8,8 +8,6 @@ status: approved
 source: DR_EU_2022-670
 ---
 
-**Location and identification of traffic signs reflecting traffic regulations and identifying dangers:**
-the minimum information required for identifying the location and disseminating the type and direction of signs (or panels) reflecting various traffic regulations and potential hazards on the road (e.g., warning signs).
 >The following conditions/restrictions are mentioned in the Delegated Regulation (EU) 2022/670:\
 •	Access conditions for tunnels (legal or physical restrictions/limitations on vehicles to access a specific tunnel)\
 •	Access conditions for bridges (legal or physical restrictions/limitations on vehicles to access a specific bridge)\

@@ -8,8 +8,6 @@ status: approved
 source: DR_EU_2022-670
 ---
 
-**Bridge closures:**
-dynamic information disseminating the closure of road rinks corresponding to bridges.
 >Bridge closures can be discerned into planned and unplanned in a similar fashion with "road closures".
 
 >Their unambiguous description requires the provision of information about their time validity (applies to planned bridge closures) or time of occurrence (applies to unplanned bridge closures).

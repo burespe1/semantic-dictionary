@@ -9,10 +9,7 @@ source: DR_EU_2024-490
 subcategory: Historic travel and traffic data on delays
 ---
 
-**Historic travel and traffic data on delays – _for scheduled transport and transport on demand where relevant_**
-
 >Delay: A description of deviations from the public transport timetable.
-
 <table style="font-size: smaller; width: 100%;">
     <tr>
         <th colspan="2" style="text-align: left;">Correspondence with Transmodel/OpRa</th>
@@ -29,4 +26,3 @@ subcategory: Historic travel and traffic data on delays
         <td>Any event affecting the public transport operation (production follow-up, management of information or the technical functioning), occurring on an OPERATING DAY and recorded in the system. An OPERATIONAL EVENT is generally causing a CONTROL ACTION.</td>
     </tr>    
 </table>
-

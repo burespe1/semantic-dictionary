@@ -9,8 +9,6 @@ source: DR_EU_2024-490
 subcategory: Detailed common standard and special fare query
 ---
 
-**Detailed common standard and special fare query – _for scheduled transport and transport on demand where relevant - basic commercial conditions such as refunding, replacing, exchanging or transferring_**
-the minimum set of information about basic commercial conditions required for supporting fare queries.
 
 >This information may refer to the principles of refunding, replacing, exchanging, and transferring a ticket and/or the basic conditions, such as purchase windows, validity periods, fare limitations, and minimum duration.
 

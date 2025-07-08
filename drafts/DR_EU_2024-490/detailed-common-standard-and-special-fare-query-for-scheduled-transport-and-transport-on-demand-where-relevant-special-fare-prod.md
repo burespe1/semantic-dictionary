@@ -9,8 +9,6 @@ source: DR_EU_2024-490
 subcategory: Detailed common standard and special fare query
 ---
 
-**Detailed common standard and special fare query – for scheduled transport and transport on demand where relevant - special fare products (offers with additional special conditions such as promotional fares, group fares, season passes, aggregated products combining different products, and add-on products such as parking and travel, minimum stay)_**
-the minimum set of information about special fare products required for supporting fare queries.
 
 >Special fare products are based on offers with additional special conditions, such as promotional fares, group fares, season passes, aggregated products combining different products and add on products (e.g., parking and travel, minimum stay).
 

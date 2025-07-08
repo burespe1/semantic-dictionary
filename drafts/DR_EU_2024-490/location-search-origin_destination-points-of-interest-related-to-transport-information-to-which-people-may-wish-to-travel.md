@@ -9,8 +9,6 @@ source: DR_EU_2024-490
 subcategory: Location search (origin_destination)
 ---
 
-**Location search (origin/destination) – _points of interest (related to transport information) to which people may wish to travel_:**
-the minimum information required for matching specific locations of interest (e.g., amenities, landmarks, tourist attractions) as trip origins and destinations (covers DR(EU)1926/2017 1.b.c).
 
 >The coordinates and/or address identifiers of any point of interest (POI) that are relevant to travellers. For example, a museum, a theatre, or a shopping mall. The following POI should be (at least) provided:\
 • Administrative buildings\

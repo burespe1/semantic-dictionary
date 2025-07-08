@@ -8,8 +8,6 @@ status: approved
 source: DR_EU_886-2013
 ---
 
-**Location of the event/condition:**
-the minimum information required for disseminating the location of an event/condition that is on-going or time valid.
 
 >The location of an event/condition can correspond to a single geospatial point on a road (point), a part of a road network defined between two points on the same road including an indication of the applicable direction (linear), or a geographic or geometric two-dimensional feature (area). Several methods exist for encoding point, linear, or area locations.
 

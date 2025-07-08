@@ -9,8 +9,6 @@ source: DR_EU_2024-490
 subcategory: Location search
 ---
 
-**Location search – _for transport on demand and personal transport - location of parking places (on and off-street), including accessible parking places for persons with disabilities and persons with reduced mobility_**
-the minimum information required for identifying the location of on-street or off-street places designated for parking vehicles.
 
 <table style="font-size: smaller; width: 100%;">
     <tr>

@@ -8,6 +8,4 @@ status: approved
 source: DR_EU_2022-670
 ---
 
-**Availability of recharging points and stations for electric vehicles:**
-dynamic information reflecting the state and status of charging points and stations for electric vehicles.
 

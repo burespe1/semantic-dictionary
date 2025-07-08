@@ -9,8 +9,6 @@ source: DR_EU_2024-490
 subcategory: Information service
 ---
 
-**Information service – _for transport on demand - how to book demand-responsive transport services, including retail channels, fulfilment methods, payment methods_**
-the minimum information required to describe the way of booking demand-responsive transport services such as car-sharing, taxi and cycle-hiring services.
 
 <table style="font-size: smaller; width: 100%;">
     <tr>

@@ -8,8 +8,6 @@ status: approved
 source: DR_EU_2022-670
 ---
 
-**Traffic circulation plans:**
-the minimum information required for disseminating and describing the content of plans that are developed by local authorities to control and guide traffic flows in response to known and recurring traffic conditions as well as in consideration of seasonality effects and existing limitation and constraints (e.g., existence of school zones).
 >Traffic Circulation Plans (TCPs) are crafted by local authorities to manage and direct traffic flows based on recurring traffic conditions, seasonal variations, and pre-existing restrictions (such as school zones). These plans enclose strategies and measures, including, for example, the designation of particular road links that certain users or vehicle types should avoid, aimed at improving traffic flow conditions and achieving societal objectives like lowering emissions and minimizing accidents. The strategies implemented within TCPs are part of a broader, more enduring “traffic control policy”, meaning that the imposed measures remain active and applicable irrespective of the level of achievement of their overarching goal. TCPs are reviewed and updated by local authorities with a certain time frequency.
 
 >TCPs are a result of studies to direct traffic flows sorted by their type (e.g., through-going traffic, inbound traffic, outbound traffic, local traffic, heavy traffic, low emission traffic). They are typically deployed with traffic signs and road network configurations and restrictions, such as one-way streets, dedicated (bus) lanes, shuttle lanes, traffic lights, etc. Therefore, TCPs are mainly static in nature and frequently not known to drivers, who comply to them by respecting the corresponding traffic regulations.

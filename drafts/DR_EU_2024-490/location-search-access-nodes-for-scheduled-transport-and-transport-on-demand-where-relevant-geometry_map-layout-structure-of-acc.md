@@ -9,8 +9,6 @@ source: DR_EU_2024-490
 subcategory: Location search (access nodes)
 ---
 
-**Location search (access nodes) – _for scheduled transport and transport on demand where relevant - geometry/map layout structure of access nodes_**
-the minimum information required for identifying the location of specific facilities within access nodes considering the topographical structure of access nodes.
 
 <table style="font-size: smaller; width: 100%;">
   <tr>

@@ -9,8 +9,6 @@ source: DR_EU_2022-670
 subcategory: Road network links and their physical attributes
 ---
 
-**Road network links and their physical attributes – _road width_:**
-the minimum information required for indicating the width of a road network’s links.
 >This information is addressed as encompassing in a discretized and systematic manner the width of various (maintained) components of the road surface, including driving lanes, hard shoulders, medians, parking space, and the roadside.[^1]
 
 > NOTE: Driving lanes, according to ETSI TS 102 894-2, are counted from the inside border of the road excluding the hardshoulder.

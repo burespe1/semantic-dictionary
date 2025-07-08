@@ -8,6 +8,4 @@ status: approved
 source: DR_EU_2022-670
 ---
 
-**Availability of delivery areas:**
-dynamic information reflecting the availability of designated places along a road network reserved for loading/unloading operations.
 

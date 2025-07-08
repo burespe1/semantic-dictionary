@@ -9,8 +9,6 @@ source: DR_EU_2024-490
 subcategory: Trip plan computation
 ---
 
-**Trip plan computation – _pedestrian network and accessibility facilities_**
-the minimum information required for describing the topological structure of pedestrian networks (physical and logical arrangements of nodes and links), essential for trip plan computation purposes.
 
 <table style="font-size: smaller; width: 100%;">
       <tr>

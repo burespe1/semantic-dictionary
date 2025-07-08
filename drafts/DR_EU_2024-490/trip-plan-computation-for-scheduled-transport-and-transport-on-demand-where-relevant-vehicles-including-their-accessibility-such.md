@@ -9,8 +9,6 @@ source: DR_EU_2024-490
 subcategory: Trip plan computation
 ---
 
-**Trip plan computation – _for scheduled transport and transport on demand where relevant - vehicles, including their accessibility (such as low floor, wheelchair accessible, pram accessible) and accessibility of on-board services (such as toilets)_**
-the minimum information required for indicating the accessibility conditions of scheduled or on demand transport services’ vehicles (incl. their on-board amenities), essential for trip plan computation purposes.
 
 >EXAMPLES\
 • A specific train has a lower floor option for people traveling in wheelchairs.\

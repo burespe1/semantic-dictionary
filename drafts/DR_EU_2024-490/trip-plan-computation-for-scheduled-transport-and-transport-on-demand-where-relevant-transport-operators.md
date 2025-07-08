@@ -9,8 +9,6 @@ source: DR_EU_2024-490
 subcategory: Trip plan computation
 ---
 
-**Trip plan computation – _for scheduled transport and transport on demand where relevant - transport operators_**
-the minimum information about the public transport companies providing scheduled transport or transport on demand services necessary to provide correct contact information to the travellers.
 
 >Such information may encompass the name and identification code of transport operators.
 

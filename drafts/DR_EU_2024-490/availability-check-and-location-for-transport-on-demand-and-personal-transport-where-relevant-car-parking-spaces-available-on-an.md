@@ -9,8 +9,6 @@ source: DR_EU_2024-490
 subcategory: Availability check and location
 ---
 
-**Availability check and location – _for transport on demand and personal transport where relevant - car parking spaces available (on and off-street)_**
-the minimum dynamic information required for disseming the availability of on-street and off-street car parking space.
 
 >BEST PRACTICES\
 Information of the availability of parking space should ideally specify the accessibility of parking places for wheelchair users (as they require more space for accessing and leaving the vehicle).

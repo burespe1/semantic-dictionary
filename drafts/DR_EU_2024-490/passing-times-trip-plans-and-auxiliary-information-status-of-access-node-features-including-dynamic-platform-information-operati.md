@@ -9,8 +9,6 @@ source: DR_EU_2024-490
 subcategory: Passing times, trip plans and auxiliary information
 ---
 
-**Passing times, trip plans and auxiliary information – _status of access node features (including dynamic platform information, operational lifts/escalators, closed entrances and exit locations) – for scheduled transport_**
-the minimum dynamic information providing insight into the operational status of access nodes features.
 
 >The operational status of access nodes features (e.g., platform information systems, lift/escalators, entrances, and exits) may be affected by technical issues and malfunctions.
 

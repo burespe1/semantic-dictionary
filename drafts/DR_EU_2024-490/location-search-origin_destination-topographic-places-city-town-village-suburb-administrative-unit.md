@@ -9,8 +9,6 @@ source: DR_EU_2024-490
 subcategory: Location search (origin_destination)
 ---
 
-**Location search (origin/destination) – _topographic places (city, town, village, suburb, administrative unit)_:**
-the minimum information required for matching wider locations (e.g., areas, regions, localities, cities, suburbs, towns, administrative units, or settlements) as trip origins and destinations based on their name.
 
 >The names of settlements, counties, etc., are of importance for locating trip endpoints, namely for the distinction of place names that are not globally unique.
 

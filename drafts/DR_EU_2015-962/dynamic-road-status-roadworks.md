@@ -9,8 +9,6 @@ source: DR_EU_2015-962
 subcategory: Dynamic road status
 ---
 
-**Dynamic road status – _roadworks_:**
-dynamic information disseminating that roadworks take place on a specific segment/section of a road link (or on the entire road link).
 >Roadworks typically affect (fully or partially) individual lanes and seldom all lanes of a given direction, such that travel in this direction is still possible. In case that roadworks affect all lanes, such that travel in a given direction is no longer possible, they match with road closures.
 
 >Roadworks are also discerned into planned and unplanned.

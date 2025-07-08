@@ -53,13 +53,18 @@ def process_buffer(buffer, category, source_name, target_dir, code_dir):
             label_clean = meta["label"]
             subcategory = meta["subcategory"]
 
-            body_lines = [f"**{label_raw}**"]
-            if definition:
-                body_lines.append(definition)
+            body_lines = []
+            skip_lines = {
+                f"**{label_raw}**".strip(),
+                definition.strip()
+            }
             i += 1
             while i < len(buffer) and not item_pattern.match(buffer[i]) and not category_pattern.match(buffer[i]):
-                body_lines.append(buffer[i])
+                line_clean = buffer[i].strip()
+                if line_clean not in skip_lines:
+                    body_lines.append(buffer[i])
                 i += 1
+
             body = "\n".join(body_lines)
 
             code_md = ""

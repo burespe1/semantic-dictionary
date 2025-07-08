@@ -9,8 +9,6 @@ source: DR_EU_2024-490
 subcategory: Passing times, trip plans and auxiliary information
 ---
 
-**Passing times, trip plans and auxiliary information – _disruptions, such as network closures and/or diversions, and when possible, the reason_**
-the minimum dynamic information required for disseminating the existence of changes in the normal operation of transport services.
 
 >SIRI can exchange estimated real-time changes to the planned timetable and continuously keep track of minor deviations, cancellations and other disruptions, prior to- or during the service operation.
 

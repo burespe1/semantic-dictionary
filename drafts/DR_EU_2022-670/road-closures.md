@@ -8,8 +8,6 @@ status: approved
 source: DR_EU_2022-670
 ---
 
-**Road closures:**
-dynamic information disseminating the closure of road links of any type.
 >Road closures are typically directional and should be discerned into planned and unplanned.
 
 >**Planned road closures:** Correspond to **scheduled** shutdowns of entire road links (all lanes per direction) or sections of a given road link for various reasons, such as large public events. Such closure are typically announced in advance to enable road users plan alternative routes and minimize disruption to their travel plans and diaries.\

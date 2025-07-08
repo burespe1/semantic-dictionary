@@ -9,8 +9,6 @@ source: DR_EU_2024-490
 subcategory: Information service
 ---
 
-**Information service – _where and how to buy tickets for scheduled transport, including retail channels, fulfilment methods, payment methods_**
-the minimum set of information required for describing the way of purchasing a ticket for scheduled transport modes, demand responsive modes, including the location as well as the supported payment and fulfilment methods.
 
 >This data category encompasses information about different retail channels where tickets can be purchased (e.g., online, ticket desks), different fulfilment methods (e.g., pick up from a designated location) and accepted payment methods for purchasing a ticket (e.g., credit/debit cards, cash).
 

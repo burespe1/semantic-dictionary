@@ -8,8 +8,6 @@ status: approved
 source: DR_EU_2024-490
 ---
 
-**Information on parking tariffs**
-the minimum information required for describing parking tariffs
 
 <table style="font-size: smaller; width: 100%;">
     <tr>

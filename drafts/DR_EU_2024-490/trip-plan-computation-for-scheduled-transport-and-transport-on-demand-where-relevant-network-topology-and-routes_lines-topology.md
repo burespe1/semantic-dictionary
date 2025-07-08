@@ -9,8 +9,6 @@ source: DR_EU_2024-490
 subcategory: Trip plan computation
 ---
 
-**Trip plan computation – _for scheduled transport and transport on demand where relevant - network topology and routes/lines (topology)_**
-the minimum information required for indicating the topology of the service network of scheduled transport or transport on demand modes, essential for trip plan computation purposes.
 
 >This data category assists the indication of the pattern of stops that makes up the timetables.
 

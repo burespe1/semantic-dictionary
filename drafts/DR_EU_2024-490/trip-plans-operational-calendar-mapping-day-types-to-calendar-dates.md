@@ -9,8 +9,6 @@ source: DR_EU_2024-490
 subcategory: Trip plans
 ---
 
-**Trip plans – _operational calendar, mapping day types to calendar dates_:**
-the minimum information required to indicate the days or periods when transportation services are operational.
 
 >The operational calendar describes the specific days of operation for public transport services (days, period, day types). For example, it can describe that a specific line operates on all weekdays (Monday to Friday) except for specific public holidays (e.g., December 25).
 

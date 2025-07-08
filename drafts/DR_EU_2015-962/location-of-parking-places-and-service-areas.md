@@ -8,8 +8,6 @@ status: approved
 source: DR_EU_2015-962
 ---
 
-**Location of parking places and service areas:**
-the minimum information required for identifying the location of a) places[^2] where vehicles are allowed to park and b) places (typically along motorways) where drivers can stop, rest, and get access to available service facilities and amenities (alternatively expressed as rest areas).
 
 >Safe and secure truck parking areas are not explicitly mentioned in this definition as they fall into the scope of DR (EU) 885/2015. SSTPAs can be addressed as a subset of rest areas (or in a separate manner if they strictly operate as such).
 

@@ -9,8 +9,6 @@ source: DR_EU_2024-490
 subcategory: Location search
 ---
 
-**Location search – _for transport on demand and personal transport - secure bike parking (such as locked bike garage)_**
-the minimum information required for identifying the location of secure bike parking facilities.
 
 >A bike parking facility can be addressed as secure when it provides the necessary equipment for locking a bicycle on the available bike racks and protecting it from prevailing climatic conditions and other hazards. 
 

@@ -9,6 +9,4 @@ source: DR_EU_2015-962
 subcategory: Dynamic road status
 ---
 
-**Dynamic road status – _availability of charging points for electric vehicles_:**
-dynamic information reflecting the state and status of charging points and stations for electric vehicles.
 

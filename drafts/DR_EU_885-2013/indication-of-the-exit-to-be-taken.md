@@ -8,7 +8,5 @@ status: approved
 source: DR_EU_885-2013
 ---
 
-**Indication of the Exit to be taken:**
-the minimum information required for identifying the exit or exits (if more than one) to be taken by a truck driver typically along a motorway to approach/move away from a truck parking area.
 >This information may encompass the number, location code, and/or name of the junction(s) to be taken.
 

@@ -9,7 +9,5 @@ source: DR_EU_2015-962
 subcategory: Dynamic road status
 ---
 
-**Dynamic road status – _weather conditions affecting road surface and visibility_:**
-dynamic information disseminating the prevalence of (adverse) weather conditions affecting road surface and visibility and, thus, implying accident hazards for road users.
 >The unambiguous description of weather conditions affecting road surface and visibility requires the provision of information about the time of their occurrence, type (optionally), and affected parts of the road network.
 

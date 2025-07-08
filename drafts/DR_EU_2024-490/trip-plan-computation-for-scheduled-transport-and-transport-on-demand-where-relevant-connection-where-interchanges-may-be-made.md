@@ -9,8 +9,6 @@ source: DR_EU_2024-490
 subcategory: Trip plan computation
 ---
 
-**Trip plan computation – _for scheduled transport and transport on demand where relevant - connection where interchanges may be made_**
-the minimum information required for indicating the attributes of connection links (enabling the transfer of travellers from one vehicle to another), essential for trip plan computation purposes.
 
 <table style="font-size: smaller; width: 100%;">
   <tr>

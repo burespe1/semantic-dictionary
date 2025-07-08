@@ -8,6 +8,4 @@ status: approved
 source: DR_EU_2022-670
 ---
 
-**Price of ad hoc recharging/refuelling:**
-dynamic information reflecting the time varying price of ad hoc recharging/refuelling.
 >Prices are typically expressed in unitary terms (e.g., €/litre, €/hour, etc.)

@@ -9,8 +9,6 @@ source: DR_EU_2024-490
 subcategory: Auxiliary information
 ---
 
-**Auxiliary information – _for scheduled transport and transport on demand where relevant_**
-basic common standard fares: standard fare structures (point to point including daily and weekly fares, zonal fares, flat fares): the minimum information required to describe how users of public transport services are charged (i.e., data objects and elements needed to support the definition of fare products and their parameters).
 
 >Fare structures can be broadly discerned into:\
 • Space-based structures: flat or progressive, zonal- or interval-based, point-to-point, etc. Interval-based fares may be based on simple distances, numbers of zones, border points, etc.\

@@ -8,8 +8,6 @@ status: approved
 source: DR_EU_2022-670
 ---
 
-**Accidents and incidents:**
-dynamic information disseminating the occurrence of an accident or incident on a specific segment/section of a road link.
 >"Accidents" and "incidents" are used to describe different types of situations/events with implications on prevailing traffic conditions (obstruction).
 
 >**Accidents:** Typically correspond to unexpected situations/events that may result in damage to vehicles, injuries, or loss of life. Such situations/events may include collisions between vehicles, single-vehicle accidents (e.g., running off the road or hitting a stationary object), or accidents between vehicles and pedestrians, cyclists, or other vulnerable road users.\

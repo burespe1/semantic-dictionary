@@ -9,6 +9,4 @@ source: DR_EU_2015-962
 subcategory: Dynamic road status
 ---
 
-**Dynamic road status – _availability of delivery areas_:**
-dynamic information reflecting the availability of designated places along a road network reserved for loading/unloading operations.
 

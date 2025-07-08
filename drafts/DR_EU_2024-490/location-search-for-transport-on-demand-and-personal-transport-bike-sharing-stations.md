@@ -9,8 +9,6 @@ source: DR_EU_2024-490
 subcategory: Location search
 ---
 
-**Location search – _for transport on demand and personal transport - bike-sharing stations_**
-the minimum information required for identifying the location of bike sharing stations.
 
 >Bike sharing stations constitute facilities wherein travellers can pick up or return a short-term cycle rental.
 

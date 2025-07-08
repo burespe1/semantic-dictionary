@@ -8,8 +8,6 @@ status: approved
 source: DR_EU_886-2013
 ---
 
-**Category of the event/condition:**
-the minimum information required for disseminating the type of an event/condition that is on-going or time valid.
 >Based on Delegated Regulation (EU) 886/2013, the events or conditions to be covered by the road safety-related minimum universal traffic information service shall consist of at least one of the following categories:\
 •	Temporary slippery road (unforeseen condition of the road surface which makes it slippery for a certain amount of time, causing low adherence of the vehicle to the road)\
 •	Animal, people, obstacles, debris on the road (situation where animals, debris, obstacles or people are positioned on the road where one would not expect to find them so that an emergency maneuver might be required to avoid them)\

@@ -9,8 +9,6 @@ source: DR_EU_2024-490
 subcategory: Location search
 ---
 
-**Location search – _for transport on demand and personal transport - Park & Ride stops_**
-the minimum information required for identifying the location of park & ride stops (i.e., places where road users can park their private vehicle and transfer to another public transport mode).
 
 >Park & ride stops constitute facilities located nearby public transport access nodes that hold an appropriate capacity for motorized and non-motorized vehicle parking, thus enabling travellers to leave/pick up their vehicles before/after a public transport trip.
 

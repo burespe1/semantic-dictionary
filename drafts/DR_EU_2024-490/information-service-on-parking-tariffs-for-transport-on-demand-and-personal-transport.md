@@ -9,8 +9,6 @@ source: DR_EU_2024-490
 subcategory: Information service on parking tariffs
 ---
 
-**Information service on parking tariffs – _for transport on demand and personal transport_**
-the minimum dynamic information on parking tariffs.
 
 <table style="font-size: smaller; width: 100%;">
     <tr>

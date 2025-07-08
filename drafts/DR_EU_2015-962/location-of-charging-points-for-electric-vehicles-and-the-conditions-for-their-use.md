@@ -8,8 +8,6 @@ status: approved
 source: DR_EU_2015-962
 ---
 
-**Location of charging points for electric vehicles and the conditions for their use:**
-the minimum information required for disseminating the geographic location of charging infrastructure (charging pools), dedicated to electric vehicles, including the exact position of charging points along with the conditions for their use.
 
 >A charging pool denotes an area equipped with one or more charging stations. These charging stations can take the form of fixed wall-mounted appliances (wallboxes) or self-standing units, both of which are connected to an electrical supply point. Depending on the number of charging points integrated into a single station, they can facilitate the simultaneous charging of multiple electric vehicles. A charging point may be fitted with several connectors but can only charge one vehicle at a time.
 

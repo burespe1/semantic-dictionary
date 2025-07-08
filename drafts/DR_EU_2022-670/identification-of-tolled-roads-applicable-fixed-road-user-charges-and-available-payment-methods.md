@@ -8,8 +8,6 @@ status: approved
 source: DR_EU_2022-670
 ---
 
-**Identification of tolled roads, applicable fixed road user charges and available payment methods:**
-the minimum information required for indicating that tolls apply on a road link as well as for disseminating information about the applicable road user charges and available payment methods.
 >Fixed road user charges are typically vehicle class dependent. A commonly used classification of vehicles for determining the applicable charges along European highways/motorways is the following:\
 •	Class 1: Motorcycles, tricycle vehicles\
 •	Class 2: Light vehicles (with or without trailer and height less than a threshold value)\

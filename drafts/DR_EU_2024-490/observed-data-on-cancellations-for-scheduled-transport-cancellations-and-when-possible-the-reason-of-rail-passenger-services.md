@@ -9,8 +9,6 @@ source: DR_EU_2024-490
 subcategory: Observed data on cancellations
 ---
 
-**Observed data on cancellations – _for scheduled transport: cancellations, and when possible the reason, of rail passenger services_**
-
 <table style="font-size: smaller; width: 100%;">
     <tr>
         <th colspan="2" style="text-align: left;">Correspondence with Transmodel/SIRI</th>
@@ -22,6 +20,4 @@ subcategory: Observed data on cancellations
         <td colspan="2" style="text-align: left;">CONTROL ACTIONs are LOGGABLE OBJECTs data that can be logged and subsequently analysed to construct performance indicators.</td>
     </tr>    
 </table>
-
 >References/additional info: EN12896-4 (see www.transmodel-cen.eu); CEN/TS 15531-6
-

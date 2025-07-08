@@ -9,8 +9,6 @@ source: DR_EU_2024-490
 subcategory: Trip plan computation
 ---
 
-**Trip plan computation – _for scheduled transport and transport on demand where relevant - accessibility of access nodes, and paths within an interchange (such as existence of lifts, escalators)_**
-the minimum information required for indicating the accessibility conditions of access nodes as well as the conditions for transferring between vehicles, essential for trip plan computation purposes.
 
 <table style="font-size: smaller; width: 100%;">
       <tr>

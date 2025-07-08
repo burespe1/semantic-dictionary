@@ -8,8 +8,6 @@ status: approved
 source: DR_EU_2022-670
 ---
 
-**Lane closures:**
-dynamic information disseminating the closure of a lane on road links of any type.
 >Lane closures can be discerned into planned and unplanned in a similar fashion with "road closures".
 
 >Their unambiguous description requires the provision of information about their time validity (applies to planned lane closures) or time of occurrence (applies to unplanned lane closures).

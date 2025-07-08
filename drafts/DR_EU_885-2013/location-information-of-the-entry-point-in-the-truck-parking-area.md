@@ -8,8 +8,6 @@ status: approved
 source: DR_EU_885-2013
 ---
 
-**Location information of the entry point in the truck parking area:**
-the minimum information required for indicating the position of the entry point of a truck parking area.
 >The position of the entry point can be expressed either as a geographic location (coordinates) or as a location reference along the road network (point or linear reference).
 
 >Various coordinate systems can be used for geographic locations, including the European Terrestrial Reference System 1989 (ETRS89), which is the EU-recommended frame of reference for geodetic data.

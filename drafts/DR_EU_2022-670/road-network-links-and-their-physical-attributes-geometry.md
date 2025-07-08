@@ -9,8 +9,6 @@ source: DR_EU_2022-670
 subcategory: Road network links and their physical attributes
 ---
 
-**Road network links and their physical attributes – _geometry_:**
-the minimum information required for representing in a centerline or more precise manner the geometry of a road network’s links that connect two positions and therefore form a continuous path (without branches).
 >Considering that road links constitute curvilinear elements, their geometry, according to INSPIRE data specifications, can be represented through the GM_Curve object included in the GM_Object hierarchy (ISO 19107).
 
 >Alternatively, geometry can be provided through a piecewise linear representation.

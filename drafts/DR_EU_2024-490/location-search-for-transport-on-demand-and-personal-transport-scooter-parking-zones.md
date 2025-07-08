@@ -9,8 +9,6 @@ source: DR_EU_2024-490
 subcategory: Location search
 ---
 
-**Location search – _for transport on demand and personal transport - scooter parking zones_**
-the minimum information required for identifying the location of scooter parking zones (guarded and unguarded).
 
 <table style="font-size: smaller; width: 100%;">
     <tr>

@@ -9,8 +9,6 @@ source: DR_EU_2024-490
 subcategory: Trip plans
 ---
 
-**Trip plans – _parameters needed to calculate fuel consumption of conventional and alternative fuels_**
-the minimum set of information required for estimating costs related to fuel consumption.
 
 <table style="font-size: smaller; width: 100%;">
     <tr>

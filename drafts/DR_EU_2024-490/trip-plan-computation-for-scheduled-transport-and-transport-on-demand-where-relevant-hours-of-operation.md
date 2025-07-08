@@ -9,8 +9,6 @@ source: DR_EU_2024-490
 subcategory: Trip plan computation
 ---
 
-**Trip plan computation – _for scheduled transport and transport on demand where relevant - hours of operation_**
-the minimum information required for indicating the time validity – hours of operation of scheduled or on demand transport services, essential for trip plan computation purposes.
 
 <table style="font-size: smaller; width: 100%;">
   <tr>

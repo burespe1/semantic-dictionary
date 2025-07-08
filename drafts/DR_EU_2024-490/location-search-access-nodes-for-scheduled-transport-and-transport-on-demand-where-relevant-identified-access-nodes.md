@@ -9,8 +9,6 @@ source: DR_EU_2024-490
 subcategory: Location search (access nodes)
 ---
 
-**Location search (access nodes) – _for scheduled transport and transport on demand where relevant - identified access nodes_**
-the minimum information required to identify the location of stop or other specific places from which travellers can access scheduled or on-demand transport modes.
 
 <table style="font-size: smaller; width: 100%;">
   <tr>

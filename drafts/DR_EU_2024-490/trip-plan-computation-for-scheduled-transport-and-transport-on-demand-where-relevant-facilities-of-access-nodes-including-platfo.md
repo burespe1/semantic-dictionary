@@ -9,8 +9,6 @@ source: DR_EU_2024-490
 subcategory: Trip plan computation
 ---
 
-**Trip plan computation – _for scheduled transport and transport on demand where relevant - facilities of access nodes (including platform information, help desk/information points, ticket booths, lifts/stairs, entrances and exit locations)_**
-the minimum information required for describing the fixed equipment/facilities of the access nodes of scheduled or on demand transport services, essential for trip plan computation purposes.
 
 <table style="font-size: smaller; width: 100%;">
    <tr>

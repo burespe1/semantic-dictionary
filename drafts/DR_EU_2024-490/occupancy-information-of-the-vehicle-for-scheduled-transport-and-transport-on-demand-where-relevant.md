@@ -9,8 +9,6 @@ source: DR_EU_2024-490
 subcategory: Occupancy information of the vehicle
 ---
 
-**Occupancy information of the vehicle – _for scheduled transport and transport on demand where relevant_**
-dynamic information indicating the occupancy of vehicles of scheduled and on-demand mobility services.
 
 <table style="font-size: smaller; width: 100%;">
     <tr>

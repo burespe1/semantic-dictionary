@@ -8,8 +8,6 @@ status: approved
 source: DR_EU_2022-670
 ---
 
-**Location and length of traffic queues:**
-dynamic information indicating the point of a traffic queue dissipation and its total length.
 >Vehicles are said to be in queue when the inflow rate in a road section exceeds the outflow rate (or when saturated conditions exist due to traffic demand exceeding traffic capacity).
 
 >The point of traffic queue dissipation typically coincides with junctions/intersections in congested urban road networks. However, in sparse road networks queueing can happen upstream at a junction/intersection for various reasons, such as road accidents.

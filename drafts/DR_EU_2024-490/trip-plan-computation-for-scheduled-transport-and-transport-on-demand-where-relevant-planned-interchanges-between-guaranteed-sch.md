@@ -9,8 +9,6 @@ source: DR_EU_2024-490
 subcategory: Trip plan computation
 ---
 
-**Trip plan computation – _for scheduled transport and transport on demand where relevant - planned interchanges between guaranteed scheduled services_**
-the minimum information required for indicating the possibility for transfer of passengers from one planned transport service to another securely interconnected, essential for trip plan computation purposes.
 
 >The planned transport services involved can be either scheduled transport or on demand transport.
 
