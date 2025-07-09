@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#availability-check-and-location_sharing-availability-and-location> a skos:Concept ;
+    skos:definition "information disseminating the availability of shared vehicles (e.g., car, bike, scooter) at a specific location (dedicated to vehicle sharing)."@en ;
+    skos:prefLabel "sharing availability and location"@en .
+

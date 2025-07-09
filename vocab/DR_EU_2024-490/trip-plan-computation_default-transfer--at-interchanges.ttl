@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#trip-plan-computation_default-transfer--at-interchanges> a skos:Concept ;
+    skos:definition "the minimum information required for indicating the amount of time allocated for passengers to switch between different vehicles at interchanges, essential for trip plan computation purposes."@en ;
+    skos:prefLabel "default transfer times at interchanges"@en .
+

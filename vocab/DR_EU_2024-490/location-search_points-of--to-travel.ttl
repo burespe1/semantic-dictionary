@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#location-search_points-of--to-travel> a skos:Concept ;
+    skos:definition "the minimum information required for matching specific locations of interest (e.g., amenities, landmarks, tourist attractions) as trip origins and destinations (covers DR(EU)1926/2017 1.b.c)."@en ;
+    skos:prefLabel "points of interest (related to transport information) to which people may wish to travel"@en .
+

@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#dynamic-road-status_roadworks> a skos:Concept ;
+    skos:definition "dynamic information disseminating that roadworks take place on a specific segment/section of a road link (or on the entire road link)."@en ;
+    skos:prefLabel "roadworks"@en .
+

@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#auxiliary-information_for-scheduled--where-relevant> a skos:Concept ;
+    skos:definition "basic common standard fares: fare network data (fare zones/stops and fare stages): the minimum information required for describing the layout of a fare network, such as the zones of which it is comprised."@en ;
+    skos:prefLabel "for scheduled transport and transport on demand where relevant"@en .
+

@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#trip-plan-computation_planned-interchanges--scheduled-services> a skos:Concept ;
+    skos:definition "the minimum information required for indicating the possibility for transfer of passengers from one planned transport service to another securely interconnected, essential for trip plan computation purposes."@en ;
+    skos:prefLabel "planned interchanges between guaranteed scheduled services"@en .
+

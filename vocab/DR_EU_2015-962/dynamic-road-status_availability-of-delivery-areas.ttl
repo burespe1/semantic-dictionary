@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#dynamic-road-status_availability-of-delivery-areas> a skos:Concept ;
+    skos:definition "dynamic information reflecting the availability of designated places along a road network reserved for loading/unloading operations."@en ;
+    skos:prefLabel "availability of delivery areas"@en .
+

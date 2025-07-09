@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#passing-times--auxiliary-information_for-scheduled-transport> a skos:Concept ;
+    skos:definition "the minimum dynamic information providing insight into the operational status of access nodes features."@en ;
+    skos:prefLabel "for scheduled transport"@en .
+

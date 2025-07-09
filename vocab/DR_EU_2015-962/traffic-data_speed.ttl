@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#traffic-data_speed> a skos:Concept ;
+    skos:definition "dynamic information indicating the travel speed of vehicles passing from a specific point or along a specific road segment within a given time aggregation interval."@en ;
+    skos:prefLabel "speed"@en .
+

@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#location-search_secure-bike-parking> a skos:Concept ;
+    skos:definition "the minimum information required for identifying the location of secure bike parking facilities."@en ;
+    skos:prefLabel "secure bike parking (such as locked bike garage)"@en .
+
