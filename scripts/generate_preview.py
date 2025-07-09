@@ -2,13 +2,20 @@ import os
 import yaml
 from pathlib import Path
 from collections import defaultdict
+from datetime import datetime
 
-SCRIPT_DIR = Path(__file__).resolve().parent
-ROOT_DIR = SCRIPT_DIR.parent
+DR_TITLES = {
+    "DR_EU_886-2013": "SRTI - Safety-Related Traffic Information",
+    "DR_EU_2024-490": "MMTIS - Multimodal Travel Information Services",
+    "DR_EU_2015-962": "RTTI - Real-Time Traffic Information",
+    "DR_EU_2022-670": "RTTI - Real-Time Traffic Information",  
+    "DR_EU_885-2013": "SSTP - Safe and Secure Truck Parking"
+}
 
-DRAFT_ROOT = ROOT_DIR / "drafts"
-PREVIEW_DIR = ROOT_DIR / "preview"
-os.makedirs(PREVIEW_DIR, exist_ok=True)
+BASE_DIR = Path(__file__).resolve().parent.parent
+DRAFT_ROOT = BASE_DIR / "drafts"
+PREVIEW_DIR = BASE_DIR / "preview"
+
 
 def escape_yaml_value(value):
     if not isinstance(value, str):
@@ -59,47 +66,59 @@ def format_entry(meta, content, heading_level=3):
     else:
         return f"{header}{definition}\n\n---\n"
 
-def main():
-    for dr_folder in DRAFT_ROOT.iterdir():
-        if not dr_folder.is_dir():
+
+def process_dr_folder(dr_folder):
+    preview_file = PREVIEW_DIR / f"{dr_folder.name}.md" 
+    
+    grouped_entries = defaultdict(list)  # {combined_heading: [(label, meta, content)]}
+
+    for md_file in dr_folder.glob("*.md"):
+        with open(md_file, "r", encoding="utf-8") as f:
+            raw = f.read()
+
+        meta, body = extract_content(raw)
+        if not meta:
+            print(f"⏩ Skipping {md_file.name} in {dr_folder.name} ... missing metadata")
             continue
 
-        grouped_entries = defaultdict(list)  # {combined_heading: [(label, meta, content)]}
+        category = meta.get("category", "uncategorised").strip()
+        raw_subcategory = meta.get("subcategory", [])
+        subcategory = [str(item).strip() for item in raw_subcategory] if isinstance(raw_subcategory, list) else [str(raw_subcategory).strip()]
+        label = meta.get("label", "").strip()
+        
+        heading = category
+        if subcategory and any(subcategory):
+            heading += " – " + " – ".join(subcategory)
 
-        for md_file in dr_folder.glob("*.md"):
-            with open(md_file, "r", encoding="utf-8") as f:
-                raw = f.read()
 
-            meta, body = extract_content(raw)
-            if not meta or meta.get("status") != "approved":
-                print(f"⏩ Skipping {md_file.name} in {dr_folder.name}")
-                continue
+        grouped_entries[heading].append((label.lower(), meta, body))
 
-            category = meta.get("category", "Uncategorized").strip()
-            subcategory = meta.get("subcategory", "").strip()
-            label = meta.get("label", "").strip()
+    if grouped_entries:
+        title = DR_TITLES.get(dr_folder.name, dr_folder.name)
+        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        combined = f"# Preview: {title} ({dr_folder.name})\n\n"
+        combined += f"**Generated on:** {timestamp}\n\n"
 
-            heading = category
-            if subcategory:
-                heading += f" – {subcategory}"
+        for heading in sorted(grouped_entries.keys(), key=str.lower):
+            combined += f"## {heading}\n\n"
+            for _, meta, body in sorted(grouped_entries[heading], key=lambda x: x[0]):
+                combined += format_entry(meta, body, heading_level=3)
 
-            grouped_entries[heading].append((label.lower(), meta, body))
+        with open(preview_file, "w", encoding="utf-8") as out:
+            out.write(combined)
 
-        if grouped_entries:
-            combined = f"# Preview: {dr_folder.name}\n\n"
-
-            for heading in sorted(grouped_entries.keys(), key=str.lower):
-                combined += f"## {heading}\n\n"
-                for _, meta, body in sorted(grouped_entries[heading], key=lambda x: x[0]):
-                    combined += format_entry(meta, body, heading_level=3)
-
-            out_path = PREVIEW_DIR / f"{dr_folder.name}.md"
-            with open(out_path, "w", encoding="utf-8") as out:
-                out.write(combined)
-
-            print(f"✅ Preview generated: {out_path.name}")
-        else:
-            print(f"⚠️ No approved items found in {dr_folder.name}")
+        print(f"✅ Preview generated: {preview_file.name}")
+    else:
+        print(f"⚠️ No approved items found in {dr_folder.name}")
+ 
+def main():
+    os.makedirs(PREVIEW_DIR, exist_ok=True)
+    
+    for dr_folder in DRAFT_ROOT.iterdir():
+        if dr_folder.is_dir():
+            process_dr_folder(dr_folder)
+             
+    print("\n🎉 All DR vocabularies previews published!")
 
 if __name__ == "__main__":
     main()

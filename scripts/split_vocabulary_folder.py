@@ -6,36 +6,78 @@ from pathlib import Path
 SOURCE_FOLDER = "../source"
 SOURCE_FILES = sorted(Path(SOURCE_FOLDER).glob("*.md"))
 MAX_FILENAME_LENGTH = 128  # or 100 to be extra safe
+MAX_SUBCATEGORY_WORDS = 3
+MAX_LABEL_WORDS = 4
+
 
 # === PATTERNS ===
 category_pattern = re.compile(r"^###\s+(.*)")
 item_pattern = re.compile(r"\*\*(.+?)\*\*\s*:?\s*(.*)")
 code_block_pattern = re.compile(r"```(\w+)?\n(.*?)```", re.DOTALL)
 
+generated_ids = {}
+
 # === NORMALIZATION FUNCTION ===
-def normalize_item_metadata(label_raw):
+def normalize_item_metadata(label_raw, generated_ids):
+    import re
+
     label_raw = label_raw.replace('–', '-').replace('—', '-').replace('/', '_').rstrip(':')
+
+    # Split by dash only if present
     if '-' in label_raw:
-        subcategory, label_clean = label_raw.split('-', 1)
-        subcategory = subcategory.strip()
-        label_clean = label_clean.strip()
+        parts = [p.strip() for p in label_raw.split('-') if p.strip()]
     else:
-        subcategory = None
+        parts = []
+
+    if len(parts) >= 2:
+        subcategories = parts[:-1]
+        label_clean = parts[-1]
+        first_subcategory = parts[0]
+    else:
+        subcategories = []
         label_clean = label_raw.strip()
+        first_subcategory = None
+
+    # Strip markdown tokens
     label_clean = re.sub(r'^[_*]+|[_*]+$', '', label_clean)
-    combined = f"{subcategory}-{label_clean}" if subcategory else label_clean
-    combined = re.sub(r'[^\w\s-]', '', combined)
-    combined = re.sub(r'\s*-\s*', '-', combined)
-    combined = re.sub(r'\s+', '-', combined).strip('-')
-    item_id = re.sub(r'-+', '-', combined.lower())
-    
-    if len(item_id) > MAX_FILENAME_LENGTH:
-        item_id = item_id[:MAX_FILENAME_LENGTH]
-    
+
+    # Remove parenthetical content
+    def strip_parens(text):
+        return re.sub(r'\s*\(.*?\)', '', text).strip()
+
+    # Extract edges with ".." if words are trimmed
+    def extract_edges(text, keep=2):
+        words = re.sub(r'\s+', ' ', text).split()
+        return words if len(words) <= keep * 2 else words[:keep] + ['..'] + words[-keep:]
+
+    sub_id_raw = strip_parens(first_subcategory or "")
+    label_id_raw = strip_parens(label_clean)
+
+    sub_words = extract_edges(sub_id_raw)
+    label_words = extract_edges(label_id_raw)
+
+    sub_id = '-'.join(sub_words)
+    label_id = '-'.join(label_words)
+
+    # Construct base_id depending on presence of subcategory
+    base_id = f"{sub_id}_{label_id}" if first_subcategory else label_id
+    base_id = base_id.lower()
+    base_id = re.sub(r'[^\w\s-]', '', base_id)
+    base_id = re.sub(r'\s+', '-', base_id).strip('-')
+
+    # Uniqueness handling
+    if base_id in generated_ids:
+        count = generated_ids[base_id] + 1
+        unique_id = f"{base_id}_{count}"
+        generated_ids[base_id] = count
+    else:
+        unique_id = base_id
+        generated_ids[base_id] = 1
+
     return {
-        "id": item_id,
+        "id": unique_id,
         "label": label_clean,
-        "subcategory": subcategory
+        "subcategory": [first_subcategory] if first_subcategory else []
     }
 
 # === PROCESS BUFFER ===
@@ -48,7 +90,7 @@ def process_buffer(buffer, category, source_name, target_dir, code_dir):
             label_raw = item_match.group(1).strip()
             definition = item_match.group(2).strip()
 
-            meta = normalize_item_metadata(label_raw)
+            meta = normalize_item_metadata(label_raw, generated_ids)
             item_id = meta["id"]
             label_clean = meta["label"]
             subcategory = meta["subcategory"]
@@ -79,17 +121,24 @@ def process_buffer(buffer, category, source_name, target_dir, code_dir):
 
             definition_clean = code_block_pattern.sub("", definition).strip()
 
-            frontmatter = f"""---
-id: {item_id}
-label: {label_clean}
-definition: {definition_clean}
-category: {category}
-language: en
-status: approved
-source: {source_name}"""
-            if subcategory:
-                frontmatter += f"\nsubcategory: {subcategory}"
-            frontmatter += "\n---"
+            frontmatter_lines = [
+                "---",
+                f"id: {item_id}",
+                f"label: {label_clean}",
+                f"definition: {definition_clean}",
+                f"category: {category}",
+                "language: en",
+                "status: approved",
+                f"source: {source_name}"
+            ]
+
+            if subcategory:  # ✅ subcategory is now a list
+                frontmatter_lines.append("subcategory:")
+                for sub in subcategory:
+                    frontmatter_lines.append(f"  - {sub}")
+
+            frontmatter_lines.append("---")
+            frontmatter = "\n".join(frontmatter_lines)
 
             draft_md = f"{frontmatter}\n\n{body}\n{code_md}"
             file_path = target_dir / f"{item_id}.md"
