@@ -12,9 +12,11 @@ DR_TITLES = {
     "SSTP": "Safe and Secure Truck Parking"
 }
 
-ROOT = Path("../drafts")
-RELEASE_DIR = Path("../release")
-VOCAB_DIR = Path("../vocab")
+BASE_DIR = Path(__file__).resolve().parent.parent
+ROOT = BASE_DIR / "drafts"
+RELEASE_DIR = BASE_DIR / "release"
+VOCAB_DIR = BASE_DIR / "vocab"
+
 EX = Namespace("http://example.org/dictionary#")
 
 def escape_yaml_value(value):
