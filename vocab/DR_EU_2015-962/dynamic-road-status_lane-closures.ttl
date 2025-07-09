@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#dynamic-road-status_lane-closures> a skos:Concept ;
+    skos:definition "dynamic information disseminating the closure of a lane on road links of any type."@en ;
+    skos:prefLabel "lane closures"@en .
+

@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#trip-plans_operational-calendar--calendar-dates> a skos:Concept ;
+    skos:definition "the minimum information required to indicate the days or periods when transportation services are operational."@en ;
+    skos:prefLabel "operational calendar, mapping day types to calendar dates"@en .
+

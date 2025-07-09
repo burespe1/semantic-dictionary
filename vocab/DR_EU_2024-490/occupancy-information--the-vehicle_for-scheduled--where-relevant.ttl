@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#occupancy-information--the-vehicle_for-scheduled--where-relevant> a skos:Concept ;
+    skos:definition "dynamic information indicating the occupancy of vehicles of scheduled and on-demand mobility services."@en ;
+    skos:prefLabel "for scheduled transport and transport on demand where relevant"@en .
+

@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#detailed-common--fare-query_on-products--minimum-stay> a skos:Concept ;
+    skos:definition "the minimum set of information about special fare products required for supporting fare queries."@en ;
+    skos:prefLabel "on products such as parking and travel, minimum stay)"@en .
+

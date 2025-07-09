@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#detailed-common--fare-query_basic-booking--minimum-stay> a skos:Concept ;
+    skos:definition "the minimum set of information required for describing basic booking conditions."@en ;
+    skos:prefLabel "basic booking conditions, such as purchase windows, validity periods, routing restrictions zonal sequence fares, minimum stay"@en .
+

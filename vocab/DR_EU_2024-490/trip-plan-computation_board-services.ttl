@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#trip-plan-computation_board-services> a skos:Concept ;
+    skos:definition "the minimum information required for indicating the accessibility conditions of scheduled or on demand transport services’ vehicles (incl. their on-board amenities), essential for trip plan computation purposes."@en ;
+    skos:prefLabel "board services (such as toilets)"@en .
+

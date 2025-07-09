@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#location-search_topographic-places> a skos:Concept ;
+    skos:definition "the minimum information required for matching wider locations (e.g., areas, regions, localities, cities, suburbs, towns, administrative units, or settlements) as trip origins and destinations based on their name."@en ;
+    skos:prefLabel "topographic places (city, town, village, suburb, administrative unit)"@en .
+

@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#location-search_identified-access-nodes> a skos:Concept ;
+    skos:definition "the minimum information required to identify the location of stop or other specific places from which travellers can access scheduled or on-demand transport modes."@en ;
+    skos:prefLabel "identified access nodes"@en .
+

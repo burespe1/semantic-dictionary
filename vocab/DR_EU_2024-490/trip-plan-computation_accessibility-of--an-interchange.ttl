@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#trip-plan-computation_accessibility-of--an-interchange> a skos:Concept ;
+    skos:definition "the minimum information required for indicating the accessibility conditions of access nodes as well as the conditions for transferring between vehicles, essential for trip plan computation purposes."@en ;
+    skos:prefLabel "accessibility of access nodes, and paths within an interchange (such as existence of lifts, escalators)"@en .
+

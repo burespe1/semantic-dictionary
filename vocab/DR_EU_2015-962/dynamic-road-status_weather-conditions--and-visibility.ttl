@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#dynamic-road-status_weather-conditions--and-visibility> a skos:Concept ;
+    skos:definition "dynamic information disseminating the prevalence of (adverse) weather conditions affecting road surface and visibility and, thus, implying accident hazards for road users."@en ;
+    skos:prefLabel "weather conditions affecting road surface and visibility"@en .
+

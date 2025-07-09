@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#location-search_addresses> a skos:Concept ;
+    skos:definition "the minimum information required for matching specific locations (mainly properties) as trip origins and destinations based on their address."@en ;
+    skos:prefLabel "addresses (building number, street name, postcode)"@en .
+

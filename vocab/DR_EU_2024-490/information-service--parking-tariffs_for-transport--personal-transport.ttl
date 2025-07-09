@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#information-service--parking-tariffs_for-transport--personal-transport> a skos:Concept ;
+    skos:definition "the minimum dynamic information on parking tariffs."@en ;
+    skos:prefLabel "for transport on demand and personal transport"@en .
+
