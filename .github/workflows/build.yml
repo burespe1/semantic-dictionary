@@ -6,7 +6,9 @@ permissions:
 on:
   push:
     branches:
-      - '**'  # ✅ Triggers preview job only on branch pushes
+      - '**'
+    tags:
+      - 'v*'     # 👈 NEW: match version tag pushes like v1.0.0, v2.3.1
     paths:
       - 'drafts/**'
       - 'code/**'
@@ -55,7 +57,7 @@ jobs:
 
   release:
     name: Generate Release
-    if: startsWith(github.ref, 'refs/tags/')
+    if: startsWith(github.ref, 'refs/tags/') || github.event_name == 'release'
     runs-on: ubuntu-latest
 
     steps:
