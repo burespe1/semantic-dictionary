@@ -1,6 +1,0 @@
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-
-<http://example.org/dictionary#historic-travel--on-delays_for-scheduled--where-relevant> a skos:Concept ;
-    skos:definition "None"@en ;
-    skos:prefLabel "for scheduled transport and transport on demand where relevant"@en .
-

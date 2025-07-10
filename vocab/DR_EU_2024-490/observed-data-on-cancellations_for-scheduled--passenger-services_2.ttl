@@ -1,6 +1,0 @@
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-
-<http://example.org/dictionary#observed-data-on-cancellations_for-scheduled--passenger-services_2> a skos:Concept ;
-    skos:definition "None"@en ;
-    skos:prefLabel "for scheduled transport: cancellations, and when possible the reason, of sea and inland waterways passenger services"@en .
-

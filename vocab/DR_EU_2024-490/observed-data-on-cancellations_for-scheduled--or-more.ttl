@@ -1,6 +1,0 @@
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-
-<http://example.org/dictionary#observed-data-on-cancellations_for-scheduled--or-more> a skos:Concept ;
-    skos:definition "None"@en ;
-    skos:prefLabel "for scheduled transport: cancellations, and when possible the reason, of regular bus and coach services with a scheduled distance of 250 km or more"@en .
-

@@ -1,6 +1,0 @@
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-
-<http://example.org/dictionary#auxiliary-information_for-scheduled--where-relevant_2> a skos:Concept ;
-    skos:definition "basic common standard fares: standard fare structures (point to point including daily and weekly fares, zonal fares, flat fares): the minimum information required to describe how users of public transport services are charged (i.e., data objects and elements needed to support the definition of fare products and their parameters)."@en ;
-    skos:prefLabel "for scheduled transport and transport on demand where relevant"@en .
-

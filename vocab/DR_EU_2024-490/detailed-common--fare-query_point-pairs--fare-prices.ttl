@@ -1,6 +1,0 @@
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-
-<http://example.org/dictionary#detailed-common--fare-query_point-pairs--fare-prices> a skos:Concept ;
-    skos:definition "the minimum set information about common fare products required for supporting fare queries."@en ;
-    skos:prefLabel "point pairs including daily and weekly fares_zonal fare prices_flat fare prices)"@en .
-
