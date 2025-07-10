@@ -19,8 +19,15 @@ PREVIEW_DIR = BASE_DIR / "preview"
 INDEX_FILE = DRAFT_ROOT / "INDEX.md"
 
 BADGES = {
-"approved": "![Status](https://img.shields.io/badge/status-approved-brightgreen)"
+    "approved": "![Status](https://img.shields.io/badge/status-approved-brightgreen)",
+    "draft": "![Status](https://img.shields.io/badge/status-draft-orange)",
+    "pending": "![Status](https://img.shields.io/badge/status-pending-yellow)",
+    "rejected": "![Status](https://img.shields.io/badge/status-rejected-red)",
+    "archived": "![Status](https://img.shields.io/badge/status-archived-lightgrey)",
+    "deprecated": "![Status](https://img.shields.io/badge/status-deprecated-blueviolet)",
+    "experimental": "![Status](https://img.shields.io/badge/status-experimental-blue)"
 }
+
 index_entries= []
 
 def escape_yaml_value(value):
