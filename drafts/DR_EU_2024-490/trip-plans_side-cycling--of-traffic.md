@@ -4,7 +4,7 @@ label: side cycling, shared surface, on_off road, scenic route, “walk only”,
 definition: the minimum set of information required for describing the attributes of a cycle network (physical and logical arrangement of nodes and links).
 category: Level of service 3
 language: en
-status: approved
+status: pending
 source: DR_EU_2024-490
 subcategory:
   - Trip plans

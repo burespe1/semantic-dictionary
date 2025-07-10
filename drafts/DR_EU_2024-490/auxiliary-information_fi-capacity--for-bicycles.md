@@ -4,7 +4,7 @@ label: Fi, capacity and access conditions for bicycles
 definition: the minimum information required to describe the available facilities/amenities offered by a public transport mode.
 category: Level of service 2
 language: en
-status: approved
+status: pending
 source: DR_EU_2024-490
 subcategory:
   - Auxiliary information

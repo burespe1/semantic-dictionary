@@ -4,7 +4,7 @@ label: for scheduled transport: cancellations, and when possible the reason, of 
 definition: 
 category: Level of Service 4
 language: en
-status: approved
+status: pending
 source: DR_EU_2024-490
 subcategory:
   - Observed data on cancellations

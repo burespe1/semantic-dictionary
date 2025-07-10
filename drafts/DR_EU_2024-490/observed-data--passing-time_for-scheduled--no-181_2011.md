@@ -4,7 +4,7 @@ label: for scheduled transport: length of, and when possible the reason for, del
 definition: 
 category: Level of Service 4
 language: en
-status: approved
+status: pending
 source: DR_EU_2024-490
 subcategory:
   - Observed data on delays and passing time

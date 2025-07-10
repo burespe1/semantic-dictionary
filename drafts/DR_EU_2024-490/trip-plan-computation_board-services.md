@@ -4,7 +4,7 @@ label: board services (such as toilets)
 definition: the minimum information required for indicating the accessibility conditions of scheduled or on demand transport services’ vehicles (incl. their on-board amenities), essential for trip plan computation purposes.
 category: Level of Service 1 (data regarded as essential for the basic functioning of multimodal travel information services)
 language: en
-status: approved
+status: pending
 source: DR_EU_2024-490
 subcategory:
   - Trip plan computation

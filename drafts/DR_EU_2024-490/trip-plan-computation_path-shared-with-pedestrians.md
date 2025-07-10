@@ -4,7 +4,7 @@ label: path shared with pedestrians
 definition: the minimum information required for describing the topological structure and attributes of cycle networks, essential for trip plan computation purposes.
 category: Level of Service 1 (data regarded as essential for the basic functioning of multimodal travel information services)
 language: en
-status: approved
+status: pending
 source: DR_EU_2024-490
 subcategory:
   - Trip plan computation

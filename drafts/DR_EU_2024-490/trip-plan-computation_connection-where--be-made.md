@@ -4,7 +4,7 @@ label: connection where interchanges may be made
 definition: the minimum information required for indicating the attributes of connection links (enabling the transfer of travellers from one vehicle to another), essential for trip plan computation purposes.
 category: Level of Service 1 (data regarded as essential for the basic functioning of multimodal travel information services)
 language: en
-status: approved
+status: pending
 source: DR_EU_2024-490
 subcategory:
   - Trip plan computation

@@ -4,7 +4,7 @@ label: point pairs including daily and weekly fares_zonal fare prices_flat fare 
 definition: the minimum set information about common fare products required for supporting fare queries.
 category: Level of service 3
 language: en
-status: approved
+status: pending
 source: DR_EU_2024-490
 subcategory:
   - Detailed common standard and special fare query

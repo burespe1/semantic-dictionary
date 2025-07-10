@@ -4,7 +4,7 @@ label: sharing stations
 definition: the minimum information required for identifying the location of car sharing stations.
 category: Level of service 2
 language: en
-status: approved
+status: pending
 source: DR_EU_2024-490
 subcategory:
   - Location search

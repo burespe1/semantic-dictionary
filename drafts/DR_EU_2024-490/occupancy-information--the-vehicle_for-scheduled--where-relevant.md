@@ -4,7 +4,7 @@ label: for scheduled transport and transport on demand where relevant
 definition: dynamic information indicating the occupancy of vehicles of scheduled and on-demand mobility services.
 category: Level of service 3
 language: en
-status: approved
+status: pending
 source: DR_EU_2024-490
 subcategory:
   - Occupancy information of the vehicle

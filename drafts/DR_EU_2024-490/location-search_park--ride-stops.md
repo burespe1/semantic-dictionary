@@ -4,7 +4,7 @@ label: Park & Ride stops
 definition: the minimum information required for identifying the location of park & ride stops (i.e., places where road users can park their private vehicle and transfer to another public transport mode).
 category: Level of service 2
 language: en
-status: approved
+status: pending
 source: DR_EU_2024-490
 subcategory:
   - Location search

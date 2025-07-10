@@ -4,7 +4,7 @@ label: for transport on demand and personal transport
 definition: the minimum dynamic information on parking tariffs.
 category: Level of service 2
 language: en
-status: approved
+status: pending
 source: DR_EU_2024-490
 subcategory:
   - Information service on parking tariffs
