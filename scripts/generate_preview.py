@@ -3,6 +3,7 @@ import yaml
 from pathlib import Path
 from collections import defaultdict
 from datetime import datetime
+import re
 
 DR_TITLES = {
     "DR_EU_886-2013": "SRTI - Safety-Related Traffic Information",
@@ -42,16 +43,27 @@ def escape_yaml_block(yaml_text):
     return '\n'.join(fixed_lines)
 
 def extract_content(md_text):
+
+    def adjust_relative_links(text):
+        # Replace "../../media/" with "../media/"
+        text = re.sub(r'\(\.\./\.\./(media/.*?)\)', r'(../\1)', text)
+        text = re.sub(r'\(\.\./\.\./(code/.*?)\)', r'(../\1)', text)
+        return text
+
     parts = md_text.split('---')
     if len(parts) < 3:
         return None, md_text
+
     raw_yaml = escape_yaml_block(parts[1])
     try:
         meta = yaml.safe_load(raw_yaml)
     except yaml.YAMLError as e:
         print(f"⚠️ YAML error: {e}")
         return None, md_text
+
     content = '---'.join(parts[2:]).strip()
+    content = adjust_relative_links(content)
+
     return meta, content
 
 def format_entry(meta, content, heading_level=3):
