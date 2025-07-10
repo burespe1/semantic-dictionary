@@ -31,4 +31,3 @@ subcategory:
 >| 8          | Rescue and assistance are requested  |
 
 >Reference/additional info: https://www.etsi.org/deliver/etsi_ts/102800_102899/10289402/01.03.01_60/ts_10289402v010301p.pdf
-
