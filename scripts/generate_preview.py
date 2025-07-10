@@ -133,7 +133,7 @@ def process_dr_folder(dr_folder):
                 badge = BADGES.get(status, status)
                 relative_path = f"{dr_folder.name}/{d_id}.md" 
                 link = f"[{label}]({relative_path})"
-                index_entries.append((label.lower(), f"| {dr_folder.name} | {link} | {badge} |"))
+                index_entries.append((label.lower(), f"- [{dr_folder.name}] {link} - {badge}"))
 
         with open(preview_file, "w", encoding="utf-8") as out:
             out.write(combined)
@@ -149,7 +149,7 @@ def main():
         if dr_folder.is_dir():
             process_dr_folder(dr_folder)
        
-    header = "# 📚 Drafts Master Index\n\n| act | data type | status |\n|-----|------------|------|\n"
+    header = "# 📚 Drafts Master Index\n\n| act | data type | status |\n|-----|------------|------|\n\n"
     content = "\n".join([entry[1] for entry in index_entries])
     
     with open(INDEX_FILE, "w", encoding="utf-8") as out:
