@@ -19,7 +19,7 @@ PREVIEW_DIR = BASE_DIR / "preview"
 INDEX_FILE = DRAFT_ROOT / "INDEX.md"
 
 BADGES = {
-"approved": "![Status](https://img.shields.io/badge/Status-Approved-brightgreen?style=for-the-badge&logo=checkmarx&logoColor=white)"
+"approved": "![Status](https://img.shields.io/badge/status-approved-brightgreen)"
 }
 index_entries= []
 
@@ -142,7 +142,7 @@ def main():
         if dr_folder.is_dir():
             process_dr_folder(dr_folder)
        
-    header = "# 📚 Drafts Master Index\n\n"
+    header = "# 📚 Drafts Master Index\n\n| act | data type | status |\n|-------|-----|-----------|"
     content = "\n".join([entry[1] for entry in index_entries])
     
     with open(INDEX_FILE, "w", encoding="utf-8") as out:
