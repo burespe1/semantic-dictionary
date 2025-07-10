@@ -1,0 +1,4 @@
+# Mark generated files so GitHub de-emphasizes them in diffs
+preview/** linguist-generated=true
+release/** linguist-generated=true
+vocab/** linguist-generated=true
