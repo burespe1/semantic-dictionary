@@ -13,7 +13,7 @@
 | DR_EU_885-2013 | [Location information of the entry point in the truck parking area](DR_EU_885-2013/location-information--parking-area.md) | ![Status](https://img.shields.io/badge/status-approved-brightgreen) |
 | DR_EU_885-2013 | [Number of parking places for refrigerated  goods vehicles](DR_EU_885-2013/number-of--goods-vehicles.md) | ![Status](https://img.shields.io/badge/status-approved-brightgreen) |
 | DR_EU_885-2013 | [Price and currency of truck parking places](DR_EU_885-2013/price-and--parking-places.md) | ![Status](https://img.shields.io/badge/status-approved-brightgreen) |
-| DR_EU_885-2013 | [Primary Road identifier_direction<sup>1<_sup> & Primary Road identifier_direction<sup>2<_sup> (related to truck parking)](DR_EU_885-2013/primary-road--road-identifier_directionsup2_sup.md) | ![Status](https://img.shields.io/badge/status-approved-brightgreen) |
+| DR_EU_885-2013 | [Primary Road identifier_direction (related to truck parking)](DR_EU_885-2013/primary-road-identifier_direction.md) | ![Status](https://img.shields.io/badge/status-approved-brightgreen) |
 | DR_EU_885-2013 | [Total number of free parking places for trucks](DR_EU_885-2013/total-number--for-trucks.md) | ![Status](https://img.shields.io/badge/status-approved-brightgreen) |
 | DR_EU_2015-962 | [accidents and incidents](DR_EU_2015-962/dynamic-road-status_accidents-and-incidents.md) | ![Status](https://img.shields.io/badge/status-approved-brightgreen) |
 | DR_EU_2015-962 | [availability of charging points for electric vehicles](DR_EU_2015-962/dynamic-road-status_availability-of--electric-vehicles.md) | ![Status](https://img.shields.io/badge/status-approved-brightgreen) |
