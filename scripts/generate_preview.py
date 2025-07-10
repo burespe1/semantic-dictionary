@@ -121,7 +121,9 @@ def process_dr_folder(dr_folder):
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         combined = f"# Preview: {title} ({dr_folder.name})\n\n"
         combined += f"**Generated on:** {timestamp}\n\n"
-
+        
+        index_entries.append((dr_folder.name, f"\n## {title} ({dr_folder.name})\n"))
+        
         for heading in sorted(grouped_entries.keys(), key=str.lower):
             combined += f"## {heading}\n\n"
             for _, meta, body in sorted(grouped_entries[heading], key=lambda x: x[0]):
@@ -133,7 +135,7 @@ def process_dr_folder(dr_folder):
                 badge = BADGES.get(status, status)
                 relative_path = f"{dr_folder.name}/{d_id}.md" 
                 link = f"[{label}]({relative_path})"
-                index_entries.append((label.lower(), f"- [{dr_folder.name}] {link} - {badge}"))
+                index_entries.append((label.lower(), f"- [{badge}] {link}"))
 
         with open(preview_file, "w", encoding="utf-8") as out:
             out.write(combined)
@@ -149,7 +151,7 @@ def main():
         if dr_folder.is_dir():
             process_dr_folder(dr_folder)
        
-    header = "# 📚 Drafts Master Index\n\n| act | data type | status |\n|-----|------------|------|\n\n"
+    header = "# 📚 Drafts Master Index\n"
     content = "\n".join([entry[1] for entry in index_entries])
     
     with open(INDEX_FILE, "w", encoding="utf-8") as out:
