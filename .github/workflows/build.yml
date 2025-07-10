@@ -55,7 +55,7 @@ jobs:
         
       - name: Push changes
         run: |
-          git add preview/ drafts/index.md
+          git add preview/ drafts/INDEX.md
           git diff --cached --quiet || git commit -m "🔄 Updated preview files"
           git push origin HEAD:main
 
