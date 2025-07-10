@@ -1,7 +1,6 @@
 # Byte-compiled files
 __pycache__/
 *.py[cod]
-*.pyo
 
 # Virtual environment
 .venv/
@@ -26,3 +25,11 @@ Thumbs.db
 # Pytest and coverage
 .cache/
 htmlcov/
+
+# automatically created products (by workflow)
+preview/*
+!preview/README.md
+release/*
+!release/README.md
+vocab/*
+!vocab/README.md
