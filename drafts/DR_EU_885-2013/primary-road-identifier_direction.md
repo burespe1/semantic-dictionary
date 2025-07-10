@@ -1,6 +1,6 @@
 ---
-id: primary-road--road-identifier_directionsup2_sup
-label: Primary Road identifier_direction<sup>1<_sup> & Primary Road identifier_direction<sup>2<_sup> (related to truck parking)
+id: primary-road-identifier_direction
+label: Primary Road identifier_direction (related to truck parking)
 definition: the minimum information required for indicating the road(s) (one or more – as applies) through which a truck parking area is accessible.
 category: Static data
 language: en
