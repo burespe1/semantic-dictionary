@@ -14,7 +14,7 @@ subcategory:
 
 >Roadworks are also discerned into planned and unplanned.
 
->**Planned roadworks**: Correspond to **scheduled** maintenance, construction, or repair activities carried out on entire road links or specific segments/sections. Such activities are typically pre-arranged and annouced in advance by local authorities or road operators to minimize traffic disturbances and enable road users plan alternative routes.\
+>**Planned roadworks**: Correspond to **scheduled** maintenance, construction, or repair activities carried out on entire road links or specific segments/sections. Such activities are typically pre-arranged and announced in advance by local authorities or road operators to minimize traffic disturbances and enable road users plan alternative routes.\
 >**Unplanned roadworks**: Correspond to maintenance, repair, or construction activities that are undertaken **unexpectedly** and without prior scheduling. Such activities are typically initiated in response to urgent issues, such as road damage or infrastructure failures that require immediate actions.
 
 >The unambiguous description of roadworks requires the provision of information about their time validity (i.e., start/estimated end time - if both possible for unplanned roadworks). The provision of such information facilitates their classification into _short-term_ and _long-term_ ones.
