@@ -16,7 +16,12 @@ DR_TITLES = {
 BASE_DIR = Path(__file__).resolve().parent.parent
 DRAFT_ROOT = BASE_DIR / "drafts"
 PREVIEW_DIR = BASE_DIR / "preview"
+INDEX_FILE = DRAFT_ROOT / "INDEX.md"
 
+BADGES = {
+"approved": "![Status](https://img.shields.io/badge/Status-Approved-brightgreen?style=for-the-badge&logo=checkmarx&logoColor=white)"
+}
+index_entries= []
 
 def escape_yaml_value(value):
     if not isinstance(value, str):
@@ -102,7 +107,6 @@ def process_dr_folder(dr_folder):
         if subcategory and any(subcategory):
             heading += " – " + " – ".join(subcategory)
 
-
         grouped_entries[heading].append((label.lower(), meta, body))
 
     if grouped_entries:
@@ -115,6 +119,14 @@ def process_dr_folder(dr_folder):
             combined += f"## {heading}\n\n"
             for _, meta, body in sorted(grouped_entries[heading], key=lambda x: x[0]):
                 combined += format_entry(meta, body, heading_level=3)
+                
+                label = meta.get("label", "").strip()
+                d_id = meta.get("id", "").strip()
+                status = meta.get("status", "unknown").strip()
+                badge = BADGES.get(status, status)
+                relative_path = f"{dr_folder.name}/{d_id}.md" 
+                link = f"[{label}]({relative_path})"
+                index_entries.append((label.lower(), f"- {link} — {badge}"))
 
         with open(preview_file, "w", encoding="utf-8") as out:
             out.write(combined)
@@ -129,8 +141,16 @@ def main():
     for dr_folder in DRAFT_ROOT.iterdir():
         if dr_folder.is_dir():
             process_dr_folder(dr_folder)
-             
-    print("\n🎉 All DR vocabularies previews published!")
+       
+    header = "# 📚 Drafts Master Index\n\n"
+    content = "\n".join([entry[1] for entry in index_entries])
+    
+    with open(INDEX_FILE, "w", encoding="utf-8") as out:
+        out.write(header + content + "\n")
+
+    print(f"✅ Master index created at: {INDEX_FILE}")        
+
+    print("\n🎉 All DR vocabularies previews published!")   
 
 if __name__ == "__main__":
     main()
