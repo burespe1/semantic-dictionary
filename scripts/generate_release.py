@@ -49,8 +49,8 @@ def escape_yaml_block(yaml_text):
 def extract_content(md_text):
 
     def adjust_relative_links(text):
-        # Replace "../../media/" with "../media/"
-        text = re.sub(r'\(\.\./\.\./(media/.*?)\)', r'(../\1)', text)
+        # Replace "../../media/" with "../images/"
+        text = re.sub(r'\(\.\./\.\./(images/.*?)\)', r'(../\1)', text)
         text = re.sub(r'\(\.\./\.\./(code/.*?)\)', r'(../\1)', text)
         return text
 
