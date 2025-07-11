@@ -13,7 +13,7 @@
 - [![Status](https://img.shields.io/badge/status-finalised-blue)] [Location information of the entry point in the truck parking area](DR_EU_885-2013/location-information--parking-area.md)
 - [![Status](https://img.shields.io/badge/status-finalised-blue)] [Number of parking places for refrigerated  goods vehicles](DR_EU_885-2013/number-of--goods-vehicles.md)
 - [![Status](https://img.shields.io/badge/status-finalised-blue)] [Price and currency of truck parking places](DR_EU_885-2013/price-and--parking-places.md)
-- [![Status](https://img.shields.io/badge/status-finalised-blue)] [Primary Road identifier_direction (related to truck parking)](DR_EU_885-2013/primary-road-identifier_direction.md)
+- [![Status](https://img.shields.io/badge/status-modified-purple)] [Primary Road identifier_direction (related to truck parking)](DR_EU_885-2013/primary-road-identifier_direction.md)
 - [![Status](https://img.shields.io/badge/status-finalised-blue)] [Total number of free parking places for trucks](DR_EU_885-2013/total-number--for-trucks.md)
 
 ## RTTI - Real-Time Traffic Information (DR_EU_2015-962)
