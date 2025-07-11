@@ -78,7 +78,8 @@ def extract_content(md_text):
     return meta, content
 
 def format_entry(meta, content, heading_level=3):
-    header = f"{'#' * heading_level} {meta.get('label', 'Untitled')}\n\n"
+    # header = f"{'#' * heading_level} {meta.get('label', 'Untitled')} \n\n"
+    header = f"{'#' * heading_level} {meta.get('label', 'Untitled')} {BADGES.get(meta.get("status", "unknown").strip(), "unknown")}\n\n"
     definition_text = meta.get("definition") or ""
     definition = f"**Definition**: {definition_text.strip()}"
 
