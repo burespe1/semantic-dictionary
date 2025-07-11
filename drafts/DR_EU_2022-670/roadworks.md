@@ -4,7 +4,7 @@ label: Roadworks
 definition: dynamic information disseminating that roadworks take place on a specific segment/section of a road link (or on the entire road link).
 category: Crucial types of data on the state of the network
 language: en
-status: approved
+status: in review
 source: DR_EU_2022-670
 ---
 

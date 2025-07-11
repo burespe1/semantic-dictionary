@@ -4,7 +4,7 @@ label: location and length of queues
 definition: dynamic information indicating the point of a traffic queue dissipation and its total length.
 category: Dynamic data
 language: en
-status: approved
+status: in review
 source: DR_EU_2015-962
 subcategory:
   - Traffic data

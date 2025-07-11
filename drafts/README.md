@@ -5,6 +5,8 @@ This folder contains draft entries for semantic dictionary concepts, written in 
 - Rich content like text, code, and image references
 
 **Workflow**: Drafts are manually edited. Previews are auto-generated in each commit by `generate_preview.py`, and only approved entries are included in releases.
+
+**Index of working definitions**: [list of definitions with their status](INDEX.md)
 ¨
 ## 🧱 File Structure
 
@@ -24,6 +26,7 @@ Each file must:
 | language | Language code of the definition (e.g. en) | 
 | status | Approval state (draft, review, approved, etc.) | 
 | source | Citable source or reference (standard, report, etc.) | 
+| subcategory | sub grouping the concept belongs to |
 
 ## 🧠 Example
 
@@ -36,7 +39,7 @@ label: Road classification
 definition: the minimum information required for distinguishing the links of a road network encompassing form of way, functional, or other concerns.
 category: Types of data on infrastructure
 language: en
-status: approved
+status: in review
 source: DR_EU_2022-670
 ---
 

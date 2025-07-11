@@ -4,7 +4,7 @@ label: street), including accessible parking places for persons with disabilitie
 definition: the minimum information required for identifying the location of on-street or off-street places designated for parking vehicles.
 category: Level of service 2
 language: en
-status: pending
+status: in review
 source: DR_EU_2024-490
 subcategory:
   - Location search

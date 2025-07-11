@@ -4,7 +4,7 @@ label: band by transport mode_combination of transport modes
 definition: the minimum set of information required for calculating the estimated travel times by transport mode or even combination of transport modes considering recurring conditions at/in specific time bands and day types.
 category: Level of service 3
 language: en
-status: pending
+status: in review
 source: DR_EU_2024-490
 subcategory:
   - Trip plan computation

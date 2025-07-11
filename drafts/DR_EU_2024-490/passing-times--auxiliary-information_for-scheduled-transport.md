@@ -4,7 +4,7 @@ label: for scheduled transport
 definition: the minimum dynamic information providing insight into the operational status of access nodes features.
 category: Level of service 1
 language: en
-status: pending
+status: in review
 source: DR_EU_2024-490
 subcategory:
   - Passing times, trip plans and auxiliary information

@@ -4,7 +4,7 @@ label: for scheduled transport and transport on demand where relevant
 definition: basic common standard fares: fare network data (fare zones/stops and fare stages): the minimum information required for describing the layout of a fare network, such as the zones of which it is comprised.
 category: Level of service 2
 language: en
-status: pending
+status: in review
 source: DR_EU_2024-490
 subcategory:
   - Auxiliary information

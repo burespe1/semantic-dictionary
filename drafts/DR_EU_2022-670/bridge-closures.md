@@ -4,7 +4,7 @@ label: Bridge closures
 definition: dynamic information disseminating the closure of road rinks corresponding to bridges.
 category: Other types of data on the state of the network
 language: en
-status: approved
+status: in review
 source: DR_EU_2022-670
 ---
 

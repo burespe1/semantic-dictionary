@@ -4,7 +4,7 @@ label: for scheduled transport and transport on demand where relevant
 definition: 
 category: Level of Service 4
 language: en
-status: pending
+status: in review
 source: DR_EU_2024-490
 subcategory:
   - Historic travel and traffic data on delays

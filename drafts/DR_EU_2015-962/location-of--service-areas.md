@@ -4,7 +4,7 @@ label: Location of parking places and service areas
 definition: the minimum information required for identifying the location of a) places[^2] where vehicles are allowed to park and b) places (typically along motorways) where drivers can stop, rest, and get access to available service facilities and amenities (alternatively expressed as rest areas).
 category: Static data
 language: en
-status: approved
+status: in review
 source: DR_EU_2015-962
 ---
 

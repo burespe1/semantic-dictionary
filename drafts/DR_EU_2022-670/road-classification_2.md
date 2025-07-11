@@ -4,7 +4,7 @@ label: Road classification
 definition: the minimum information required for distinguishing the links of a road network encompassing form of way, functional, or other concerns.
 category: Types of data on infrastructure
 language: en
-status: approved
+status: in review
 source: DR_EU_2022-670
 ---
 

@@ -4,7 +4,7 @@ label: facilities of access nodes (including platform information, help desk_inf
 definition: the minimum information required for describing the fixed equipment/facilities of the access nodes of scheduled or on demand transport services, essential for trip plan computation purposes.
 category: Level of Service 1 (data regarded as essential for the basic functioning of multimodal travel information services)
 language: en
-status: pending
+status: in review
 source: DR_EU_2024-490
 subcategory:
   - Trip plan computation

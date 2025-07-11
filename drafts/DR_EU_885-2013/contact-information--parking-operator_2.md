@@ -4,7 +4,7 @@ label: Contact information of the parking operator (for truck parking users)
 definition: an appropriate value reflecting whether a parking operator agrees (or not) to make his/her contact information visible to the public.
 category: Static data
 language: en
-status: approved
+status: in review
 source: DR_EU_885-2013
 ---
 

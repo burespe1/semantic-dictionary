@@ -4,7 +4,7 @@ label: Freight delivery regulations
 definition: the minimum information required for disseminating regulations for delivering freight, such as designation of certain road links or areas, loading/unloading permissions or prohibitions, and time-related restrictions.
 category: Static data
 language: en
-status: approved
+status: in review
 source: DR_EU_2015-962
 ---
 
