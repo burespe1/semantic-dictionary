@@ -1,6 +1,6 @@
 ---
-id: historic-travel--on-delays_for-scheduled--where-relevant
-label: for scheduled transport and transport on demand where relevant
+id: historic-travel--on-delays_delay
+label: delay
 definition: 
 category: Level of Service 4
 language: en
@@ -8,6 +8,7 @@ status: in review
 source: DR_EU_2024-490
 subcategory:
   - Historic travel and traffic data on delays
+  - for scheduled transport and transport on demand where relevant
 ---
 
 >Delay: A description of deviations from the public transport timetable.

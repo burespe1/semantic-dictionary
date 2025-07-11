@@ -1,13 +1,14 @@
 ---
-id: passing-times--auxiliary-information_for-scheduled-transport
-label: for scheduled transport
-definition: the minimum dynamic information providing insight into the operational status of access nodes features.
+id: passing-times--auxiliary-information_operational-status-of-access-nodes
+label: the minimum dynamic information providing insight into the operational status of access nodes features
+definition:
 category: Level of service 1
 language: en
 status: in review
 source: DR_EU_2024-490
 subcategory:
   - Passing times, trip plans and auxiliary information
+  - for scheduled transport
 ---
 
 >The operational status of access nodes features (e.g., platform information systems, lift/escalators, entrances, and exits) may be affected by technical issues and malfunctions.

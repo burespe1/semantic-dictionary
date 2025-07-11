@@ -1,6 +1,6 @@
 ---
-id: auxiliary-information_fi-capacity--for-bicycles
-label: fi, capacity and access conditions for bicycles
+id: auxiliary-information_vehicle-facilities
+label: vehicle facilities, including classes of carriage, on-board Wi-Fi, capacity and access conditions for bicycles
 definition: the minimum information required to describe the available facilities/amenities offered by a public transport mode.
 category: Level of service 2
 language: en
@@ -8,6 +8,7 @@ status: in review
 source: DR_EU_2024-490
 subcategory:
   - Auxiliary information
+  - for scheduled transport and transport on demand where relevant 
 ---
 
 >The above-mentioned facilities/amenities may involve an indication of whether a) on-board Wi-Fi, b) equipment supporting bicycle or scooter boarding, c) monitors providing vehicle tracking or declaring the next stop is/are available. They may also involve information about the available classes of carriage and the included facilities/amenities. For instance, in rail transport services there are various types of wagons, such as luxury class, first class, second class, third class, economy class. Each of these classes offer different amenities/facilities ranging from private compartments, including private beds, showers, and toilets, to shared compartments, including their own backs, lights, tables, and luggage spaces.

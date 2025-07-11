@@ -1,6 +1,6 @@
 ---
-id: detailed-common--fare-query_on-products--minimum-stay
-label: on products such as parking and travel, minimum stay)
+id: detailed-common--fare-query_special-fare-products
+label: special fare products (offers with additional special conditions such as promotional fares, group fares, season passes, aggregated products combining different products, and add-on products such as parking and travel, minimum stay)
 definition: the minimum set of information about special fare products required for supporting fare queries.
 category: Level of service 3
 language: en
@@ -8,6 +8,7 @@ status: in review
 source: DR_EU_2024-490
 subcategory:
   - Detailed common standard and special fare query
+  - for scheduled transport and transport on demand where relevant
 ---
 
 >Special fare products are based on offers with additional special conditions, such as promotional fares, group fares, season passes, aggregated products combining different products and add on products (e.g., parking and travel, minimum stay).

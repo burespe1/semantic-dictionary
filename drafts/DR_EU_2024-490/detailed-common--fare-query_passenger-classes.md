@@ -8,6 +8,7 @@ status: in review
 source: DR_EU_2024-490
 subcategory:
   - Detailed common standard and special fare query
+  - for scheduled transport and transport on demand where relevant
 ---
 
 >Provided information may be classified based on fare classes (e.g., first class, second class, business class, etc.) and/or based on user profiles (e.g., adults, children, students, veterans, impaired people).\

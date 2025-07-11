@@ -1,6 +1,6 @@
 ---
-id: availability-check-and-location_sharing-availability-and-location
-label: sharing availability and location
+id: availability-check-and-location_car-bike-scooter-sharing
+label: car-sharing availability and location, bike-sharing availability and location, scooter-sharing availability and location, and other vehicle-sharing availability and location
 definition: information disseminating the availability of shared vehicles (e.g., car, bike, scooter) at a specific location (dedicated to vehicle sharing).
 category: Level of service 2
 language: en
@@ -8,6 +8,7 @@ status: in review
 source: DR_EU_2024-490
 subcategory:
   - Availability check and location
+  - for transport on demand and personal transport where relevant
 ---
 
 >It may derive from the capacity of a given area and vehicle location information at a specific time.

@@ -1,13 +1,15 @@
 ---
-id: auxiliary-information_for-scheduled--where-relevant_2
-label: for scheduled transport and transport on demand where relevant
-definition: basic common standard fares: standard fare structures (point to point including daily and weekly fares, zonal fares, flat fares): the minimum information required to describe how users of public transport services are charged (i.e., data objects and elements needed to support the definition of fare products and their parameters).
+id: auxiliary-information_standard-fare-structures
+label: standard fare structures (point to point including daily and weekly fares, zonal fares, flat fares)
+definition: the minimum information required to describe how users of public transport services are charged (i.e., data objects and elements needed to support the definition of fare products and their parameters).
 category: Level of service 2
 language: en
 status: in review
 source: DR_EU_2024-490
 subcategory:
   - Auxiliary information
+  - for scheduled transport and transport on demand where relevant
+  - basic common standard fares
 ---
 
 >Fare structures can be broadly discerned into:\

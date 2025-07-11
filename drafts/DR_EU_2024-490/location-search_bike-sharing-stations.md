@@ -1,6 +1,6 @@
 ---
-id: location-search_sharing-stations
-label: sharing stations
+id: location-search_bike-sharing-stations
+label: bike-sharing stations
 definition: the minimum information required for identifying the location of bike sharing stations.
 category: Level of service 2
 language: en
@@ -8,6 +8,7 @@ status: in review
 source: DR_EU_2024-490
 subcategory:
   - Location search
+  - for transport on demand and personal transport
 ---
 
 >Bike sharing stations constitute facilities wherein travellers can pick up or return a short-term cycle rental.

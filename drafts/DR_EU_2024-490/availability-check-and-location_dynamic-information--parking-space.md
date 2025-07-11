@@ -1,13 +1,14 @@
 ---
-id: availability-check-and-location_street
-label: street)
-definition: the minimum dynamic information required for disseming the availability of on-street and off-street car parking space.
+id: availability-check-and-location_dynamic-information--parking-space
+label: car parking spaces available (on and off-street)
+definition: the minimum dynamic information required for disseminating the availability of on-street and off-street car parking space.
 category: Level of service 2
 language: en
 status: in review
 source: DR_EU_2024-490
 subcategory:
   - Availability check and location
+  - for transport on demand and personal transport where relevant
 ---
 
 >BEST PRACTICES\

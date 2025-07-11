@@ -1,13 +1,14 @@
 ---
-id: occupancy-information--the-vehicle_for-scheduled--where-relevant
-label: for scheduled transport and transport on demand where relevant
-definition: dynamic information indicating the occupancy of vehicles of scheduled and on-demand mobility services.
+id: occupancy-information--the-vehicle_dynamic-information
+label: dynamic information indicating the occupancy of vehicles of scheduled and on-demand mobility services
+definition:
 category: Level of service 3
 language: en
 status: in review
 source: DR_EU_2024-490
 subcategory:
   - Occupancy information of the vehicle
+  - for scheduled transport and transport on demand where relevant
 ---
 
 <table style="font-size: smaller; width: 100%;">

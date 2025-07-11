@@ -8,6 +8,7 @@ status: in review
 source: DR_EU_2024-490
 subcategory:
   - Location search
+  - for transport on demand and personal transport
 ---
 
 >A bike parking facility can be addressed as secure when it provides the necessary equipment for locking a bicycle on the available bike racks and protecting it from prevailing climatic conditions and other hazards. 

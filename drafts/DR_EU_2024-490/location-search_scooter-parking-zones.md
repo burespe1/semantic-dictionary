@@ -8,6 +8,7 @@ status: in review
 source: DR_EU_2024-490
 subcategory:
   - Location search
+  - for transport on demand and personal transport
 ---
 
 <table style="font-size: smaller; width: 100%;">

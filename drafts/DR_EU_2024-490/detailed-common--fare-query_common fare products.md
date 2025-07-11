@@ -1,6 +1,6 @@
 ---
-id: detailed-common--fare-query_point-pairs--fare-prices
-label: point pairs including daily and weekly fares_zonal fare prices_flat fare prices)
+id: detailed-common--fare-query_common-fare-products
+label: common fare products (access rights such as zone/point-to-point including daily and weekly tickets/single/return, eligibility of access, basic usage conditions such as validity period/operator/time of travel/interchanging, standard point-to-point fares prices for different point-to-point pairs including daily and weekly fares/zonal fare prices/flat fare prices)
 definition: the minimum set information about common fare products required for supporting fare queries.
 category: Level of service 3
 language: en
@@ -8,6 +8,8 @@ status: in review
 source: DR_EU_2024-490
 subcategory:
   - Detailed common standard and special fare query
+  - for scheduled transport and transport on demand where relevant
+  
 ---
 
 >Provided information may be classified based on tariff offers and access rights (e.g., zone/point-to-point weekly/single/roundtrip tickets) as well as the eligibility of access and basic usage conditions (e.g., valid period/operator/time of travel interchanging, standard point-to-point fare prices for different point-to-point pairs including daily and weekly fares/zonal fare/flat fare).\

@@ -1,6 +1,6 @@
 ---
-id: information-service_responsive-transport--payment-methods
-label: responsive transport services, including retail channels, fulfilment methods, payment methods
+id: information-service_how-to-book--transport-services
+label: how to book demand-responsive transport services, including retail channels, fulfilment methods, payment methods
 definition: the minimum information required to describe the way of booking demand-responsive transport services such as car-sharing, taxi and cycle-hiring services.
 category: Level of service 3
 language: en
@@ -8,6 +8,7 @@ status: in review
 source: DR_EU_2024-490
 subcategory:
   - Information service
+  - for transport on demand
 ---
 
 <table style="font-size: smaller; width: 100%;">

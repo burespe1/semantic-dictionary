@@ -1,13 +1,14 @@
 ---
-id: information-service--parking-tariffs_for-transport--personal-transport
-label: for transport on demand and personal transport
-definition: the minimum dynamic information on parking tariffs.
+id: information-service--parking-tariffs_minimum-dynamic-information
+label: minimum dynamic information on parking tariffs
+definition: 
 category: Level of service 2
 language: en
 status: in review
 source: DR_EU_2024-490
 subcategory:
   - Information service on parking tariffs
+  - for transport on demand and personal transport
 ---
 
 <table style="font-size: smaller; width: 100%;">

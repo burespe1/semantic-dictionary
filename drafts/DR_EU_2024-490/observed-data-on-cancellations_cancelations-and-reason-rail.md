@@ -1,6 +1,6 @@
 ---
-id: observed-data-on-cancellations_for-scheduled--passenger-services
-label: for scheduled transport: cancellations, and when possible the reason, of rail passenger services
+id: observed-data-on-cancellations_cancelations-and-reason-rail
+label: cancellations, and when possible the reason, of rail passenger services
 definition: 
 category: Level of Service 4
 language: en
@@ -8,6 +8,7 @@ status: in review
 source: DR_EU_2024-490
 subcategory:
   - Observed data on cancellations
+  - for scheduled transport
 ---
 
 <table style="font-size: smaller; width: 100%;">

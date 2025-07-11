@@ -1,6 +1,6 @@
 ---
-id: location-search_street-including--reduced-mobility
-label: street), including accessible parking places for persons with disabilities and persons with reduced mobility
+id: location-search_location-of-parking-places
+label: location of parking places (on and off-street), including accessible parking places for persons with disabilities and persons with reduced mobility
 definition: the minimum information required for identifying the location of on-street or off-street places designated for parking vehicles.
 category: Level of service 2
 language: en
@@ -8,6 +8,7 @@ status: in review
 source: DR_EU_2024-490
 subcategory:
   - Location search
+  - for transport on demand and personal transport
 ---
 
 <table style="font-size: smaller; width: 100%;">

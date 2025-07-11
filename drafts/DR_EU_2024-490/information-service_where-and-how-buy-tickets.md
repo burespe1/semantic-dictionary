@@ -1,5 +1,5 @@
 ---
-id: information-service_where-and--payment-methods
+id: information-service_where-and-how-buy-tickets
 label: where and how to buy tickets for scheduled transport, including retail channels, fulfilment methods, payment methods
 definition: the minimum set of information required for describing the way of purchasing a ticket for scheduled transport modes, demand responsive modes, including the location as well as the supported payment and fulfilment methods.
 category: Level of service 2

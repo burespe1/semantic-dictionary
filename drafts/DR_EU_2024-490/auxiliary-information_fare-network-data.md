@@ -1,13 +1,15 @@
 ---
-id: auxiliary-information_for-scheduled--where-relevant
-label: for scheduled transport and transport on demand where relevant
-definition: basic common standard fares: fare network data (fare zones/stops and fare stages): the minimum information required for describing the layout of a fare network, such as the zones of which it is comprised.
+id: auxiliary-information_fare-network-data
+label: fare network data (fare zones/stops and fare stages)
+definition: the minimum information required for describing the layout of a fare network, such as the zones of which it is comprised.
 category: Level of service 2
 language: en
 status: in review
 source: DR_EU_2024-490
 subcategory:
   - Auxiliary information
+  - for scheduled transport and transport on demand where relevant
+  - basic common standard fares
 ---
 
 >Fare or tariff zones are used to group different sections of a public transport journey for which a set charge is made. They constitute two-dimensional elements within the service area of a public transport operator. The individual one-dimensional elements within the service are of a public transport operator. The individual one-dimensional sections of a fare network are defined as the consecutive fare or border points of a public transport journey that fall within the same fare or tariff zone. For fare structures that are based on the number of fare stages passed, the fare stages passed, the fare stages can be demarcated.

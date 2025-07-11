@@ -8,6 +8,7 @@ status: in review
 source: DR_EU_2024-490
 subcategory:
   - Detailed common standard and special fare query
+  - for scheduled transport and transport on demand where relevant
 ---
 
 >This information may refer to the principles of refunding, replacing, exchanging, and transferring a ticket and/or the basic conditions, such as purchase windows, validity periods, fare limitations, and minimum duration.

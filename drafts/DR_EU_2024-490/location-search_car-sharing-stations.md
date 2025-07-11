@@ -1,6 +1,6 @@
 ---
-id: location-search_sharing-stations_2
-label: sharing stations
+id: location-search_car-sharing-stations
+label: car sharing stations
 definition: the minimum information required for identifying the location of car sharing stations.
 category: Level of service 2
 language: en

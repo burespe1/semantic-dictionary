@@ -1,6 +1,6 @@
 ---
-id: trip-plans_side-cycling--of-traffic
-label: side cycling, shared surface, on_off road, scenic route, “walk only”, turn or access restrictions, e.g., against flow of traffic)
+id: trip-plans_detailed-cycle-network-attributes
+label: detailed cycle network attributes (surface quality, side-by-side cycling, shared surface, on/off road, scenic route, “walk only”, turn or access restrictions, e.g., against flow of traffic)
 definition: the minimum set of information required for describing the attributes of a cycle network (physical and logical arrangement of nodes and links).
 category: Level of service 3
 language: en
