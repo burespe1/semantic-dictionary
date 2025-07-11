@@ -11,7 +11,7 @@ source: DR_EU_2022-670
 >Fixed road user charges are typically vehicle class dependent. A commonly used classification of vehicles for determining the applicable charges along European highways/motorways is the following:\
 •	Class 1: Motorcycles, tricycle vehicles\
 •	Class 2: Light vehicles (with or without trailer and height less than a threshold value)\
-•	Class 3: Trucks, busses, and other heavy-duty vehicles with less than 4 axes (with or without trailer and height greater than a threshold value)\
+•	Class 3: Trucks, buses, and other heavy-duty vehicles with less than 4 axes (with or without trailer and height greater than a threshold value)\
 •	Class 4: Trucks and other heavy-duty vehicles with 4 or more axes
 
 >NOTE: Vehicle classification is country-dependent.

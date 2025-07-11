@@ -12,20 +12,20 @@ source: DR_EU_2022-670
 
 >The unambiguous description of poor road conditions requires the provision of information about the time of their occurrence and type (optionally).
 
-> Note: ETSI TS 102 894-2 (DE=AdverseWeatherCondition-AdhesionSubCauseCode) distinguishes the following types (subcauses) of poor road conditions related to **low adhension**.
+> Note: ETSI TS 102 894-2 (DE=AdverseWeatherCondition-AdhesionSubCauseCode) distinguishes the following types (subcauses) of poor road conditions related to **low adhesion**.
 > | Code | Subcause                       |
 >|--------------|------------------------|
 >| 0          | Unavailable: when further detailed information on the cause of the low road adhesion is not available  |
->| 1          | Low adhension due to heavy frost on the road  |
->| 2          | Low adhension due to fuel on the road  |
->| 3          | Low adhension due to mud on the road  |
->| 4          | Low adhension due to snow on the road  |
->| 5          | Low adhension due to ice on the road  |
->| 6          | Low adhension due to black ice on the road  |
->| 7          | Low adhension due to oil on the road  |
->| 8          | Low adhension due to loose gravel or stone fragments detached from a road surface or from a hazard  |
->| 9          | Low adhension due to instant black ice on the road surface  |
->| 10          | Low adhension due to salted road  |
+>| 1          | Low adhesion due to heavy frost on the road  |
+>| 2          | Low adhesion due to fuel on the road  |
+>| 3          | Low adhesion due to mud on the road  |
+>| 4          | Low adhesion due to snow on the road  |
+>| 5          | Low adhesion due to ice on the road  |
+>| 6          | Low adhesion due to black ice on the road  |
+>| 7          | Low adhesion due to oil on the road  |
+>| 8          | Low adhesion due to loose gravel or stone fragments detached from a road surface or from a hazard  |
+>| 9          | Low adhesion due to instant black ice on the road surface  |
+>| 10          | Low adhesion due to salted road  |
 
 > Note: ETSI TS 102 894-2 (DE=AdverseWeatherCondition-VisibilitySubCauseCode) distinguishes the following types (subcauses) of poor road conditions related to **low visibility**.
 > | Code | Subcause                       |

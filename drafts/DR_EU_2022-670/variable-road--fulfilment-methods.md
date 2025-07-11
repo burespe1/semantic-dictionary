@@ -8,7 +8,7 @@ status: in review
 source: DR_EU_2022-670
 ---
 
->Similar to fixed road user charges, variable road user charges may be vehicle class and time condition dependent. Furthermore, they may be propulsion technology and traffic/environmental conditions depedent based on the attributes of the applicable congestion/emission pricing policy.
+>Similar to fixed road user charges, variable road user charges may be vehicle class and time condition dependent. Furthermore, they may be propulsion technology and traffic/environmental conditions dependent based on the attributes of the applicable congestion/emission pricing policy.
 
 >Available payment methods may include a) on cash, b) by credit/debit card, c) electronic payment, and d) via toll stickers.
 
