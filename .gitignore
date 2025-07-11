@@ -27,7 +27,7 @@ Thumbs.db
 htmlcov/
 
 # automatically created products (by workflow)
-drafts/index.md
+drafts/INDEX.md
 preview/*
 !preview/README.md
 release/*
