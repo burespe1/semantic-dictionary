@@ -2,7 +2,7 @@
 id: trip-plan-computation_default-transfer--at-interchanges
 label: default transfer times at interchanges
 definition: the minimum information required for indicating the amount of time allocated for passengers to switch between different vehicles at interchanges, essential for trip plan computation purposes.
-category: Level of Service 1 (data regarded as essential for the basic functioning of multimodal travel information services)
+category: Level of Service 1
 language: en
 status: in review
 source: DR_EU_2024-490

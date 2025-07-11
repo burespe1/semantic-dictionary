@@ -2,7 +2,7 @@
 id: trip-plan-computation_site-assistance
 label: existence of assistance services (such as existence of on-site assistance)
 definition: the minimum information required for describing assistance services, essential for trip plan computation purposes.
-category: Level of Service 1 (data regarded as essential for the basic functioning of multimodal travel information services)
+category: Level of Service 1
 language: en
 status: in review
 source: DR_EU_2024-490

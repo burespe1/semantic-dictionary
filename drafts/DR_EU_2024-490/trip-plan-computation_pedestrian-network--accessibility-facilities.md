@@ -2,7 +2,7 @@
 id: trip-plan-computation_pedestrian-network--accessibility-facilities
 label: pedestrian network and accessibility facilities
 definition: the minimum information required for describing the topological structure of pedestrian networks (physical and logical arrangements of nodes and links), essential for trip plan computation purposes.
-category: Level of Service 1 (data regarded as essential for the basic functioning of multimodal travel information services)
+category: Level of Service 1
 language: en
 status: in review
 source: DR_EU_2024-490

@@ -2,7 +2,7 @@
 id: trip-plan-computation_transport-operators
 label: transport operators
 definition: the minimum information about the public transport companies providing scheduled transport or transport on demand services necessary to provide correct contact information to the travellers.
-category: Level of Service 1 (data regarded as essential for the basic functioning of multimodal travel information services)
+category: Level of Service 1
 language: en
 status: in review
 source: DR_EU_2024-490

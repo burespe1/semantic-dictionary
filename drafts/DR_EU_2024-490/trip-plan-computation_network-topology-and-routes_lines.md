@@ -2,7 +2,7 @@
 id: trip-plan-computation_network-topology-and-routes_lines
 label: network topology and routes_lines (topology)
 definition: the minimum information required for indicating the topology of the service network of scheduled transport or transport on demand modes, essential for trip plan computation purposes.
-category: Level of Service 1 (data regarded as essential for the basic functioning of multimodal travel information services)
+category: Level of Service 1
 language: en
 status: in review
 source: DR_EU_2024-490

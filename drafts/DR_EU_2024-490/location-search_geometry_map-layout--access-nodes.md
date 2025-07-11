@@ -2,7 +2,7 @@
 id: location-search_geometry_map-layout--access-nodes
 label: geometry_map layout structure of access nodes
 definition: the minimum information required for identifying the location of specific facilities within access nodes considering the topographical structure of access nodes.
-category: Level of Service 1 (data regarded as essential for the basic functioning of multimodal travel information services)
+category: Level of Service 1
 language: en
 status: in review
 source: DR_EU_2024-490

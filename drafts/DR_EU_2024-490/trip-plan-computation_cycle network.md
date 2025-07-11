@@ -1,8 +1,8 @@
 ---
-id: trip-plan-computation_path-shared-with-pedestrians
-label: path shared with pedestrians
+id: trip-plan-computation_cycle network
+label: cycle network (cycle tracks, cycle lanes, bus-and-cycle lanes, on-road shared with vehicles, on-path shared with pedestrians)
 definition: the minimum information required for describing the topological structure and attributes of cycle networks, essential for trip plan computation purposes.
-category: Level of Service 1 (data regarded as essential for the basic functioning of multimodal travel information services)
+category: Level of Service 1
 language: en
 status: in review
 source: DR_EU_2024-490

@@ -2,7 +2,7 @@
 id: trip-plan-computation_accessibility-of--an-interchange
 label: accessibility of access nodes, and paths within an interchange (such as existence of lifts, escalators)
 definition: the minimum information required for indicating the accessibility conditions of access nodes as well as the conditions for transferring between vehicles, essential for trip plan computation purposes.
-category: Level of Service 1 (data regarded as essential for the basic functioning of multimodal travel information services)
+category: Level of Service 1
 language: en
 status: in review
 source: DR_EU_2024-490

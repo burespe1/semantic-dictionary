@@ -2,7 +2,7 @@
 id: trip-plan-computation_planned-interchanges--scheduled-services
 label: planned interchanges between guaranteed scheduled services
 definition: the minimum information required for indicating the possibility for transfer of passengers from one planned transport service to another securely interconnected, essential for trip plan computation purposes.
-category: Level of Service 1 (data regarded as essential for the basic functioning of multimodal travel information services)
+category: Level of Service 1
 language: en
 status: in review
 source: DR_EU_2024-490

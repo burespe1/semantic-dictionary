@@ -2,7 +2,7 @@
 id: trip-plans_operational-calendar--calendar-dates
 label: operational calendar, mapping day types to calendar dates
 definition: the minimum information required to indicate the days or periods when transportation services are operational.
-category: Level of Service 1 (data regarded as essential for the basic functioning of multimodal travel information services)
+category: Level of Service 1
 language: en
 status: in review
 source: DR_EU_2024-490
