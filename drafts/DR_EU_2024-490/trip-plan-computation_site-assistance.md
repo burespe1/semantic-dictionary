@@ -1,6 +1,6 @@
 ---
 id: trip-plan-computation_site-assistance
-label: site assistance)
+label: existence of assistance services (such as existence of on-site assistance)
 definition: the minimum information required for describing assistance services, essential for trip plan computation purposes.
 category: Level of Service 1 (data regarded as essential for the basic functioning of multimodal travel information services)
 language: en
@@ -8,6 +8,7 @@ status: in review
 source: DR_EU_2024-490
 subcategory:
   - Trip plan computation
+  - for scheduled transport and transport on demand where relevant
 ---
 
 >Assistance services can be proposed prior to the travel (in case of normal conditions of operation), during the travel (in case of an incident), and/or after the travel. Some services - e.g. those for a customer travelling with physical or digital impairment, or compensations in case of delay - are made mandatory by several modal - and even multimodal - European legislation.
