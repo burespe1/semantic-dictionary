@@ -8,7 +8,6 @@ status: finalised
 source: DR_EU_2015-962
 ---
 
-
 >A charging pool denotes an area equipped with one or more charging stations. These charging stations can take the form of fixed wall-mounted appliances (wallboxes) or self-standing units, both of which are connected to an electrical supply point. Depending on the number of charging points integrated into a single station, they can facilitate the simultaneous charging of multiple electric vehicles. A charging point may be fitted with several connectors but can only charge one vehicle at a time.
 
 >The minimum information package must encompass the exact location of the charging infrastructure, contact options, opening times, a list of accepted payment methods, as well as information on the connector type. Information on location may be separated into exit and entrance location for larger areas or areas with strict rules for driving directions (e.g., along motorways).

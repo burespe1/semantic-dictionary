@@ -8,6 +8,5 @@ status: finalised
 source: DR_EU_2015-962
 ---
 
-
 >Delivery areas can be of multiple types (e.g., instaboxes, warehouse storage, loading zone, etc.). Moreover, their accessibility may be public or restricted.
 

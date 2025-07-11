@@ -8,7 +8,6 @@ status: finalised
 source: DR_EU_2015-962
 ---
 
-
 >Traffic Circulation Plans (TCPs) are crafted by local authorities to manage and direct traffic flows based on recurring traffic conditions, seasonal variations, and pre-existing restrictions (such as school zones). These plans enclose strategies and measures, including, for example, the designation of particular road links that certain users or vehicle types should avoid, aimed at improving traffic flow conditions and achieving societal objectives like lowering emissions and minimizing accidents. The strategies implemented within TCPs are part of a broader, more enduring “traffic control policy”, meaning that the imposed measures remain active and applicable irrespective of the level of achievement of their overarching goal. TCPs are reviewed and updated by local authorities with a certain time frequency.
 
 >On the other hand, Traffic Management Plans (TMPs) provide for the allocation of traffic control measures in response to specific predefined (or not) traffic scenarios, such as the management of heavy congestion or the closure of strategic routes due to extreme weather events, maintenance works, or a serious road accident. The objective of TMPs is to anticipate arrangements for controlling and guiding traffic flows in real-time conditions and informing road users about the traffic situation in a consistent and timely manner. TMPs, which differ in detail according to local circumstances, apply in the following cases:\

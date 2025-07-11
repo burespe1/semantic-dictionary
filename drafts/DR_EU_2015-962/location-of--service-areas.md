@@ -8,7 +8,6 @@ status: modified
 source: DR_EU_2015-962
 ---
 
-
 >Safe and secure truck parking areas are not explicitly mentioned in this definition as they fall into the scope of DR (EU) 885/2015. SSTPAs can be addressed as a subset of rest areas (or in a separate manner if they strictly operate as such).
 
 >Location information can be provided as coordinates, locations along linear elements, or areal locations. As regards service areas, it shall be clarified whether locations refer to entries/exits locations and/or center of gravity.
