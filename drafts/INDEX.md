@@ -59,9 +59,9 @@
 
 ## SRTI - Safety-Related Traffic Information (DR_EU_886-2013)
 
-- [![Status](https://img.shields.io/badge/status-pending-yellow)] [Category of the event_condition](DR_EU_886-2013/category-of-the-event_condition.md)
-- [![Status](https://img.shields.io/badge/status-pending-yellow)] [Driving behavior advice (where appropriate)](DR_EU_886-2013/driving-behavior-advice.md)
-- [![Status](https://img.shields.io/badge/status-pending-yellow)] [Location of the event_condition](DR_EU_886-2013/location-of-the-event_condition.md)
+- [![Status](https://img.shields.io/badge/status-finalised-blue)] [Category of the event_condition](DR_EU_886-2013/category-of-the-event_condition.md)
+- [![Status](https://img.shields.io/badge/status-finalised-blue)] [Driving behavior advice (where appropriate)](DR_EU_886-2013/driving-behavior-advice.md)
+- [![Status](https://img.shields.io/badge/status-finalised-blue)] [Location of the event_condition](DR_EU_886-2013/location-of-the-event_condition.md)
 
 ## MMTIS - Multimodal Travel Information Services (DR_EU_2024-490)
 
