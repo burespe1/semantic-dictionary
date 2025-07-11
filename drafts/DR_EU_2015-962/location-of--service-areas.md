@@ -1,10 +1,10 @@
 ---
 id: location-of--service-areas
 label: Location of parking places and service areas
-definition: the minimum information required for identifying the location of a) places[^2] where vehicles are allowed to park and b) places (typically along motorways) where drivers can stop, rest, and get access to available service facilities and amenities (alternatively expressed as rest areas).
+definition: the minimum information required for identifying the location of a) places where vehicles are allowed to park and b) places (typically along motorways) where drivers can stop, rest, and get access to available service facilities and amenities (alternatively expressed as rest areas).
 category: Static data
 language: en
-status: in review
+status: modified
 source: DR_EU_2015-962
 ---
 
@@ -13,5 +13,5 @@ source: DR_EU_2015-962
 
 >Location information can be provided as coordinates, locations along linear elements, or areal locations. As regards service areas, it shall be clarified whether locations refer to entries/exits locations and/or center of gravity.
 
-[^2]: "The location of places where vehicles are allowed to park" is present in Transmodel/NeTEx and thus an overlap with EU 2017/1926 exists. Since it is important to exactly relate parking locations to Public Transport access points this is an appropriate overlap for integrating data sets.
+>"The location of places where vehicles are allowed to park" is present in Transmodel/NeTEx and thus an overlap with EU 2017/1926 exists. Since it is important to exactly relate parking locations to Public Transport access points this is an appropriate overlap for integrating data sets.
 

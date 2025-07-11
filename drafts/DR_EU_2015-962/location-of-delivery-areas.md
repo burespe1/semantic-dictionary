@@ -4,7 +4,7 @@ label: Location of delivery areas
 definition: the minimum information required for identifying the physical location of designated points along a road network or on specific road links reserved for loading/unloading operations.
 category: Static data
 language: en
-status: in review
+status: finalised
 source: DR_EU_2015-962
 ---
 
