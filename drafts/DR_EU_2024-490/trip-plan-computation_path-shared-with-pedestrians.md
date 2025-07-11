@@ -10,7 +10,6 @@ subcategory:
   - Trip plan computation
 ---
 
-
 >There is no dedicated-reference European data standard for this data category. Cycling Network is standardised by ISO TC204 (GDF standard) and as mentioned here only partially by INSPIRE. The classes/attributes of the INSPIRE data specification can to a certain extent be used for segregated cycle streets that are parts of/adjacent to road networks, i.e., road segments the FormOfWayValue of which is bicycleRoad.
 
 >BEST PRACTICES\

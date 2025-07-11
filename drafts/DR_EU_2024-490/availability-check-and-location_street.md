@@ -10,7 +10,6 @@ subcategory:
   - Availability check and location
 ---
 
-
 >BEST PRACTICES\
 Information of the availability of parking space should ideally specify the accessibility of parking places for wheelchair users (as they require more space for accessing and leaving the vehicle).
 

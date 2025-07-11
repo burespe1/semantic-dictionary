@@ -1,6 +1,6 @@
 ---
 id: lane-closures
-label: Lane closures
+label: lane closures
 definition: dynamic information disseminating the closure of a lane on road links of any type.
 category: Crucial types of data on the state of the network
 language: en

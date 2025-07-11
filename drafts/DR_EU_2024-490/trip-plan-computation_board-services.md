@@ -10,7 +10,6 @@ subcategory:
   - Trip plan computation
 ---
 
-
 >EXAMPLES\
 • A specific train has a lower floor option for people traveling in wheelchairs.\
 • A bus has guidance amenities for visually impaired travellers (e.g., handrail to board a bus and reach a seat, tactile and high contrast design).\

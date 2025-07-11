@@ -10,7 +10,6 @@ subcategory:
   - Location search
 ---
 
-
 >A bike parking facility can be addressed as secure when it provides the necessary equipment for locking a bicycle on the available bike racks and protecting it from prevailing climatic conditions and other hazards. 
 
 <table style="font-size: smaller; width: 100%;">

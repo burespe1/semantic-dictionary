@@ -1,6 +1,6 @@
 ---
 id: driving-behavior-advice
-label: Driving behavior advice (where appropriate)
+label: driving behavior advice (where appropriate)
 definition: information broadcasted to road users and/or vehicles through available means (e.g., VMS, RDS-TMC, TPEG2-TEC, and C-ITS services) that may include suggestions for modifying/adapting their driving behavior in a way that can improve their safety and minimize the risk of accident.
 category: Dynamic data
 language: en

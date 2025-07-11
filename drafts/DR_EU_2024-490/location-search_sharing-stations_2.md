@@ -10,7 +10,6 @@ subcategory:
   - Location search
 ---
 
-
 >Car sharing stations constitute facilities wherein travellers can pick up or return a short-term car rental.
 
 <table style="font-size: smaller; width: 100%;">

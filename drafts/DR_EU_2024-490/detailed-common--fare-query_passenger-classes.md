@@ -10,7 +10,6 @@ subcategory:
   - Detailed common standard and special fare query
 ---
 
-
 >Provided information may be classified based on fare classes (e.g., first class, second class, business class, etc.) and/or based on user profiles (e.g., adults, children, students, veterans, impaired people).\
 The information provided may also encompass the qualification conditions applying in each user class.
 

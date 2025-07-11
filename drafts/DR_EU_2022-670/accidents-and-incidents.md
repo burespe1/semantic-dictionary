@@ -1,6 +1,6 @@
 ---
 id: accidents-and-incidents
-label: Accidents and incidents
+label: accidents and incidents
 definition: dynamic information disseminating the occurrence of an accident or incident on a specific segment/section of a road link.
 category: Other types of data on the state of the network
 language: en

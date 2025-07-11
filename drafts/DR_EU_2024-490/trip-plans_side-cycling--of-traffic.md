@@ -10,7 +10,6 @@ subcategory:
   - Trip plans
 ---
 
-
 >There is no reference standard for this data category.
 
 >References/additional info: https://publications.jrc.ec.europa.eu/repository/handle/JRC118744

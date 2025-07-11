@@ -10,7 +10,6 @@ subcategory:
   - Trip plans
 ---
 
-
 >The operational calendar describes the specific days of operation for public transport services (days, period, day types). For example, it can describe that a specific line operates on all weekdays (Monday to Friday) except for specific public holidays (e.g., December 25).
 
 <table style="font-size: smaller; width: 100%;">

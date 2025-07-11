@@ -10,7 +10,6 @@ subcategory:
   - Passing times, trip plans and auxiliary information
 ---
 
-
 >SIRI can exchange estimated real-time changes to the planned timetable and continuously keep track of minor deviations, cancellations and other disruptions, prior to- or during the service operation.
 
 >NeTEx can be used to exchange alterations to the planned timetable including last-minute changes to the passing times.

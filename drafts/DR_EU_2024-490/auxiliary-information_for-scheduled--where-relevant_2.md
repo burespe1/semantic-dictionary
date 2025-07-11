@@ -10,7 +10,6 @@ subcategory:
   - Auxiliary information
 ---
 
-
 >Fare structures can be broadly discerned into:\
 • Space-based structures: flat or progressive, zonal- or interval-based, point-to-point, etc. Interval-based fares may be based on simple distances, numbers of zones, border points, etc.\
 • Time-based structures: flat or progressive depending upon time intervals.\

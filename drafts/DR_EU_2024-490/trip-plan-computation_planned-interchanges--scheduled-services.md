@@ -10,7 +10,6 @@ subcategory:
   - Trip plan computation
 ---
 
-
 >The planned transport services involved can be either scheduled transport or on demand transport.
 
 <table style="font-size: smaller; width: 100%;">

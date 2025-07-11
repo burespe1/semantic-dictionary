@@ -10,7 +10,6 @@ subcategory:
   - Detailed common standard and special fare query
 ---
 
-
 >This information may refer to the principles of refunding, replacing, exchanging, and transferring a ticket and/or the basic conditions, such as purchase windows, validity periods, fare limitations, and minimum duration.
 
 <table style="font-size: smaller; width: 100%;">

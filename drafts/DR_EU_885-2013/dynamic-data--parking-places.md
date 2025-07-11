@@ -1,6 +1,6 @@
 ---
 id: dynamic-data--parking-places
-label: Dynamic data on the availability of parking places
+label: dynamic data on the availability of parking places
 definition: dynamic information reflecting the state and status of a truck parking area.
 category: Dynamic data
 language: en

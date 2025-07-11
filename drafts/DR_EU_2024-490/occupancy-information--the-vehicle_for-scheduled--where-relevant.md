@@ -10,7 +10,6 @@ subcategory:
   - Occupancy information of the vehicle
 ---
 
-
 <table style="font-size: smaller; width: 100%;">
     <tr>
         <th colspan="2" style="text-align: left;">Correspondence with Transmodel</th>

@@ -10,7 +10,6 @@ subcategory:
   - Detailed common standard and special fare query
 ---
 
-
 >Provided information may be classified based on tariff offers and access rights (e.g., zone/point-to-point weekly/single/roundtrip tickets) as well as the eligibility of access and basic usage conditions (e.g., valid period/operator/time of travel interchanging, standard point-to-point fare prices for different point-to-point pairs including daily and weekly fares/zonal fare/flat fare).\
 The prices may be absolute or derived from other prices.
 

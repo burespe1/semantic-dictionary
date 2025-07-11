@@ -1,6 +1,6 @@
 ---
 id: location-and--identifying-dangers
-label: Location and identification of traffic signs reflecting traffic regulations and identifying dangers
+label: location and identification of traffic signs reflecting traffic regulations and identifying dangers
 definition: the minimum information required for identifying the location and disseminating the type and direction of signs (or panels) reflecting various traffic regulations and potential hazards on the road (e.g., warning signs).
 category: Other types of data on regulations and restrictions
 language: en

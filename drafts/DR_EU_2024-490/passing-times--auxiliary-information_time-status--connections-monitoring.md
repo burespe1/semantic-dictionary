@@ -10,7 +10,6 @@ subcategory:
   - Passing times, trip plans and auxiliary information
 ---
 
-
 >This information may provide further details about delays, cancellations, and guaranteed connections among different modes (e.g., foreseen delay duration, cancellation timeframe). It shall be dynamically updated as soon as it becomes available to reflect the latest operational status of transport services.
 
 <table style="font-size: smaller; width: 100%;">

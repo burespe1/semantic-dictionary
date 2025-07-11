@@ -1,6 +1,6 @@
 ---
 id: weather-conditions--and-visibility
-label: Weather conditions affecting road surface and visibility
+label: weather conditions affecting road surface and visibility
 definition: dynamic information disseminating the prevalence of (adverse) weather conditions affecting road surface and visibility and, thus, implying accident hazards for road users.
 category: Other types of data on the state of the network
 language: en

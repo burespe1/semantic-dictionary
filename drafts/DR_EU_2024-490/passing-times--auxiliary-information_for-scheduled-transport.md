@@ -10,7 +10,6 @@ subcategory:
   - Passing times, trip plans and auxiliary information
 ---
 
-
 >The operational status of access nodes features (e.g., platform information systems, lift/escalators, entrances, and exits) may be affected by technical issues and malfunctions.
 
 <table style="font-size: smaller; width: 100%;">

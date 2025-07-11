@@ -10,7 +10,6 @@ subcategory:
   - Location search (origin_destination)
 ---
 
-
 >The names of settlements, counties, etc., are of importance for locating trip endpoints, namely for the distinction of place names that are not globally unique.
 
 >The following data needs to be provided for topographic places:\

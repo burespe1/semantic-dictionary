@@ -1,6 +1,6 @@
 ---
 id: number-of--goods-vehicles
-label: Number of parking places for refrigerated  goods vehicles
+label: number of parking places for refrigerated  goods vehicles
 definition: the number of parking places in a truck parking area that satisfy the requirements of refrigerated goods vehicles.
 category: Static data
 language: en

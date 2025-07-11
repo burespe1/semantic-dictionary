@@ -10,7 +10,6 @@ subcategory:
   - Trip plans
 ---
 
-
 >As mentioned within the Delegated Regulations (EU) 2017/1926 and (EU) 2024/490, this information encompasses parameters, such as carbon dioxide emissions per vehicle type (i.e., average rate per vehicle type per mile travelled), passenger mile (i.e., average rate per vehicle type per mile travelled per passenger), and distance walked (i.e., average rate per mile of walking).
 
 <table style="font-size: smaller; width: 100%;">

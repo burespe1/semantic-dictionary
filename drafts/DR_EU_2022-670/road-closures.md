@@ -1,6 +1,6 @@
 ---
 id: road-closures
-label: Road closures
+label: road closures
 definition: dynamic information disseminating the closure of road links of any type.
 category: Crucial types of data on the state of the network
 language: en

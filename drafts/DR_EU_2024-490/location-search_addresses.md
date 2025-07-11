@@ -10,7 +10,6 @@ subcategory:
   - Location search (origin_destination)
 ---
 
-
 >The following data needs to be provided for an address:\
 • Identifier (must be globally unique)\
 • Name\

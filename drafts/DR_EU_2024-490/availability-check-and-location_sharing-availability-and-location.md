@@ -10,7 +10,6 @@ subcategory:
   - Availability check and location
 ---
 
-
 >It may derive from the capacity of a given area and vehicle location information at a specific time.
 
 <table style="font-size: smaller; width: 100%;">

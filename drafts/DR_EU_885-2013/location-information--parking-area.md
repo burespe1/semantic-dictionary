@@ -1,6 +1,6 @@
 ---
 id: location-information--parking-area
-label: Location information of the entry point in the truck parking area
+label: location information of the entry point in the truck parking area
 definition: the minimum information required for indicating the position of the entry point of a truck parking area.
 category: Static data
 language: en

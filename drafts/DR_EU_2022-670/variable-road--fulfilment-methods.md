@@ -1,6 +1,6 @@
 ---
 id: variable-road--fulfilment-methods
-label: Variable road user charges and available payment methods, including retail channels and fulfilment methods
+label: variable road user charges and available payment methods, including retail channels and fulfilment methods
 definition: the minimum information required for indicating that variable charges apply on specific road links or within certain urban areas based on the attributes of a congestion (or emission) pricing policy as well as for disseminating the applicable variable road user charges and available payment methods.
 category: Other types of data on regulations and restrictions
 language: en

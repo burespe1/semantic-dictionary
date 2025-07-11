@@ -1,6 +1,6 @@
 ---
 id: availability-of--fuel-types
-label: Availability of refuelling points and stations for alternative fuel types
+label: availability of refuelling points and stations for alternative fuel types
 definition: dynamic information reflecting the state and status of refuelling points and stations corresponding to alternative fuels.
 category: Types of data on the real-time use of the network
 language: en

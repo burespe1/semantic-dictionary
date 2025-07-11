@@ -1,6 +1,6 @@
 ---
 id: traffic-volume
-label: Traffic volume
+label: traffic volume
 definition: dynamic information indicating the number of vehicles, distinguished (or not) into light and heavy vehicles, passing through a specific point (road section) within a specified time period per direction.
 category: Types of data on the real-time use of the network
 language: en

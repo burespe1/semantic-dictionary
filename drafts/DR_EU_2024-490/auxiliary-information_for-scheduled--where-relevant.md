@@ -10,7 +10,6 @@ subcategory:
   - Auxiliary information
 ---
 
-
 >Fare or tariff zones are used to group different sections of a public transport journey for which a set charge is made. They constitute two-dimensional elements within the service area of a public transport operator. The individual one-dimensional elements within the service are of a public transport operator. The individual one-dimensional sections of a fare network are defined as the consecutive fare or border points of a public transport journey that fall within the same fare or tariff zone. For fare structures that are based on the number of fare stages passed, the fare stages passed, the fare stages can be demarcated.
 
 <table style="font-size: smaller; width: 100%;">

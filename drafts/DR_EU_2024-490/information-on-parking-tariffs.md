@@ -1,13 +1,12 @@
 ---
 id: information-on-parking-tariffs
-label: Information on parking tariffs
+label: information on parking tariffs
 definition: the minimum information required for describing parking tariffs
 category: Level of Service 4
 language: en
 status: in review
 source: DR_EU_2024-490
 ---
-
 
 <table style="font-size: smaller; width: 100%;">
     <tr>

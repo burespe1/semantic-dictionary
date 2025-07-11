@@ -10,7 +10,6 @@ subcategory:
   - Information service
 ---
 
-
 >This data category encompasses information about different retail channels where tickets can be purchased (e.g., online, ticket desks), different fulfilment methods (e.g., pick up from a designated location) and accepted payment methods for purchasing a ticket (e.g., credit/debit cards, cash).
 
 <table style="font-size: smaller; width: 100%;">

@@ -1,13 +1,12 @@
 ---
 id: static-and--traffic-regulations
-label: Static and dynamic traffic regulations
+label: static and dynamic traffic regulations
 definition: the minimum information required for disseminating and describing the content of crucial traffic rules and driving regulations that are either permanent (static) or changeable over time (dynamic), considering ongoing events and prevailing conditions.
 category: Crucial types of data on regulations and restrictions
 language: en
 status: in review
 source: DR_EU_2022-670
 ---
-
 
 >Traffic regulations comprise of machine-interpretable rules and restrictions that control vehicle (or pedestrian) movement on the road network to ensure safety and traffic efficiency. According to DR (EU) 2022/670 crucial traffic regulations in the scope of the current data category are categorized as follows:\
 •	access conditions for tunnels (legal or physical restrictions/limitations on vehicles to access a specific tunnel; may be expressed through tunnel classes)\

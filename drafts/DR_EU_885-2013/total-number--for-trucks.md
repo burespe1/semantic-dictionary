@@ -1,6 +1,6 @@
 ---
 id: total-number--for-trucks
-label: Total number of free parking places for trucks
+label: total number of free parking places for trucks
 definition: the maximum (total) number of parking places dedicated to all types of trucks (truck parking capacity).
 category: Static data
 language: en

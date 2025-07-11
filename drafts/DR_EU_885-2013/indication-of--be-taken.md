@@ -1,6 +1,6 @@
 ---
 id: indication-of--be-taken
-label: Indication of the Exit to be taken
+label: indication of the Exit to be taken
 definition: the minimum information required for identifying the exit or exits (if more than one) to be taken by a truck driver typically along a motorway to approach/move away from a truck parking area.
 category: Static data
 language: en

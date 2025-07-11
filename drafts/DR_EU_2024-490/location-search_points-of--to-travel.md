@@ -10,7 +10,6 @@ subcategory:
   - Location search (origin_destination)
 ---
 
-
 >The coordinates and/or address identifiers of any point of interest (POI) that are relevant to travellers. For example, a museum, a theatre, or a shopping mall. The following POI should be (at least) provided:\
 • Administrative buildings\
 • Airports\

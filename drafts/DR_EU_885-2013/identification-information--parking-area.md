@@ -1,6 +1,6 @@
 ---
 id: identification-information--parking-area
-label: Identification information of the truck parking area
+label: identification information of the truck parking area
 definition: the minimum information required for identifying a truck parking area, such as its name, national identifier (if available), and address, including the country and territorial unit in which it is located.
 category: Static data
 language: en

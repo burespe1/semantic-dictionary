@@ -10,7 +10,6 @@ subcategory:
   - Detailed common standard and special fare query
 ---
 
-
 >Special fare products are based on offers with additional special conditions, such as promotional fares, group fares, season passes, aggregated products combining different products and add on products (e.g., parking and travel, minimum stay).
 
 <table style="font-size: smaller; width: 100%;">

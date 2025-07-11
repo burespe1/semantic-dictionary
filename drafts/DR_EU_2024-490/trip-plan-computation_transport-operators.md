@@ -10,7 +10,6 @@ subcategory:
   - Trip plan computation
 ---
 
-
 >Such information may encompass the name and identification code of transport operators.
 
 <table style="font-size: smaller; width: 100%;">

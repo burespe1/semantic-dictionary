@@ -10,7 +10,6 @@ subcategory:
   - Trip plan computation
 ---
 
-
 >Assistance services can be proposed prior to the travel (in case of normal conditions of operation), during the travel (in case of an incident), and/or after the travel. Some services - e.g. those for a customer travelling with physical or digital impairment, or compensations in case of delay - are made mandatory by several modal - and even multimodal - European legislation.
 
 <table style="font-size: smaller; width: 100%;">

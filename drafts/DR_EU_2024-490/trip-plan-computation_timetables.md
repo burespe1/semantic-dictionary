@@ -10,7 +10,6 @@ subcategory:
   - Trip plan computation
 ---
 
-
 ><u>For scheduled transport modes</u>: It is an aggregation of vehicle journeys (defined for specific day types) and passing times at stops for the concerned vehicle journeys.
 
 ><span id="ref4">[4]</span> The data category “demand-responsive”/ “transport on-demand” as per DR (EU) 2017/1926 (p. 11)/ DR (EU) 2024/490 (p. 10) covers more modes of transportation than Transmodel would address as demand responsive. E.g. vehicle-pooling (not only car) is not addressed as a part of demand responsive modes, but a separate category.  [↩](#fn4)

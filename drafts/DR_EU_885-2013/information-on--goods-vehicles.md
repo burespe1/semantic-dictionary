@@ -1,6 +1,6 @@
 ---
 id: information-on--goods-vehicles
-label: Information on specific equipment or services for specific goods vehicles
+label: information on specific equipment or services for specific goods vehicles
 definition: the minimum information required for disseminating special amenities offered by a truck parking area for specific goods vehicles.
 category: Static data
 language: en

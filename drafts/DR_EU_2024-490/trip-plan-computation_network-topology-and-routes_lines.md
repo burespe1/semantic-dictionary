@@ -10,7 +10,6 @@ subcategory:
   - Trip plan computation
 ---
 
-
 >This data category assists the indication of the pattern of stops that makes up the timetables.
 
 <table style="font-size: smaller; width: 100%;">

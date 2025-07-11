@@ -1,6 +1,6 @@
 ---
 id: bridge-closures
-label: Bridge closures
+label: bridge closures
 definition: dynamic information disseminating the closure of road rinks corresponding to bridges.
 category: Other types of data on the state of the network
 language: en

@@ -1,6 +1,6 @@
 ---
 id: description-of--service-equipment
-label: Description of security, safety, and service equipment (at truck parking)
+label: description of security, safety, and service equipment (at truck parking)
 definition: the minimum information required for disseminating and describing the amenities offered by a truck parking area, including security, safety, and service amenities.
 category: Static data
 language: en
