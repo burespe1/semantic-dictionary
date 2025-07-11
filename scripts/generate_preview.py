@@ -21,6 +21,7 @@ INDEX_FILE = DRAFT_ROOT / "INDEX.md"
 BADGES = {
     "draft": "![Status](https://img.shields.io/badge/status-draft-orange)",
     "in review": "![Status](https://img.shields.io/badge/status-pending-yellow)",
+    "modified": "![Status](https://img.shields.io/badge/status-modified-purple)",
     "finalised": "![Status](https://img.shields.io/badge/status-finalised-blue)",
     "approved": "![Status](https://img.shields.io/badge/status-approved-brightgreen)",
     "deprecated": "![Status](https://img.shields.io/badge/status-deprecated-lightgrey)"

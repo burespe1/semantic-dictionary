@@ -4,7 +4,7 @@ label: Primary Road identifier_direction (related to truck parking)
 definition: the minimum information required for indicating the road(s) (one or more – as applies) through which a truck parking area is accessible.
 category: Static data
 language: en
-status: in review
+status: finalised
 source: DR_EU_885-2013
 ---
 
