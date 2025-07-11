@@ -1,6 +1,6 @@
 ---
 id: location-of--their-use
-label: Location of charging points for electric vehicles and the conditions for their use
+label: location of charging points for electric vehicles and the conditions for their use
 definition: the minimum information required for disseminating the geographic location of charging infrastructure (charging pools), dedicated to electric vehicles, including the exact position of charging points along with the conditions for their use.
 category: Static data
 language: en

@@ -1,6 +1,6 @@
 ---
 id: road-classification
-label: Road classification
+label: road classification
 definition: the minimum information required for distinguishing the links of a road network encompassing form of way, functional, or other concerns.
 category: Static data
 language: en

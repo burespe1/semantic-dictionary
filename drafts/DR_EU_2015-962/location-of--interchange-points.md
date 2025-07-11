@@ -1,6 +1,6 @@
 ---
 id: location-of--interchange-points
-label: Location of public transport stops and interchange points
+label: location of public transport stops and interchange points
 definition: the minimum information required for identifying the location of a) designated places at which public transport vehicles can stop with the aim of allowing passengers to embark and disembark and b) facilities allowing passengers to transfer between different modes of public transport (such as from bus to train, or from tram to bus) and carriers, thus encouraging intermodal transport practices and operations.
 category: Static data
 language: en

@@ -1,6 +1,6 @@
 ---
 id: traffic-signs--identifying-dangers
-label: Traffic signs reflecting traffic regulations and identifying dangers
+label: traffic signs reflecting traffic regulations and identifying dangers
 definition: the minimum information required for disseminating the location, type, and direction of signs (or panels) reflecting various traffic regulations and potential hazards on the road (e.g., warning signs).
 category: Static data
 language: en

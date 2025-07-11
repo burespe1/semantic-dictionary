@@ -1,6 +1,6 @@
 ---
 id: location-of--hydrogen-stations
-label: Location of compressed natural gas, liquefied natural gas, liquefied petroleum gas, and hydrogen stations
+label: location of compressed natural gas, liquefied natural gas, liquefied petroleum gas, and hydrogen stations
 definition: the minimum information required for disseminating the geographic location of compressed natural gas, liquefied natural gas, liquefied petroleum gas and hydrogen refueling stations.
 category: Static data
 language: en
