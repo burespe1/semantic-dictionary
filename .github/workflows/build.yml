@@ -46,16 +46,17 @@ jobs:
           git config --global user.email "actions@github.com"
           git fetch origin
           git checkout main
-          git reset --hard origin/main
+          git branch --set-upstream-to=origin/main main
 
       - name: Run Preview Script
         run: python scripts/generate_preview.py
 
-      - name: Commit and Push Preview Files
+      - name: Commit, Rebase and Push Preview Files
         run: |
           git add -f preview/
           git add -f drafts/INDEX.md
           git diff --cached --quiet || git commit -m "🔄 Updated preview files"
+          git pull --rebase origin main
           git push --force-with-lease origin main
 
   release:
@@ -84,16 +85,17 @@ jobs:
           git config --global user.email "actions@github.com"
           git fetch origin
           git checkout main
-          git reset --hard origin/main
+          git branch --set-upstream-to=origin/main main
 
       - name: Run Release Script
         run: python scripts/generate_release.py
 
-      - name: Commit and Push Release Files
+      - name: Commit, Rebase and Push Release Files
         run: |
           git add -f release/
           git add -f vocab/
           git diff --cached --quiet || git commit -m "🔄 Updated release files"
+          git pull --rebase origin main
           git push --force-with-lease origin main
 
       - name: Create GitHub Release
