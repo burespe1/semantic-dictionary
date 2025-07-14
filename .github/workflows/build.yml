@@ -8,7 +8,7 @@ on:
     branches:
       - '**'
     tags:
-      - 'v*'     # 👈 NEW: match version tag pushes like v1.0.0, v2.3.1
+      - 'v*'         # Matches version tags like v1.0.0, v2.3.1
     paths:
       - 'drafts/**'
       - 'code/**'
@@ -19,19 +19,19 @@ on:
 
   workflow_dispatch:
 
-
 jobs:
   preview:
     name: Generate Previews
-    if: github.event_name == 'push'  # ✅ Prevents running on release/tags
+    if: github.event_name == 'push'
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout main branch
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          ref: main  # ensures you're operating on main branch
+          ref: main
+          ssh-key: ${{ secrets.SSH_KEY }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -41,27 +41,24 @@ jobs:
       - name: Install dependencies
         run: pip install pyyaml rdflib || true
 
-      - name: Configure Git user
+      - name: Configure Git
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-
-      - name: Discard changes and pull latest main
-        run: |
+          git remote set-url origin git@github.com:burespe1/semantic-dictionary.git
           git fetch origin
           git checkout main
-          git reset --hard
-          git pull origin main
+          git reset --hard origin/main
 
       - name: Run Preview Script
         run: python scripts/generate_preview.py
-        
-      - name: Push changes
+
+      - name: Commit and Push Preview Files
         run: |
-          git add -f preview/ 
+          git add -f preview/
           git add -f drafts/INDEX.md
           git diff --cached --quiet || git commit -m "🔄 Updated preview files"
-          git push origin main
+          git push --force-with-lease origin main
 
   release:
     name: Generate Release
@@ -69,11 +66,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout main branch
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          ref: main  # ensures you're operating on main branch
+          ref: main
+          ssh-key: ${{ secrets.SSH_KEY }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -83,35 +81,31 @@ jobs:
       - name: Install dependencies
         run: pip install pyyaml rdflib || true
 
-      - name: Configure Git user
+      - name: Configure Git
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-
-      - name: Discard changes and pull latest main
-        run: |
+          git remote set-url origin git@github.com:burespe1/semantic-dictionary.git
           git fetch origin
           git checkout main
-          git reset --hard
-          git pull origin main
+          git reset --hard origin/main
 
       - name: Run Release Script
         run: python scripts/generate_release.py
 
-      - name: Push release files
+      - name: Commit and Push Release Files
         run: |
-          git add -f release/ 
+          git add -f release/
           git add -f vocab/
           git diff --cached --quiet || git commit -m "🔄 Updated release files"
-          git push origin main
+          git push --force-with-lease origin main
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v1
         with:
           tag_name: ${{ github.ref_name }}
           name: "📦 Release ${{ github.ref_name }}"
-          body: "Automated release for version v${{ steps.version.outputs.version }}"
-          files: |
-            release/**
+          body: "Automated release for version ${{ github.ref_name }}"
+          files: release/**
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
