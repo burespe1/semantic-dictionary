@@ -1,0 +1,36 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+.uv/
+
+# PDM artifacts
+pdm.lock
+
+# Mac/Linux metadata
+.DS_Store
+
+# Windows metadata
+Thumbs.db
+
+# Python cache and logs
+*.log
+*.coverage
+
+# VS Code settings (optional)
+.vscode/
+
+# Pytest and coverage
+.cache/
+htmlcov/
+
+# automatically created products (by workflow)
+drafts/INDEX.md
+preview/*
+!preview/README.md
+release/*
+!release/README.md
+vocab/*
+!vocab/README.md

@@ -1,0 +1,20 @@
+[project]
+name = "semantic-dictionary-preview"
+version = "0.1.0"
+description = "Script to generate preview files from semantic dictionary drafts"
+authors = [
+    { name = "Petr Bureš", email = "burespe1@gmail.com" }
+]
+requires-python = ">=3.8"
+dependencies = [
+    "pyyaml >=5.4",
+	"rdflib >=6.3"
+]
+
+[tool.pdm]
+# Automatically create a virtualenv inside `.venv/`
+venv = { in-project = true }
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"

@@ -1,0 +1,115 @@
+name: Build Dictionary
+
+permissions:
+  contents: write
+
+on:
+  push:
+    branches:
+      - '**'
+    tags:
+      - 'v*'     # 👈 NEW: match version tag pushes like v1.0.0, v2.3.1
+    paths:
+      - 'drafts/**'
+      - 'code/**'
+      - 'scripts/generate_preview.py'
+
+  release:
+    types: [published]
+
+  workflow_dispatch:
+
+
+jobs:
+  preview:
+    name: Generate Previews
+    if: github.event_name == 'push'  # ✅ Prevents running on release/tags
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        ref: main  # ensures you're operating on main branch
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install pyyaml rdflib || true
+
+      - name: Configure Git user
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+
+      - name: Discard changes and pull latest main
+        run: |
+          git fetch origin
+          git checkout main
+          git reset --hard
+          git pull origin main
+
+      - name: Run Preview Script
+        run: python scripts/generate_preview.py
+        
+      - name: Push changes
+        run: |
+          git add -f preview/ 
+          git add -f drafts/INDEX.md
+          git diff --cached --quiet || git commit -m "🔄 Updated preview files"
+          git push origin main
+
+  release:
+    name: Generate Release
+    if: startsWith(github.ref, 'refs/tags/') || github.event_name == 'release'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: main  # ensures you're operating on main branch
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install pyyaml rdflib || true
+
+      - name: Configure Git user
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+
+      - name: Discard changes and pull latest main
+        run: |
+          git fetch origin
+          git checkout main
+          git reset --hard
+          git pull origin main
+
+      - name: Run Release Script
+        run: python scripts/generate_release.py
+
+      - name: Push release files
+        run: |
+          git add -f release/ 
+          git add -f vocab/
+          git diff --cached --quiet || git commit -m "🔄 Updated release files"
+          git push origin main
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ github.ref_name }}
+          name: "📦 Release ${{ github.ref_name }}"
+          body: "Automated release for version v${{ steps.version.outputs.version }}"
+          files: |
+            release/**
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
