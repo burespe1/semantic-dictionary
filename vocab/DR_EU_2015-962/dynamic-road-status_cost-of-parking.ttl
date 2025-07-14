@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#dynamic-road-status_cost-of-parking> a skos:Concept ;
+    skos:definition "dynamic information reflecting the applicable cost of parking on charged parking infrastructure."@en ;
+    skos:prefLabel "cost of parking"@en .
+

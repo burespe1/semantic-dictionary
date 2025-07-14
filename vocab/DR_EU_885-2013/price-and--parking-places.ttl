@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#price-and--parking-places> a skos:Concept ;
+    skos:definition "the minimum information required for disseminating the (possibly time dependent) cost of parking and the applicable currency."@en ;
+    skos:prefLabel "price and currency of truck parking places"@en .
+

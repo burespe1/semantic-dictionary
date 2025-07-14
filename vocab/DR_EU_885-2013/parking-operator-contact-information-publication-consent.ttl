@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#parking-operator-contact-information-publication-consent> a skos:Concept ;
+    skos:definition "an appropriate value reflecting whether a parking operator agrees (or not) to make his/her contact information visible to the public."@en ;
+    skos:prefLabel "consent to publish contact information of the parking operator (for truck parking users)"@en .
+

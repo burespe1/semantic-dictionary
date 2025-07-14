@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#availability-of--electric-vehicles> a skos:Concept ;
+    skos:definition "dynamic information reflecting the state and status of charging points and stations for electric vehicles."@en ;
+    skos:prefLabel "availability of recharging points and stations for electric vehicles"@en .
+

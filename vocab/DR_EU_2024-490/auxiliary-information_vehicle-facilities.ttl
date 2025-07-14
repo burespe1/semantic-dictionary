@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#auxiliary-information_vehicle-facilities> a skos:Concept ;
+    skos:definition "the minimum information required to describe the available facilities/amenities offered by a public transport mode."@en ;
+    skos:prefLabel "vehicle facilities, including classes of carriage, on-board Wi-Fi, capacity and access conditions for bicycles"@en .
+

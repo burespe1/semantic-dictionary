@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#location-of--rest-areas> a skos:Concept ;
+    skos:definition "the minimum information required for identifying the location of places (typically along motorways) where drivers/motorists can stop, rest, and get access to available service facilities and amenities."@en ;
+    skos:prefLabel "location of service areas and rest areas"@en .
+

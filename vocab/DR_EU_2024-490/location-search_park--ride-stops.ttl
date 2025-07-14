@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#location-search_park--ride-stops> a skos:Concept ;
+    skos:definition "the minimum information required for identifying the location of park & ride stops (i.e., places where road users can park their private vehicle and transfer to another public transport mode)."@en ;
+    skos:prefLabel "park & ride stops"@en .
+

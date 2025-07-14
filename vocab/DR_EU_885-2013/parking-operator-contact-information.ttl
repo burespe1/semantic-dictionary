@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#parking-operator-contact-information> a skos:Concept ;
+    skos:definition "the minimum information required for enabling truck parking users to reach out to parking operators (or associated company), including the name and surname (optional), telephone number, and e-mail address of their contact point."@en ;
+    skos:prefLabel "contact information of the parking operator (for truck parking users)"@en .
+

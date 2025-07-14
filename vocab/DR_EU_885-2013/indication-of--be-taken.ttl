@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#indication-of--be-taken> a skos:Concept ;
+    skos:definition "the minimum information required for identifying the exit or exits (if more than one) to be taken by a truck driver typically along a motorway to approach/move away from a truck parking area."@en ;
+    skos:prefLabel "indication of the Exit to be taken"@en .
+

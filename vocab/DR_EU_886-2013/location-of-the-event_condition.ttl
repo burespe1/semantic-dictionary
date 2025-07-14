@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#location-of-the-event_condition> a skos:Concept ;
+    skos:definition "the minimum information required for disseminating the location of an event/condition that is on-going or time valid."@en ;
+    skos:prefLabel "location of the event_condition"@en .
+

@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#trip-plan-computation_connection-where--be-made> a skos:Concept ;
+    skos:definition "the minimum information required for indicating the attributes of connection links (enabling the transfer of travellers from one vehicle to another), essential for trip plan computation purposes."@en ;
+    skos:prefLabel "connection where interchanges may be made"@en .
+

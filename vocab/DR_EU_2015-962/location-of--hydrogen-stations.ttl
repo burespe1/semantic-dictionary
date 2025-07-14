@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#location-of--hydrogen-stations> a skos:Concept ;
+    skos:definition "the minimum information required for disseminating the geographic location of compressed natural gas, liquefied natural gas, liquefied petroleum gas and hydrogen refueling stations."@en ;
+    skos:prefLabel "location of compressed natural gas, liquefied natural gas, liquefied petroleum gas, and hydrogen stations"@en .
+

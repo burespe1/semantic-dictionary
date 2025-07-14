@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#availability-of--fuel-types> a skos:Concept ;
+    skos:definition "dynamic information reflecting the state and status of refuelling points and stations corresponding to alternative fuels."@en ;
+    skos:prefLabel "availability of refuelling points and stations for alternative fuel types"@en .
+

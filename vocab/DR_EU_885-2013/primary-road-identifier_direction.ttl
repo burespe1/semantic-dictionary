@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#primary-road-identifier_direction> a skos:Concept ;
+    skos:definition "the minimum information required for indicating the road(s) (one or more – as applies) through which a truck parking area is accessible."@en ;
+    skos:prefLabel "primary Road identifier_direction (related to truck parking)"@en .
+

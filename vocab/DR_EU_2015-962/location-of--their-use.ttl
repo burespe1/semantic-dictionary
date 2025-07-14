@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#location-of--their-use> a skos:Concept ;
+    skos:definition "the minimum information required for disseminating the geographic location of charging infrastructure (charging pools), dedicated to electric vehicles, including the exact position of charging points along with the conditions for their use."@en ;
+    skos:prefLabel "location of charging points for electric vehicles and the conditions for their use"@en .
+

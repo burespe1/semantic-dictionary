@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#identification-information--parking-area> a skos:Concept ;
+    skos:definition "the minimum information required for identifying a truck parking area, such as its name, national identifier (if available), and address, including the country and territorial unit in which it is located."@en ;
+    skos:prefLabel "identification information of the truck parking area"@en .
+

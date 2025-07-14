@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#trip-plan-computation_estimated-travel-times> a skos:Concept ;
+    skos:definition "the minimum set of information required for calculating the estimated travel times by transport mode or even combination of transport modes considering recurring conditions at/in specific time bands and day types."@en ;
+    skos:prefLabel "estimated travel times by day type and time-band by transport mode/combination of transport modes"@en .
+

@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#traffic-data_travel-times> a skos:Concept ;
+    skos:definition "dynamic information indicating the time required for observed vehicles to cross a specific road link or to travel from a given point to another over a specified route under prevailing traffic conditions."@en ;
+    skos:prefLabel "travel times"@en .
+

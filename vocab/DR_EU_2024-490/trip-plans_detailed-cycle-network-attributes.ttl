@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#trip-plans_detailed-cycle-network-attributes> a skos:Concept ;
+    skos:definition "the minimum set of information required for describing the attributes of a cycle network (physical and logical arrangement of nodes and links)."@en ;
+    skos:prefLabel "detailed cycle network attributes (surface quality, side-by-side cycling, shared surface, on/off road, scenic route, “walk only”, turn or access restrictions, e.g., against flow of traffic)"@en .
+

@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#dynamic-road-status_overtaking-bans--goods-vehicles> a skos:Concept ;
+    skos:definition "dynamic information disseminating the prohibition of overtaking by heavy goods vehicles on specific segments of a road link (or on the entire link) due to adverse on-going conditions."@en ;
+    skos:prefLabel "overtaking bans on heavy goods vehicles"@en .
+

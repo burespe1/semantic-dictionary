@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#dynamic-road-status_bridge-closures> a skos:Concept ;
+    skos:definition "dynamic information disseminating the closure of road links corresponding to bridges."@en ;
+    skos:prefLabel "bridge closures"@en .
+

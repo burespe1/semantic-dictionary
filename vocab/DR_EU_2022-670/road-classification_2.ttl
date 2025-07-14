@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#road-classification_2> a skos:Concept ;
+    skos:definition "the minimum information required for distinguishing the links of a road network encompassing form of way, functional, or other concerns."@en ;
+    skos:prefLabel "road classification"@en .
+

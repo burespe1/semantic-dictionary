@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#trip-plans_parameters-needed--distance-walked> a skos:Concept ;
+    skos:definition "the minimum set of information required for enabling the estimation of the environmental footprint of a trip."@en ;
+    skos:prefLabel "parameters needed to calculate an environmental factor such as greenhouse gas emissions per vehicle type or passenger mile or per distance walked"@en .
+

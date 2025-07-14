@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#dynamic-road-status_direction-of--reversible-lanes> a skos:Concept ;
+    skos:definition "dynamic information disseminating the active direction of travel on a reversible lane of a specific segment of a road link (or on the entire road link)."@en ;
+    skos:prefLabel "direction of travel on reversible lanes"@en .
+

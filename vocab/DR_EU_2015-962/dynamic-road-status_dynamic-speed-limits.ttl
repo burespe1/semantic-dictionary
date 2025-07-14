@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#dynamic-road-status_dynamic-speed-limits> a skos:Concept ;
+    skos:definition "dynamic information disseminating temporary changes in the speed limit applying on a specific segment (or on the entire road link)."@en ;
+    skos:prefLabel "dynamic speed limits"@en .
+

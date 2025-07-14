@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#trip-plan-computation_cycle-network> a skos:Concept ;
+    skos:definition "the minimum information required for describing the topological structure and attributes of cycle networks, essential for trip plan computation purposes."@en ;
+    skos:prefLabel "cycle network (cycle tracks, cycle lanes, bus-and-cycle lanes, on-road shared with vehicles, on-path shared with pedestrians)"@en .
+

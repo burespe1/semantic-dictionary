@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#detailed-common--fare-query_basic-commercial--or-transferring> a skos:Concept ;
+    skos:definition "the minimum set of information about basic commercial conditions required for supporting fare queries."@en ;
+    skos:prefLabel "basic commercial conditions such as refunding, replacing, exchanging or transferring"@en .
+

@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#information-on-parking-tariffs> a skos:Concept ;
+    skos:definition "the minimum information required for describing parking tariffs"@en ;
+    skos:prefLabel "information on parking tariffs"@en .
+

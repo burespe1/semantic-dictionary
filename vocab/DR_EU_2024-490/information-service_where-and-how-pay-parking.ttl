@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#information-service_where-and-how-pay-parking> a skos:Concept ;
+    skos:definition "the minimum set of information required for describing the way to pay for parking, including the location as well as the supported payment and fulfilment methods."@en ;
+    skos:prefLabel "where and how to pay for parking, including retail channels, fulfilment methods, payment methods"@en .
+

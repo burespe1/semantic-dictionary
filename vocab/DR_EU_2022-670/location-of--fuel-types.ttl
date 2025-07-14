@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#location-of--fuel-types> a skos:Concept ;
+    skos:definition "the minimum information required for disseminating the geographic location of refuelling points and stations, encompassing other (than the above) fuel types (e.g., gasoline, diesel, biodiesel)."@en ;
+    skos:prefLabel "location of of refuelling points and stations for all other fuel types"@en .
+

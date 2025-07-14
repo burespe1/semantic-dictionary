@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#trip-plan-computation_network-topology-and-routes_lines> a skos:Concept ;
+    skos:definition "the minimum information required for indicating the topology of the service network of scheduled transport or transport on demand modes, essential for trip plan computation purposes."@en ;
+    skos:prefLabel "network topology and routes_lines (topology)"@en .
+

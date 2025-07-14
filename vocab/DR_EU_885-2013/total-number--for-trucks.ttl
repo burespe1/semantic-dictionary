@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#total-number--for-trucks> a skos:Concept ;
+    skos:definition "the maximum (total) number of parking places dedicated to all types of trucks (truck parking capacity)."@en ;
+    skos:prefLabel "total number of free parking places for trucks"@en .
+

@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#location-search_park--drive-stops> a skos:Concept ;
+    skos:definition "the minimum information required for identifying the location of park & drive stops (i.e., places where road users can park their vehicle and transfer to carpooling mode)."@en ;
+    skos:prefLabel "park & Drive stops"@en .
+

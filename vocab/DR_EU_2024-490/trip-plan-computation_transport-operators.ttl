@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#trip-plan-computation_transport-operators> a skos:Concept ;
+    skos:definition "the minimum information about the public transport companies providing scheduled transport or transport on demand services necessary to provide correct contact information to the travellers."@en ;
+    skos:prefLabel "transport operators"@en .
+

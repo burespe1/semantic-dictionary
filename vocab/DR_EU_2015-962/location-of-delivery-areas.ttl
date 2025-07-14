@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#location-of-delivery-areas> a skos:Concept ;
+    skos:definition "the minimum information required for identifying the physical location of designated points along a road network or on specific road links reserved for loading/unloading operations."@en ;
+    skos:prefLabel "location of delivery areas"@en .
+

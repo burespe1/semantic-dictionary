@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#identification-of--payment-methods_2> a skos:Concept ;
+    skos:definition "the minimum information required for indicating that tolls apply on a road link as well as for disseminating information about the applicable road user charges and available payment methods."@en ;
+    skos:prefLabel "identification of tolled roads, applicable fixed road user charges and available payment methods"@en .
+

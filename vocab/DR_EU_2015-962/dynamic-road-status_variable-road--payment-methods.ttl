@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#dynamic-road-status_variable-road--payment-methods> a skos:Concept ;
+    skos:definition "dynamic information disseminating variable road user charges responding to a congestion/emission pricing policy scheme and the available payment methods."@en ;
+    skos:prefLabel "variable road user charges and available payment methods"@en .
+

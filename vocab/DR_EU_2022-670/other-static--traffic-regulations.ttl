@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#other-static--traffic-regulations> a skos:Concept ;
+    skos:definition "the minimum information required for disseminating and describing the content of other traffic rules and driving regulations that are either permanent (static) or changeable over time (dynamic), considering ongoing events and prevailing conditions."@en ;
+    skos:prefLabel "other static and dynamic traffic regulations"@en .
+

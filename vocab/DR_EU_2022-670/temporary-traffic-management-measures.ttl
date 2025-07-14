@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#temporary-traffic-management-measures> a skos:Concept ;
+    skos:definition "dynamic information disseminating temporary traffic management measures in response to the current state of or conditions along a particular segment/link or part of a road network, which can change over time due to several factors (e.g., road works, weather conditions, special events)."@en ;
+    skos:prefLabel "temporary traffic management measures"@en .
+

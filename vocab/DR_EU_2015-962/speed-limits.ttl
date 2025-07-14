@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#speed-limits> a skos:Concept ;
+    skos:definition "the minimum information required for describing the speed limits (minimum and/or maximum) that apply on a road network link given a set of applicable conditions."@en ;
+    skos:prefLabel "speed limits"@en .
+

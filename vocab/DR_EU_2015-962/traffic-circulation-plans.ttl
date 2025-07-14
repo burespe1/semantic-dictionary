@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#traffic-circulation-plans> a skos:Concept ;
+    skos:definition "the minimum information required for disseminating and describing the content of plans that are developed by local authorities to control and guide traffic flows in response to known and recurring traffic conditions as well as in consideration of seasonality effects and existing limitation and constraints (e.g., existence of school zones)."@en ;
+    skos:prefLabel "traffic circulation plans"@en .
+

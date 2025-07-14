@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#availability-check-and-location_dynamic-information--parking-space> a skos:Concept ;
+    skos:definition "the minimum dynamic information required for disseminating the availability of on-street and off-street car parking space."@en ;
+    skos:prefLabel "car parking spaces available (on and off-street)"@en .
+

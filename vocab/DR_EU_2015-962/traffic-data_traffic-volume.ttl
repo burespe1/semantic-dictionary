@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#traffic-data_traffic-volume> a skos:Concept ;
+    skos:definition "dynamic information indicating the number of vehicles, distinguished (or not) into light and heavy vehicles, passing through a specific point (road section) within a specified time period per direction."@en ;
+    skos:prefLabel "traffic volume"@en .
+

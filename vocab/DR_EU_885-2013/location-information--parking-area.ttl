@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#location-information--parking-area> a skos:Concept ;
+    skos:definition "the minimum information required for indicating the position of the entry point of a truck parking area."@en ;
+    skos:prefLabel "location information of the entry point in the truck parking area"@en .
+

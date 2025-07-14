@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#traffic-signs--identifying-dangers> a skos:Concept ;
+    skos:definition "the minimum information required for disseminating the location, type, and direction of signs (or panels) reflecting various traffic regulations and potential hazards on the road (e.g., warning signs)."@en ;
+    skos:prefLabel "traffic signs reflecting traffic regulations and identifying dangers"@en .
+

@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#detailed-common--fare-query_special-fare-products> a skos:Concept ;
+    skos:definition "the minimum set of information about special fare products required for supporting fare queries."@en ;
+    skos:prefLabel "special fare products (offers with additional special conditions such as promotional fares, group fares, season passes, aggregated products combining different products, and add-on products such as parking and travel, minimum stay)"@en .
+

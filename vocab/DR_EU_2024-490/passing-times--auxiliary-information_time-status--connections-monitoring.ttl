@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#passing-times--auxiliary-information_time-status--connections-monitoring> a skos:Concept ;
+    skos:definition "the minimum dynamic information required for providing further details about the operational status of transport services."@en ;
+    skos:prefLabel "time status information, such as estimated departure and arrival times of services, delays, cancellations, guaranteed connections monitoring"@en .
+

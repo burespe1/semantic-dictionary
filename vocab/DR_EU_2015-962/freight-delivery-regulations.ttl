@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#freight-delivery-regulations> a skos:Concept ;
+    skos:definition "the minimum information required for disseminating regulations for delivering freight, such as designation of certain road links or areas, loading/unloading permissions or prohibitions, and time-related restrictions."@en ;
+    skos:prefLabel "freight delivery regulations"@en .
+

@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#dynamic-road-status_availability-of-parking-places> a skos:Concept ;
+    skos:definition "dynamic information reflecting the state and/or status of on-street and off-street parking infrastructure."@en ;
+    skos:prefLabel "availability of parking places"@en .
+

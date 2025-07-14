@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#variable-road--fulfilment-methods> a skos:Concept ;
+    skos:definition "the minimum information required for indicating that variable charges apply on specific road links or within certain urban areas based on the attributes of a congestion (or emission) pricing policy as well as for disseminating the applicable variable road user charges and available payment methods."@en ;
+    skos:prefLabel "variable road user charges and available payment methods, including retail channels and fulfilment methods"@en .
+

@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#driving-behavior-advice> a skos:Concept ;
+    skos:definition "information broadcasted to road users and/or vehicles through available means (e.g., VMS, RDS-TMC, TPEG2-TEC, and C-ITS services) that may include suggestions for modifying/adapting their driving behavior in a way that can improve their safety and minimize the risk of accident."@en ;
+    skos:prefLabel "driving behavior advice (where appropriate)"@en .
+

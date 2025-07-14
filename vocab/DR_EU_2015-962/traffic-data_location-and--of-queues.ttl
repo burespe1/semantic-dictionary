@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#traffic-data_location-and--of-queues> a skos:Concept ;
+    skos:definition "dynamic information indicating the point of a traffic queue dissipation and its total length."@en ;
+    skos:prefLabel "location and length of queues"@en .
+

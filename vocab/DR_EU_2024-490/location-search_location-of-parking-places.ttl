@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#location-search_location-of-parking-places> a skos:Concept ;
+    skos:definition "the minimum information required for identifying the location of on-street or off-street places designated for parking vehicles."@en ;
+    skos:prefLabel "location of parking places (on and off-street), including accessible parking places for persons with disabilities and persons with reduced mobility"@en .
+

@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#observed-data-on-cancellations_cancelations-and-reason-flights> a skos:Concept ;
+    skos:definition "None"@en ;
+    skos:prefLabel "cancellations, and when possible the reason, of flights"@en .
+

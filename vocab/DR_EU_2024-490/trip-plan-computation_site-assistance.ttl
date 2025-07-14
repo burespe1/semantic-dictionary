@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#trip-plan-computation_site-assistance> a skos:Concept ;
+    skos:definition "the minimum information required for describing assistance services, essential for trip plan computation purposes."@en ;
+    skos:prefLabel "existence of assistance services (such as existence of on-site assistance)"@en .
+

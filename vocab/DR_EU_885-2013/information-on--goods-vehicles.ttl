@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#information-on--goods-vehicles> a skos:Concept ;
+    skos:definition "the minimum information required for disseminating special amenities offered by a truck parking area for specific goods vehicles."@en ;
+    skos:prefLabel "information on specific equipment or services for specific goods vehicles"@en .
+

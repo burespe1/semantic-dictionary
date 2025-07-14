@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#information-service_how-to-book--transport-services> a skos:Concept ;
+    skos:definition "the minimum information required to describe the way of booking demand-responsive transport services such as car-sharing, taxi and cycle-hiring services."@en ;
+    skos:prefLabel "how to book demand-responsive transport services, including retail channels, fulfilment methods, payment methods"@en .
+

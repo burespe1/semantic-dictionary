@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#number-of--goods-vehicles> a skos:Concept ;
+    skos:definition "the number of parking places in a truck parking area that satisfy the requirements of refrigerated goods vehicles."@en ;
+    skos:prefLabel "number of parking places for refrigerated  goods vehicles"@en .
+

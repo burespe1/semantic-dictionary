@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#auxiliary-information_standard-fare-structures> a skos:Concept ;
+    skos:definition "the minimum information required to describe how users of public transport services are charged (i.e., data objects and elements needed to support the definition of fare products and their parameters)."@en ;
+    skos:prefLabel "standard fare structures (point to point including daily and weekly fares, zonal fares, flat fares)"@en .
+

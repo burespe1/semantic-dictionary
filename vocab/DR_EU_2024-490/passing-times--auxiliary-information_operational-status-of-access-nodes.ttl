@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#passing-times--auxiliary-information_operational-status-of-access-nodes> a skos:Concept ;
+    skos:definition "None"@en ;
+    skos:prefLabel "the minimum dynamic information providing insight into the operational status of access nodes features"@en .
+

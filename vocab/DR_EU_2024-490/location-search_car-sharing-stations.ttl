@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#location-search_car-sharing-stations> a skos:Concept ;
+    skos:definition "the minimum information required for identifying the location of car sharing stations."@en ;
+    skos:prefLabel "car sharing stations"@en .
+

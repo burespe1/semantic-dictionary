@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#trip-plan-computation_hours-of-operation> a skos:Concept ;
+    skos:definition "the minimum information required for indicating the time validity – hours of operation of scheduled or on demand transport services, essential for trip plan computation purposes."@en ;
+    skos:prefLabel "hours of operation"@en .
+

@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#description-of--service-equipment> a skos:Concept ;
+    skos:definition "the minimum information required for disseminating and describing the amenities offered by a truck parking area, including security, safety, and service amenities."@en ;
+    skos:prefLabel "description of security, safety, and service equipment (at truck parking)"@en .
+

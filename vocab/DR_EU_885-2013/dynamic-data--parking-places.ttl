@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#dynamic-data--parking-places> a skos:Concept ;
+    skos:definition "dynamic information reflecting the state and status of a truck parking area."@en ;
+    skos:prefLabel "dynamic data on the availability of parking places"@en .
+

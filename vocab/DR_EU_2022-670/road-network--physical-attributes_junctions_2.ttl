@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#road-network--physical-attributes_junctions_2> a skos:Concept ;
+    skos:definition "the minimum information required for identifying the location of a junction and its relationship with the remaining entities of the road network."@en ;
+    skos:prefLabel "junctions"@en .
+

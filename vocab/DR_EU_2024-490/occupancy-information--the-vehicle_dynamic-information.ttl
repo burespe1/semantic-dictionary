@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#occupancy-information--the-vehicle_dynamic-information> a skos:Concept ;
+    skos:definition "None"@en ;
+    skos:prefLabel "dynamic information indicating the occupancy of vehicles of scheduled and on-demand mobility services"@en .
+

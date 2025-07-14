@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#information-service--parking-tariffs_minimum-dynamic-information> a skos:Concept ;
+    skos:definition "None"@en ;
+    skos:prefLabel "minimum dynamic information on parking tariffs"@en .
+

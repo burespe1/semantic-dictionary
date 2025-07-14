@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#distance-from-primary-road> a skos:Concept ;
+    skos:definition "the distance (typically in meters) between the exit to be taken and the entry point of a truck parking area."@en ;
+    skos:prefLabel "distance from primary road"@en .
+

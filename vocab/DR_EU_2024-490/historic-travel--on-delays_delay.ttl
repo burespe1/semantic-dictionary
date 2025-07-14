@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#historic-travel--on-delays_delay> a skos:Concept ;
+    skos:definition "None"@en ;
+    skos:prefLabel "delay"@en .
+

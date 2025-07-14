@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#detailed-common--fare-query_common-fare-products> a skos:Concept ;
+    skos:definition "the minimum set information about common fare products required for supporting fare queries."@en ;
+    skos:prefLabel "common fare products (access rights such as zone/point-to-point including daily and weekly tickets/single/return, eligibility of access, basic usage conditions such as validity period/operator/time of travel/interchanging, standard point-to-point fares prices for different point-to-point pairs including daily and weekly fares/zonal fare prices/flat fare prices)"@en .
+
