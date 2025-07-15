@@ -1,6 +1,16 @@
 # Semantic Dictionary 📚
 
-A structured dictionary of transport-related concepts managed in Markdown, exported as Linked Open Data (LOD) using SKOS vocabulary. Includes human-readable previews, machine-readable RDF, and published releases via GitHub Pages.
+![Version](https://img.shields.io/github/v/tag/burespe1/semantic-dictionary?label=version&style=flat-square)
+![License](https://img.shields.io/github/license/burespe1/semantic-dictionary?style=flat-square)
+![Last Commit](https://img.shields.io/github/last-commit/burespe1/semantic-dictionary?style=flat-square)
+![Issues](https://img.shields.io/github/issues/burespe1/semantic-dictionary?style=flat-square)
+![Build](https://github.com/burespe1/semantic-dictionary/actions/workflows/build.yml/badge.svg)
+![Python](https://img.shields.io/badge/python-3.11-blue?style=flat-square)
+![Stars](https://img.shields.io/github/stars/burespe1/semantic-dictionary?style=social)
+![Forks](https://img.shields.io/github/forks/burespe1/semantic-dictionary?style=social)
+![Watchers](https://img.shields.io/github/watchers/burespe1/semantic-dictionary?style=social)
+
+A structured dictionary of transport-related concepts defined in delegated regulations of the ITS Directive, managed in Markdown, exported as Linked Open Data (LOD) using SKOS vocabulary. Includes human-readable previews, machine-readable RDF, and published releases via GitHub Pages.
 
 ## 📁 Structure
 
