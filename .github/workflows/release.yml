@@ -41,6 +41,8 @@ jobs:
           git branch --set-upstream-to=origin/main main
 
       - name: Run Release Script
+        env:
+          VERSION_TAG: ${{ github.ref_name }}
         run: python scripts/generate_release.py
 
       - name: Commit, Rebase and Push Release Files

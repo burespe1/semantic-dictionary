@@ -30,6 +30,8 @@ DRAFT_ROOT = BASE_DIR / "drafts"
 RELEASE_DIR = BASE_DIR / "release"
 VOCAB_DIR = BASE_DIR / "vocab"
 
+VERSION_TAG = os.getenv("VERSION_TAG")
+
 EX = Namespace("http://example.org/dictionary#")
 
 def escape_yaml_value(value):
@@ -136,6 +138,7 @@ def process_dr_folder(dr_folder):
         title = DR_TITLES.get(dr_folder.name, dr_folder.name)
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         combined = f"# Release: {title} ({dr_folder.name})\n\n"
+        combined += f"![Version](https://img.shields.io/badge/semantic--dictionary-{VERSION_TAG}-orange?logo=github)\n\n"
         combined += f"**Generated on:** {timestamp}\n\n"
 
         for heading in sorted(grouped_entries.keys(), key=str.lower):
