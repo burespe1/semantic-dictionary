@@ -1,68 +1,21 @@
-name: Build Dictionary
+name: Release Generation
+
+on:
+  push:
+    tags:
+      - 'v*'
+  release:
+    types: [published]
+  workflow_dispatch:
 
 permissions:
   contents: write
 
-on:
-  push:
-    branches:
-      - '**'
-    tags:
-      - 'v*'
-    paths:
-      - 'drafts/**'
-      - 'code/**'
-      - 'scripts/generate_preview.py'
-
-  release:
-    types: [published]
-
-  workflow_dispatch:
-
 jobs:
-  preview:
-    name: Generate Previews
-    if: github.event_name == 'push'
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout main branch
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          ref: main
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.10'
-
-      - name: Install dependencies
-        run: pip install pyyaml rdflib || true
-
-      - name: Configure Git
-        run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-          git fetch origin
-          git checkout main
-          git branch --set-upstream-to=origin/main main
-
-      - name: Run Preview Script
-        run: python scripts/generate_preview.py
-
-      - name: Commit, Rebase and Push Preview Files
-        run: |
-          git add -f preview/
-          git add -f drafts/INDEX.md
-          git diff --cached --quiet || git commit -m "🔄 Updated preview files"
-          git pull --rebase origin main
-          git push --force-with-lease origin main
-
   release:
     name: Generate Release
-    if: startsWith(github.ref, 'refs/tags/') || github.event_name == 'release'
     runs-on: ubuntu-latest
+    if: startsWith(github.ref, 'refs/tags/') || github.event_name == 'release'
 
     steps:
       - name: Checkout main branch
