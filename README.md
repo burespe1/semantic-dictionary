@@ -6,14 +6,8 @@
 ![Issues](https://img.shields.io/github/issues/burespe1/semantic-dictionary?style=flat-square)
 ![Build](https://github.com/burespe1/semantic-dictionary/actions/workflows/release.yml/badge.svg)
 ![Build](https://github.com/burespe1/semantic-dictionary/actions/workflows/preview.yml/badge.svg)
-![Python](https://img.shields.io/badge/python-3.13-blue?style=flat-square)
 
-
-![Stars](https://img.shields.io/github/stars/burespe1/semantic-dictionary?style=social)
-![Forks](https://img.shields.io/github/forks/burespe1/semantic-dictionary?style=social)
-![Watchers](https://img.shields.io/github/watchers/burespe1/semantic-dictionary?style=social)
-
-A structured dictionary of transport-related concepts defined in delegated regulations of the ITS Directive, managed in Markdown, exported as Linked Open Data (LOD) using SKOS vocabulary. Includes human-readable previews, machine-readable RDF, and published releases via GitHub Pages.
+A structured dictionary of **transport-related concepts** defined in delegated regulations of the [ITS Directive](https://eur-lex.europa.eu/eli/dir/2010/40/oj/eng), managed in Markdown. Includes human-readable previews, releases and machine-readable RDF.
 
 ## 📁 Structure
 
@@ -28,7 +22,9 @@ A structured dictionary of transport-related concepts defined in delegated regul
 
 ### Content Creation
 
-The work on data types is done in the `drafts/` folder in the subfolder per delegated regulation. Each data type is a separate markdown document, with predefined attributes and "free" content. 
+The work on **transport-related concepts** aka **data types** is done in the `drafts/` folder in the subfolder per delegated regulation. Each data type is a separate markdown document (fragment), with predefined attributes and "free" content. 
+
+See [`drafts/README.md`](drafts/README.md) for the detailed instructions.
 
 ### 🔄 Preview auto-generation
 
@@ -40,7 +36,8 @@ Triggered automatically on each push to:
 
 Generates:
 
-- `preview/DR_*.md` – one review file per delegated regulation
+- [`drafts/INDEX.md`](drafts/INDEX.md) – an index file with links to individual data type file fragments with their statuses.
+- `preview/DR_*.md` – review file of data types definitions, one per delegated regulation
 - Commits updated previews back to the repository
 - Uploads preview files as GitHub Actions artifact
 
@@ -53,19 +50,17 @@ git tag v1.0.0
 git push origin v1.0.0
 ```
 
-This executes:
+Generates:
 
-- scripts/generate_release.py to compile approved entries and RDF vocabularies
-- Generates release/dictionary.md – consolidated Markdown export
-- Creates vocab/<DR>/<item>.ttl – SKOS-formatted RDF files
+- `release/DR_*.md` – versioned release file of data types definitions, one per delegated regulation
+- `vocab/<DR>/<item>.ttl` – SKOS-formatted RDF files from data types strict-definitions
 - Uploads files as a downloadable GitHub Actions artifact
 
 ## 🌍 Published Outputs
 
-- 📦 Preview Dictionaries:  [`drafts/README.md`](drafts/README.md)
-- 📦 Release Dictionaries:  [`release/INDEX.md`](release/INDEX.md)
+- 📦 List of Preview Dictionary items:  [`drafts/INDEX.md`](drafts/INDEX.md)
+- 📦 Release Dictionaries:  [`release/README.md`](release/README.md)
 - 🐢 RDF Vocabularies: [`vocab/`](vocab/)
-- 🌐 Live Site via GitHub Pages: https://yourusername.github.io/semantic-dictionary
 
 ## 🛠 Technologies
 
