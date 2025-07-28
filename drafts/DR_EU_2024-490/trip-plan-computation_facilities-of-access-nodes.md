@@ -1,6 +1,6 @@
 ---
 id: trip-plan-computation_facilities-of-access-nodes
-label: facilities of access nodes (including platform information, help desk_information points, ticket booths, lifts_stairs, entrances and exit locations)
+label: facilities of access nodes (including platform information, help desk/information points, ticket booths, lifts_stairs, entrances and exit locations)
 definition: the minimum information required for describing the fixed equipment/facilities of the access nodes of scheduled or on demand transport services, essential for trip plan computation purposes.
 category: Level of Service 1
 language: en

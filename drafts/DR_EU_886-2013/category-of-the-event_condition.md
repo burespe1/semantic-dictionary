@@ -1,6 +1,6 @@
 ---
 id: category-of-the-event_condition
-label: category of the event_condition
+label: category of the event/condition
 definition: the minimum information required for disseminating the type of an event/condition that is on-going or time valid.
 category: Dynamic data
 language: en

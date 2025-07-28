@@ -1,6 +1,6 @@
 ---
 id: observed-data--passing-time_length-and-reason-of-delays-bus
-label: length of, and when possible the reason for, delays in departure from a terminal of more than 120 minutes for regular bus and coach passenger services with a scheduled distance of 250 km or more (in accordance with Article 19 of Regulation (EU) No 181_2011)
+label: length of, and when possible the reason for, delays in departure from a terminal of more than 120 minutes for regular bus and coach passenger services with a scheduled distance of 250 km or more (in accordance with Article 19 of Regulation (EU) No 181/2011)
 definition: 
 category: Level of Service 4
 language: en

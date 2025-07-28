@@ -1,6 +1,6 @@
 ---
 id: location-of-the-event_condition
-label: location of the event_condition
+label: location of the event/condition
 definition: the minimum information required for disseminating the location of an event/condition that is on-going or time valid.
 category: Dynamic data
 language: en

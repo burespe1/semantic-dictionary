@@ -1,6 +1,6 @@
 ---
 id: price-of--hoc-recharging_refuelling
-label: price of ad hoc recharging_refuelling
+label: price of ad hoc recharging/refuelling
 definition: dynamic information reflecting the time varying price of ad hoc recharging/refuelling.
 category: Types of data on the real-time use of the network
 language: en

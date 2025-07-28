@@ -1,6 +1,6 @@
 ---
 id: trip-plan-computation_road-network
-label: road network (including segregated lanes for bus_taxi)
+label: road network (including segregated lanes for bus/taxi)
 definition: the minimum information required for describing the link and node structure of a (linear) road network used for the transportation of vehicles.
 category: Level of Service 1
 language: en

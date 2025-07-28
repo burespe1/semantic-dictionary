@@ -1,6 +1,6 @@
 ---
 id: passing-times--auxiliary-information_disruptions-such--the-reason
-label: disruptions, such as network closures and_or diversions, and when possible, the reason
+label: disruptions, such as network closures and/or diversions, and when possible, the reason
 definition: the minimum dynamic information required for disseminating the existence of changes in the normal operation of transport services.
 category: Level of service 1
 language: en

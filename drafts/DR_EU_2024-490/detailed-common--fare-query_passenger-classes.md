@@ -1,6 +1,6 @@
 ---
 id: detailed-common--fare-query_passenger-classes
-label: passenger classes (classes of passenger such as adult, child, senior, student, military_veteran, passenger with disability and passenger with reduced mobility, and qualifying conditions, and classes of travel)
+label: passenger classes (classes of passenger such as adult, child, senior, student, military/veteran, passenger with disability and passenger with reduced mobility, and qualifying conditions, and classes of travel)
 definition: the minimum information about passenger classes required for supporting fare queries.
 category: Level of service 3
 language: en
