@@ -16,13 +16,13 @@ DR_TITLES = {
 }
 
 BADGES = {
-    "draft": "![Status](https://img.shields.io/badge/status-draft-ff9800)",         # Warm orange for a work-in-progress
-    "in review": "![Status](https://img.shields.io/badge/status-in_review-ffc107)", # Amber/gold to indicate scrutiny
-    "modified": "![Status](https://img.shields.io/badge/status-modified-673ab7)",   # Deep violet, bold for attention
-    "finalised": "![Status](https://img.shields.io/badge/status-finalised-2196f3)", # Classic blue for trust & clarity
-    "approved": "![Status](https://img.shields.io/badge/status-approved-4caf50)",   # Deep green for confirmation
-    "deprecated": "![Status](https://img.shields.io/badge/status-deprecated-bdbdbd)",# Medium grey for obsolescence
-    "unknown": "![Status](https://img.shields.io/badge/status-unknown-9e9e9e)"       # Neutral grey for ambiguity
+    "proposed": "![Status](https://img.shields.io/badge/status-proposed-ff9800)",         # Warm orange for a work-in-progress
+    "under review": "![Status](https://img.shields.io/badge/status-under_review-ffc107)", # Amber/gold to indicate scrutiny
+    "revised": "![Status](https://img.shields.io/badge/status-revised-673ab7)",   # Deep violet, bold for attention
+    "accepted": "![Status](https://img.shields.io/badge/status-accepted-2196f3)", # Classic blue for trust & clarity
+    "validated": "![Status](https://img.shields.io/badge/status-validated-4caf50)",   # Deep green for confirmation
+    "archived": "![Status](https://img.shields.io/badge/status-archived-bdbdbd)",# Medium grey for obsolescence
+    "unclassified": "![Status](https://img.shields.io/badge/status-unclassified-9e9e9e)"       # Neutral grey for ambiguity
 }
 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -119,8 +119,8 @@ def process_dr_folder(dr_folder):
             raw = f.read()
 
         meta, body = extract_content(raw)
-        if not meta: #or meta.get("status") != "approved"
-            print(f"⏩ Skipping {md_file.name} in {dr_folder.name} ... missing metadata") #or not approved
+        if not meta: #or meta.get("status") != "validated"
+            print(f"⏩ Skipping {md_file.name} in {dr_folder.name} ... missing metadata") #or not validated
             continue
 
         category = meta.get("category", "uncategorised").strip()
