@@ -46,7 +46,7 @@
 
 ## MMTIS - Multimodal Travel Information Services (DR_EU_2024-490)
 
-- [![Status](https://img.shields.io/badge/status-under_review-ffc107)] [geometry_map layout structure of access nodes](../drafts/DR_EU_2024-490/location-search_geometry_map-layout--access-nodes.md)
+- [![Status](https://img.shields.io/badge/status-under_review-ffc107)] [geometry/map layout structure of access nodes](../drafts/DR_EU_2024-490/location-search_geometry_map-layout--access-nodes.md)
 - [![Status](https://img.shields.io/badge/status-under_review-ffc107)] [identified access nodes](../drafts/DR_EU_2024-490/location-search_identified-access-nodes.md)
 - [![Status](https://img.shields.io/badge/status-under_review-ffc107)] [addresses (building number, street name, postcode)](../drafts/DR_EU_2024-490/location-search_addresses.md)
 - [![Status](https://img.shields.io/badge/status-under_review-ffc107)] [points of interest (related to transport information) to which people may wish to travel](../drafts/DR_EU_2024-490/location-search_points-of--to-travel.md)
