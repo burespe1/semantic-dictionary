@@ -2,8 +2,6 @@
 
 Contains _automatically_ generated files containing approved dictionary entries merged into a single file pre delegated regulation.
 
----
-
 ## 🧭 Vocabulary Index
 
 | Abbreviation | Full Title & Regulation No.                          | 📂 Link                     |
