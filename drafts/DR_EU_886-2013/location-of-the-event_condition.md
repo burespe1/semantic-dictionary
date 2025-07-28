@@ -4,7 +4,7 @@ label: location of the event_condition
 definition: the minimum information required for disseminating the location of an event/condition that is on-going or time valid.
 category: Dynamic data
 language: en
-status: finalised
+status: accepted
 source: DR_EU_886-2013
 ---
 

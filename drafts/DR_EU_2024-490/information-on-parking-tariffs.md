@@ -4,7 +4,7 @@ label: information on parking tariffs
 definition: the minimum information required for describing parking tariffs
 category: Level of Service 4
 language: en
-status: in review
+status: under review
 source: DR_EU_2024-490
 ---
 

@@ -4,7 +4,7 @@ label: disruptions, such as network closures and_or diversions, and when possibl
 definition: the minimum dynamic information required for disseminating the existence of changes in the normal operation of transport services.
 category: Level of service 1
 language: en
-status: in review
+status: under review
 source: DR_EU_2024-490
 subcategory:
   - Passing times, trip plans and auxiliary information
