@@ -1,6 +1,6 @@
 # 📚 Drafts Master Index
 
-![Total](https://img.shields.io/badge/items-146-795548) ![finalised](https://img.shields.io/badge/finalised-83-2196f3) ![modified](https://img.shields.io/badge/modified-5-673ab7) ![in review](https://img.shields.io/badge/in_review-58-ffc107)
+![Total](https://img.shields.io/badge/items-146-795548) ![draft](https://img.shields.io/badge/draft-0-ff9800) ![in review](https://img.shields.io/badge/in_review-58-ffc107) ![modified](https://img.shields.io/badge/modified-5-673ab7) ![finalised](https://img.shields.io/badge/finalised-83-2196f3) ![approved](https://img.shields.io/badge/approved-0-4caf50) ![deprecated](https://img.shields.io/badge/deprecated-0-bdbdbd) ![unknown](https://img.shields.io/badge/unknown-0-9e9e9e)
 
 
 ## RTTI - Real-Time Traffic Information (DR_EU_2015-962)
