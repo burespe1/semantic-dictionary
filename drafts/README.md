@@ -4,7 +4,7 @@ This folder contains draft entries for semantic dictionary concepts aka **data t
 - YAML frontmatter for metadata (e.g. label, definition, language, status)
 - Rich content like text, code, and image references
 
-**Index of working data types definitions**: [list of definitions with their status](INDEX.md)
+**List of working data types definitions**: [INDEX](INDEX.md)
 
 ## 🧱 File Structure
 
@@ -31,7 +31,7 @@ Each file must:
 
 Drafts are manually edited and commented upon via GitHub issues.
 
-Workflow including statuses is in detail described in [**WORKFLOW**](WORKFLOW.md)
+**Workflow including statuses is in detail described in** [WORKFLOW](WORKFLOW.md).
 
 Previews are auto-generated in each commit by `generate_preview.py`.
 
@@ -39,7 +39,7 @@ Releases are auto-generated when committing a version tag  by `generate_releease
 
 ## 🧠 Examples
 
-Here’s an example draft file named: road-classification.md
+Here’s an example draft file named: `road-classification.md`
 
 ```markdown
 ---
@@ -63,7 +63,7 @@ source: DR_EU_2022-670
 >Reference/additional info: https://www.etsi.org/deliver/etsi_ts/102800_102899/10289402/01.03.01_60/ts_10289402v010301p.pdf; https://inspire.ec.europa.eu/id/document/tg/tn
 ```
 
-Here’s an example draft file named: road-network--physical-attributes_road-width_2.md
+Here’s an example draft file named: `road-network--physical-attributes_road-width_2.md`
 
 ```markdown
 ---
