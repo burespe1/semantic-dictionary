@@ -11,7 +11,7 @@ This folder contains draft entries for semantic dictionary concepts aka **data t
 Each file must:
 - Use .md extension
 - Start with a YAML metadata block (between --- lines)
-- Include a human-readable definition and optionally commentary, diagrams, or citations
+- Include a human-readable definition and optional commentary, diagrams, or citations
 
 ### 🧾 Metadata Fields
 
@@ -30,10 +30,12 @@ Each file must:
 ### 🧾 Workflow
 
 Drafts are manually edited and commented upon via GitHub issues.
+
 Workflow including statuses is in detail described in [**WORKFLOW**](WORKFLOW.md)
 
 Previews are auto-generated in each commit by `generate_preview.py`.
-releases are auto generated when committing a version tag  by `generate_releease.py`..
+
+Releases are auto-generated when committing a version tag  by `generate_releease.py`.
 
 ## 🧠 Examples
 
