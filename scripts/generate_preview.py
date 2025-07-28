@@ -2,8 +2,11 @@ import os
 import yaml
 from pathlib import Path
 from collections import defaultdict
+from collections import Counter
 from datetime import datetime
 import re
+
+status_counter = Counter()
 
 DR_TITLES = {
     "DR_EU_886-2013": "SRTI - Safety-Related Traffic Information",
@@ -133,6 +136,7 @@ def process_dr_folder(dr_folder):
                 label = meta.get("label", "").strip()
                 d_id = meta.get("id", "").strip()
                 status = meta.get("status", "unknown").strip()
+                status_counter[status] += 1
                 badge = BADGES.get(status, status)
                 relative_path = f"{dr_folder.name}/{d_id}.md" 
                 link = f"[{label}]({relative_path})"
@@ -152,7 +156,16 @@ def main():
         if dr_folder.is_dir():
             process_dr_folder(dr_folder)
        
-    header = "# 📚 Drafts Master Index\n"
+    # Generuj badge shrnutí statusů
+    status_badges = []
+    for status, count in status_counter.items():
+        color = BADGES.get(status, BADGES["unknown"]).split('-')[-1][:-1]  # extrakce barvy z URL
+        badge_url = f"https://img.shields.io/badge/{status.replace(' ', '_')}-{count}-{color}"
+        status_badges.append(f"![{status}]({badge_url})")
+
+    badge_summary = " ".join(status_badges)
+    
+    header = "# 📚 Drafts Master Index\n\n" + badge_summary + "\n\n"
     content = "\n".join([entry[1] for entry in index_entries])
     
     with open(INDEX_FILE, "w", encoding="utf-8") as out:
