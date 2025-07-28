@@ -43,7 +43,7 @@ Here’s an example draft file named: `road-classification.md`
 
 ```markdown
 ---
-id: road-classification_2
+id: road-classification
 label: road classification
 definition: the minimum information required for distinguishing the links of a road network encompassing form of way, functional, or other concerns.
 category: Types of data on infrastructure
@@ -63,11 +63,11 @@ source: DR_EU_2022-670
 >Reference/additional info: https://www.etsi.org/deliver/etsi_ts/102800_102899/10289402/01.03.01_60/ts_10289402v010301p.pdf; https://inspire.ec.europa.eu/id/document/tg/tn
 ```
 
-Here’s an example draft file named: `road-network--physical-attributes_road-width_2.md`
+Here’s an example draft file named: `road-network--physical-attributes_road-width.md`
 
 ```markdown
 ---
-id: road-network--physical-attributes_road-width_2
+id: road-network--physical-attributes_road-width
 label: road width
 definition: the minimum information required for indicating the width of a road network’s links.
 category: Types of data on infrastructure
