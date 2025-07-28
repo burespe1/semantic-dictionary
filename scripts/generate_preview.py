@@ -84,7 +84,7 @@ def extract_content(md_text):
 
 def format_entry(meta, content, dr_folder, heading_level=3):
     # header = f"{'#' * heading_level} {meta.get('label', 'Untitled')} \n\n"
-    link = f"[link](../{dr_folder.name}/{meta.get("id", "").strip()}.md)"
+    link = f"[link](../{dr_folder.name}/{meta.get('id', '').strip()}.md)"
     header = f"{'#' * heading_level} {meta.get('label', 'Untitled')} {BADGES.get(meta.get('status', 'unclassified').strip(), 'unclassified')} {link}\n\n"
 
     definition_text = meta.get("definition") or ""
