@@ -23,13 +23,13 @@ PREVIEW_DIR = BASE_DIR / "preview"
 INDEX_FILE = DRAFT_ROOT / "INDEX.md"
 
 BADGES = {
-    "draft": "![Status](https://img.shields.io/badge/status-draft-ff9800)",         # Warm orange for a work-in-progress
-    "in review": "![Status](https://img.shields.io/badge/status-in_review-ffc107)", # Amber/gold to indicate scrutiny
-    "modified": "![Status](https://img.shields.io/badge/status-modified-673ab7)",   # Deep violet, bold for attention
-    "finalised": "![Status](https://img.shields.io/badge/status-finalised-2196f3)", # Classic blue for trust & clarity
-    "approved": "![Status](https://img.shields.io/badge/status-approved-4caf50)",   # Deep green for confirmation
-    "deprecated": "![Status](https://img.shields.io/badge/status-deprecated-bdbdbd)",# Medium grey for obsolescence
-    "unknown": "![Status](https://img.shields.io/badge/status-unknown-9e9e9e)"       # Neutral grey for ambiguity
+    "proposed": "![Status](https://img.shields.io/badge/status-proposed-ff9800)",         # Warm orange for a work-in-progress
+    "under review": "![Status](https://img.shields.io/badge/status-under_review-ffc107)", # Amber/gold to indicate scrutiny
+    "revised": "![Status](https://img.shields.io/badge/status-revised-673ab7)",   # Deep violet, bold for attention
+    "accepted": "![Status](https://img.shields.io/badge/status-accepted-2196f3)", # Classic blue for trust & clarity
+    "validated": "![Status](https://img.shields.io/badge/status-validated-4caf50)",   # Deep green for confirmation
+    "archived": "![Status](https://img.shields.io/badge/status-archived-bdbdbd)",# Medium grey for obsolescence
+    "unclassified": "![Status](https://img.shields.io/badge/status-unclassified-9e9e9e)"       # Neutral grey for ambiguity
 }
 
 index_entries= []
@@ -84,7 +84,7 @@ def extract_content(md_text):
 
 def format_entry(meta, content, heading_level=3):
     # header = f"{'#' * heading_level} {meta.get('label', 'Untitled')} \n\n"
-    header = f"{'#' * heading_level} {meta.get('label', 'Untitled')} {BADGES.get(meta.get('status', 'unknown').strip(), 'unknown')}\n\n"
+    header = f"{'#' * heading_level} {meta.get('label', 'Untitled')} {BADGES.get(meta.get('status', 'unclassified').strip(), 'unclassified')}\n\n"
     definition_text = meta.get("definition") or ""
     definition = f"**Definition**: {definition_text.strip()}"
 
@@ -137,7 +137,7 @@ def process_dr_folder(dr_folder):
                 
                 label = meta.get("label", "").strip()
                 d_id = meta.get("id", "").strip()
-                status = meta.get("status", "unknown").strip()
+                status = meta.get("status", "unclassified").strip()
                 status_counter[status] += 1
                 status_total += 1  # Every status counted regardless of type
                 badge = BADGES.get(status, status)
@@ -170,7 +170,7 @@ def main():
 
     for status in all_status_keys:
         count = status_counter.get(status, 0)
-        color = BADGES.get(status, BADGES["unknown"]).split("-")[-1][:-1]  # Extract hex from badge URL
+        color = BADGES.get(status, BADGES["unclassified"]).split("-")[-1][:-1]  # Extract hex from badge URL
         badge_url = f"https://img.shields.io/badge/{status.replace(' ', '_')}-{count}-{color}"
         status_badges.append(f"![{status}]({badge_url})")
 
