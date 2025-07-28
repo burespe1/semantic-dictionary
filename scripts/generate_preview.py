@@ -7,6 +7,7 @@ from datetime import datetime
 import re
 
 status_counter = Counter()
+status_total = 0
 
 DR_TITLES = {
     "DR_EU_886-2013": "SRTI - Safety-Related Traffic Information",
@@ -137,6 +138,7 @@ def process_dr_folder(dr_folder):
                 d_id = meta.get("id", "").strip()
                 status = meta.get("status", "unknown").strip()
                 status_counter[status] += 1
+                status_total += 1  # Every status counted regardless of type
                 badge = BADGES.get(status, status)
                 relative_path = f"{dr_folder.name}/{d_id}.md" 
                 link = f"[{label}]({relative_path})"
@@ -155,8 +157,12 @@ def main():
     for dr_folder in DRAFT_ROOT.iterdir():
         if dr_folder.is_dir():
             process_dr_folder(dr_folder)
-       
+    
+    
     # Generuj badge shrnutí statusů
+    
+    total_badge = f"![Total](https://img.shields.io/badge/items-{status_total}-795548)"  # Earthy brown tone
+
     status_badges = []
     for status, count in status_counter.items():
         color = BADGES.get(status, BADGES["unknown"]).split('-')[-1][:-1]  # extrakce barvy z URL
@@ -165,7 +171,7 @@ def main():
 
     badge_summary = " ".join(status_badges)
     
-    header = "# 📚 Drafts Master Index\n\n" + badge_summary + "\n\n"
+    header = "# 📚 Drafts Master Index\n\n" + total_badge + " " + badge_summary + "\n\n"
     content = "\n".join([entry[1] for entry in index_entries])
     
     with open(INDEX_FILE, "w", encoding="utf-8") as out:
