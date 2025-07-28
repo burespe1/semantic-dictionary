@@ -1,5 +1,8 @@
 # 📚 Drafts Master Index
 
+![Total](https://img.shields.io/badge/items-146-795548) ![finalised](https://img.shields.io/badge/finalised-83-2196f3) ![modified](https://img.shields.io/badge/modified-5-673ab7) ![in review](https://img.shields.io/badge/in_review-58-ffc107)
+
+
 ## RTTI - Real-Time Traffic Information (DR_EU_2015-962)
 
 - [![Status](https://img.shields.io/badge/status-finalised-2196f3)] [accidents and incidents](DR_EU_2015-962/dynamic-road-status_accidents-and-incidents.md)
