@@ -1,5 +1,5 @@
 ---
-id: road-network--physical-attributes_road-width_2
+id: road-network--physical-attributes_road-width
 label: road width
 definition: the minimum information required for indicating the width of a road network’s links.
 category: Types of data on infrastructure

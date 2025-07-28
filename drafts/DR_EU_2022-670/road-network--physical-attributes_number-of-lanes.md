@@ -1,5 +1,5 @@
 ---
-id: road-network--physical-attributes_number-of-lanes_2
+id: road-network--physical-attributes_number-of-lanes
 label: number of lanes
 definition: the minimum information required for indicating the number of lanes of a road network’s links.
 category: Types of data on infrastructure

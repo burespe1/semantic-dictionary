@@ -1,5 +1,5 @@
 ---
-id: identification-of--payment-methods_2
+id: identification-of--payment-methods
 label: identification of tolled roads, applicable fixed road user charges and available payment methods
 definition: the minimum information required for indicating that tolls apply on a road link as well as for disseminating information about the applicable road user charges and available payment methods.
 category: Other types of data on regulations and restrictions

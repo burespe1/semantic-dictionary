@@ -1,5 +1,5 @@
 ---
-id: road-network--physical-attributes_junctions_2
+id: road-network--physical-attributes_junctions
 label: junctions
 definition: the minimum information required for identifying the location of a junction and its relationship with the remaining entities of the road network.
 category: Types of data on infrastructure

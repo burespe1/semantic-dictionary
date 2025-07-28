@@ -1,5 +1,5 @@
 ---
-id: location-of--their-use_2
+id: location-of--their-use
 label: location of recharging points for electric vehicles and the conditions for their use
 definition: the minimum information required for disseminating the geographic location of recharging infrastructure (recharging pools), dedicated to electric vehicles, including the exact position of recharging points along with the conditions for their use.
 category: Types of data on infrastructure

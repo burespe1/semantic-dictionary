@@ -1,5 +1,5 @@
 ---
-id: road-network--physical-attributes_gradients_2
+id: road-network--physical-attributes_gradients
 label: gradients
 definition: the minimum information required for indicating the degree of inclination (or the rate ascent/descent) of a road network’s links.
 category: Types of data on infrastructure
