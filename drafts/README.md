@@ -4,7 +4,7 @@ This folder contains draft entries for semantic dictionary concepts aka **data t
 - YAML frontmatter for metadata (e.g. label, definition, language, status)
 - Rich content like text, code, and image references
 
-**List of working data types definitions**: [INDEX](INDEX.md)
+**List of working data types definitions** in sin preview folder in [INDEX](../preview/INDEX.md)
 
 ## 🧱 File Structure
 

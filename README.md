@@ -36,7 +36,7 @@ Triggered automatically on each push to:
 
 Generates:
 
-- [`drafts/INDEX.md`](drafts/INDEX.md) – an index file with links to individual data type file fragments with their statuses.
+- [`preview/INDEX.md`](preview/INDEX.md) – an index file with links to individual data type file fragments with their statuses.
 - `preview/DR_*.md` – review file of data types definitions, one per delegated regulation
 - Commits updated previews back to the repository
 - Uploads preview files as GitHub Actions artifact
@@ -58,7 +58,7 @@ Generates:
 
 ## 🌍 Published Outputs
 
-- 📦 List of Preview Dictionary items:  [`drafts/INDEX.md`](drafts/INDEX.md)
+- 📦 List of Preview Dictionary items:  [`preview/INDEX.md`](drafts/INDEX.md)
 - 📦 Release Dictionaries:  [`release/README.md`](release/README.md)
 - 🐢 RDF Vocabularies: [`vocab/`](vocab/)
 

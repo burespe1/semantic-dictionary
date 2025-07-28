@@ -13,6 +13,8 @@ Contains _automatically_ generated files containing preview of dictionary entrie
 | 🏁 **SSTP**  | Safe and Secure Truck Parking *(DR 885/2013)*       | [View Vocabulary →](DR_EU_885-2013.md) |
 
 ---
+**List of working data types definitions**: [INDEX](INDEX.md)
+---
 
 To generate it locally run
 

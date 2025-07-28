@@ -20,7 +20,7 @@ DR_TITLES = {
 BASE_DIR = Path(__file__).resolve().parent.parent
 DRAFT_ROOT = BASE_DIR / "drafts"
 PREVIEW_DIR = BASE_DIR / "preview"
-INDEX_FILE = DRAFT_ROOT / "INDEX.md"
+INDEX_FILE = PREVIEW_DIR / "INDEX.md"
 
 BADGES = {
     "proposed": "![Status](https://img.shields.io/badge/status-proposed-ff9800)",         # Warm orange for a work-in-progress
