@@ -105,9 +105,9 @@ graph TD
   A[Proposed] --> B[Under Review]
   B --> C[Accepted]
   B --> D[Revised]
+  D --> A
   C --> E[Validated]
   D --> E
   E --> F[Published]
-  A --> G[Archived]
-  D --> G
+  F --> G[Archived]
 ```
