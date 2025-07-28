@@ -48,7 +48,6 @@ jobs:
       - name: Commit, Rebase and Push Preview Files
         run: |
           git add -f preview/
-          git add -f drafts/INDEX.md
           git diff --cached --quiet || git commit -m "🔄 Updated preview files"
           git pull --rebase origin main
           git push --force-with-lease origin main
