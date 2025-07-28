@@ -98,7 +98,7 @@ Track revisions via commit history or comments in issues.
 | Publishing          | GitHub Actions, release tags                |
 | Logging changes     | Semantic changelog generator                |
 
-## 🌐 Visual Workflow (Optional Mermaid Diagram)
+## 🌐 Visual Workflow
 
 ```mermaid
 graph TD
