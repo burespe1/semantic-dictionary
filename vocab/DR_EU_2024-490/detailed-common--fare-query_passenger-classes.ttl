@@ -2,5 +2,5 @@
 
 <http://example.org/dictionary#detailed-common--fare-query_passenger-classes> a skos:Concept ;
     skos:definition "the minimum information about passenger classes required for supporting fare queries."@en ;
-    skos:prefLabel "passenger classes (classes of passenger such as adult, child, senior, student, military_veteran, passenger with disability and passenger with reduced mobility, and qualifying conditions, and classes of travel)"@en .
+    skos:prefLabel "passenger classes (classes of passenger such as adult, child, senior, student, military/veteran, passenger with disability and passenger with reduced mobility, and qualifying conditions, and classes of travel)"@en .
 

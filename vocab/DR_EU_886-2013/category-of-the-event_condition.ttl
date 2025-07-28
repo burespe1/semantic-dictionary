@@ -2,5 +2,5 @@
 
 <http://example.org/dictionary#category-of-the-event_condition> a skos:Concept ;
     skos:definition "the minimum information required for disseminating the type of an event/condition that is on-going or time valid."@en ;
-    skos:prefLabel "category of the event_condition"@en .
+    skos:prefLabel "category of the event/condition"@en .
 

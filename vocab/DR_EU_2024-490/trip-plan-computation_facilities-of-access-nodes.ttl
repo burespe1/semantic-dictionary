@@ -2,5 +2,5 @@
 
 <http://example.org/dictionary#trip-plan-computation_facilities-of-access-nodes> a skos:Concept ;
     skos:definition "the minimum information required for describing the fixed equipment/facilities of the access nodes of scheduled or on demand transport services, essential for trip plan computation purposes."@en ;
-    skos:prefLabel "facilities of access nodes (including platform information, help desk_information points, ticket booths, lifts_stairs, entrances and exit locations)"@en .
+    skos:prefLabel "facilities of access nodes (including platform information, help desk/information points, ticket booths, lifts_stairs, entrances and exit locations)"@en .
 

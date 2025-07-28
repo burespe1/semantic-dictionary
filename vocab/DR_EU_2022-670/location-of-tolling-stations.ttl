@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dictionary#location-of-tolling-stations> a skos:Concept ;
+    skos:definition "the minimum information required for identifying the location (e.g., coordinates of a specific point, location along a linear element, mileage) of tollbooths (physical or virtual) collecting automatically or manually tolls from passing traffic."@en ;
+    skos:prefLabel "location of tolling stations"@en .
+

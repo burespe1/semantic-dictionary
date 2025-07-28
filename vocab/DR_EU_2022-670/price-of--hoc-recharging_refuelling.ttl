@@ -2,5 +2,5 @@
 
 <http://example.org/dictionary#price-of--hoc-recharging_refuelling> a skos:Concept ;
     skos:definition "dynamic information reflecting the time varying price of ad hoc recharging/refuelling."@en ;
-    skos:prefLabel "price of ad hoc recharging_refuelling"@en .
+    skos:prefLabel "price of ad hoc recharging/refuelling"@en .
 

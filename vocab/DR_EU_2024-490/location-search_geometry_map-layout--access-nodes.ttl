@@ -2,5 +2,5 @@
 
 <http://example.org/dictionary#location-search_geometry_map-layout--access-nodes> a skos:Concept ;
     skos:definition "the minimum information required for identifying the location of specific facilities within access nodes considering the topographical structure of access nodes."@en ;
-    skos:prefLabel "geometry_map layout structure of access nodes"@en .
+    skos:prefLabel "geometry/map layout structure of access nodes"@en .
 

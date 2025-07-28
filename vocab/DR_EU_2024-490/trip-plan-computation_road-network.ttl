@@ -2,5 +2,5 @@
 
 <http://example.org/dictionary#trip-plan-computation_road-network> a skos:Concept ;
     skos:definition "the minimum information required for describing the link and node structure of a (linear) road network used for the transportation of vehicles."@en ;
-    skos:prefLabel "road network (including segregated lanes for bus_taxi)"@en .
+    skos:prefLabel "road network (including segregated lanes for bus/taxi)"@en .
 

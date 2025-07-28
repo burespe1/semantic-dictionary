@@ -2,5 +2,5 @@
 
 <http://example.org/dictionary#passing-times--auxiliary-information_disruptions-such--the-reason> a skos:Concept ;
     skos:definition "the minimum dynamic information required for disseminating the existence of changes in the normal operation of transport services."@en ;
-    skos:prefLabel "disruptions, such as network closures and_or diversions, and when possible, the reason"@en .
+    skos:prefLabel "disruptions, such as network closures and/or diversions, and when possible, the reason"@en .
 
