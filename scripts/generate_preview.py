@@ -158,20 +158,24 @@ def main():
     for dr_folder in DRAFT_ROOT.iterdir():
         if dr_folder.is_dir():
             process_dr_folder(dr_folder)
-    
-    
+
     # Generuj badge shrnutí statusů
     
     total_badge = f"![Total](https://img.shields.io/badge/items-{status_total}-795548)"  # Earthy brown tone
 
+    # Full list of all recognized statuses
+    all_status_keys = list(BADGES.keys())
+
     status_badges = []
-    for status, count in status_counter.items():
-        color = BADGES.get(status, BADGES["unknown"]).split('-')[-1][:-1]  # extrakce barvy z URL
+
+    for status in all_status_keys:
+        count = status_counter.get(status, 0)
+        color = BADGES.get(status, BADGES["unknown"]).split("-")[-1][:-1]  # Extract hex from badge URL
         badge_url = f"https://img.shields.io/badge/{status.replace(' ', '_')}-{count}-{color}"
         status_badges.append(f"![{status}]({badge_url})")
 
     badge_summary = " ".join(status_badges)
-    
+
     header = "# 📚 Drafts Master Index\n\n" + total_badge + " " + badge_summary + "\n\n"
     content = "\n".join([entry[1] for entry in index_entries])
     
