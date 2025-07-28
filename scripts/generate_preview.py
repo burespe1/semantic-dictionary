@@ -97,6 +97,7 @@ def format_entry(meta, content, heading_level=3):
 
 
 def process_dr_folder(dr_folder):
+    global status_total
     preview_file = PREVIEW_DIR / f"{dr_folder.name}.md" 
     
     grouped_entries = defaultdict(list)  # {combined_heading: [(label, meta, content)]}
